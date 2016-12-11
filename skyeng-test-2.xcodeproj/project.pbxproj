@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53BEF1E71DFD8E3700AB4EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF1E61DFD8E3700AB4EC1 /* main.m */; };
-		53BEF1EA1DFD8E3700AB4EC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF1E91DFD8E3700AB4EC1 /* AppDelegate.m */; };
-		53BEF1ED1DFD8E3700AB4EC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF1EC1DFD8E3700AB4EC1 /* ViewController.m */; };
-		53BEF1F01DFD8E3700AB4EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53BEF1EE1DFD8E3700AB4EC1 /* Main.storyboard */; };
-		53BEF1F21DFD8E3700AB4EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BEF1F11DFD8E3700AB4EC1 /* Assets.xcassets */; };
-		53BEF1F51DFD8E3700AB4EC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53BEF1F31DFD8E3700AB4EC1 /* LaunchScreen.storyboard */; };
 		53BEF2001DFD8E3700AB4EC1 /* skyeng_test_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF1FF1DFD8E3700AB4EC1 /* skyeng_test_2Tests.m */; };
 		53BEF20B1DFD8E3700AB4EC1 /* skyeng_test_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF20A1DFD8E3700AB4EC1 /* skyeng_test_2UITests.m */; };
+		53BEF22B1DFD8F0300AB4EC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF21A1DFD8F0300AB4EC1 /* AppDelegate.m */; };
+		53BEF22C1DFD8F0300AB4EC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53BEF21C1DFD8F0300AB4EC1 /* LaunchScreen.storyboard */; };
+		53BEF22D1DFD8F0300AB4EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53BEF21E1DFD8F0300AB4EC1 /* Main.storyboard */; };
+		53BEF22E1DFD8F0300AB4EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BEF2241DFD8F0300AB4EC1 /* Assets.xcassets */; };
+		53BEF2301DFD8F0300AB4EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2291DFD8F0300AB4EC1 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +35,19 @@
 
 /* Begin PBXFileReference section */
 		53BEF1E21DFD8E3700AB4EC1 /* skyeng-test-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "skyeng-test-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		53BEF1E61DFD8E3700AB4EC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		53BEF1E81DFD8E3700AB4EC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		53BEF1E91DFD8E3700AB4EC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		53BEF1EB1DFD8E3700AB4EC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		53BEF1EC1DFD8E3700AB4EC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		53BEF1EF1DFD8E3700AB4EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		53BEF1F11DFD8E3700AB4EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		53BEF1F41DFD8E3700AB4EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		53BEF1F61DFD8E3700AB4EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53BEF1FB1DFD8E3700AB4EC1 /* skyeng-test-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "skyeng-test-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BEF1FF1DFD8E3700AB4EC1 /* skyeng_test_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skyeng_test_2Tests.m; sourceTree = "<group>"; };
 		53BEF2011DFD8E3700AB4EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53BEF2061DFD8E3700AB4EC1 /* skyeng-test-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "skyeng-test-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BEF20A1DFD8E3700AB4EC1 /* skyeng_test_2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skyeng_test_2UITests.m; sourceTree = "<group>"; };
 		53BEF20C1DFD8E3700AB4EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53BEF2191DFD8F0300AB4EC1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53BEF21A1DFD8F0300AB4EC1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53BEF21D1DFD8F0300AB4EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53BEF21F1DFD8F0300AB4EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		53BEF2241DFD8F0300AB4EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53BEF2281DFD8F0300AB4EC1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53BEF2291DFD8F0300AB4EC1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,25 +98,18 @@
 		53BEF1E41DFD8E3700AB4EC1 /* skyeng-test-2 */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF1E81DFD8E3700AB4EC1 /* AppDelegate.h */,
-				53BEF1E91DFD8E3700AB4EC1 /* AppDelegate.m */,
-				53BEF1EB1DFD8E3700AB4EC1 /* ViewController.h */,
-				53BEF1EC1DFD8E3700AB4EC1 /* ViewController.m */,
-				53BEF1EE1DFD8E3700AB4EC1 /* Main.storyboard */,
-				53BEF1F11DFD8E3700AB4EC1 /* Assets.xcassets */,
-				53BEF1F31DFD8E3700AB4EC1 /* LaunchScreen.storyboard */,
-				53BEF1F61DFD8E3700AB4EC1 /* Info.plist */,
-				53BEF1E51DFD8E3700AB4EC1 /* Supporting Files */,
+				53BEF2181DFD8F0300AB4EC1 /* App */,
+				53BEF21B1DFD8F0300AB4EC1 /* Base.lproj */,
+				53BEF2201DFD8F0300AB4EC1 /* Helpers */,
+				53BEF2211DFD8F0300AB4EC1 /* Model */,
+				53BEF2221DFD8F0300AB4EC1 /* Modules */,
+				53BEF2231DFD8F0300AB4EC1 /* Resources */,
+				53BEF2251DFD8F0300AB4EC1 /* Service */,
+				53BEF2261DFD8F0300AB4EC1 /* Shared */,
+				53BEF2271DFD8F0300AB4EC1 /* Supporting Files */,
+				53BEF22A1DFD8F0300AB4EC1 /* Vendor */,
 			);
 			path = "skyeng-test-2";
-			sourceTree = "<group>";
-		};
-		53BEF1E51DFD8E3700AB4EC1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				53BEF1E61DFD8E3700AB4EC1 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		53BEF1FE1DFD8E3700AB4EC1 /* skyeng-test-2Tests */ = {
@@ -138,6 +128,83 @@
 				53BEF20C1DFD8E3700AB4EC1 /* Info.plist */,
 			);
 			path = "skyeng-test-2UITests";
+			sourceTree = "<group>";
+		};
+		53BEF2181DFD8F0300AB4EC1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				53BEF2191DFD8F0300AB4EC1 /* AppDelegate.h */,
+				53BEF21A1DFD8F0300AB4EC1 /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		53BEF21B1DFD8F0300AB4EC1 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				53BEF21C1DFD8F0300AB4EC1 /* LaunchScreen.storyboard */,
+				53BEF21E1DFD8F0300AB4EC1 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		53BEF2201DFD8F0300AB4EC1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		53BEF2211DFD8F0300AB4EC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53BEF2221DFD8F0300AB4EC1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		53BEF2231DFD8F0300AB4EC1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53BEF2241DFD8F0300AB4EC1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53BEF2251DFD8F0300AB4EC1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		53BEF2261DFD8F0300AB4EC1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		53BEF2271DFD8F0300AB4EC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53BEF2281DFD8F0300AB4EC1 /* Info.plist */,
+				53BEF2291DFD8F0300AB4EC1 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53BEF22A1DFD8F0300AB4EC1 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +316,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53BEF1F51DFD8E3700AB4EC1 /* LaunchScreen.storyboard in Resources */,
-				53BEF1F21DFD8E3700AB4EC1 /* Assets.xcassets in Resources */,
-				53BEF1F01DFD8E3700AB4EC1 /* Main.storyboard in Resources */,
+				53BEF22C1DFD8F0300AB4EC1 /* LaunchScreen.storyboard in Resources */,
+				53BEF22E1DFD8F0300AB4EC1 /* Assets.xcassets in Resources */,
+				53BEF22D1DFD8F0300AB4EC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +343,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53BEF1ED1DFD8E3700AB4EC1 /* ViewController.m in Sources */,
-				53BEF1EA1DFD8E3700AB4EC1 /* AppDelegate.m in Sources */,
-				53BEF1E71DFD8E3700AB4EC1 /* main.m in Sources */,
+				53BEF2301DFD8F0300AB4EC1 /* main.m in Sources */,
+				53BEF22B1DFD8F0300AB4EC1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,20 +380,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		53BEF1EE1DFD8E3700AB4EC1 /* Main.storyboard */ = {
+		53BEF21C1DFD8F0300AB4EC1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				53BEF1EF1DFD8E3700AB4EC1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		53BEF1F31DFD8E3700AB4EC1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53BEF1F41DFD8E3700AB4EC1 /* Base */,
+				53BEF21D1DFD8F0300AB4EC1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		53BEF21E1DFD8F0300AB4EC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53BEF21F1DFD8F0300AB4EC1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -426,7 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5UBV5976ME;
-				INFOPLIST_FILE = "skyeng-test-2/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/skyeng-test-2/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.igrampe.skyeng-test-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,7 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5UBV5976ME;
-				INFOPLIST_FILE = "skyeng-test-2/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/skyeng-test-2/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.igrampe.skyeng-test-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
