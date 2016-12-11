@@ -1,0 +1,3 @@
+[submodule "APLViperStack"]
+	path = APLViperStack
+	url = git@github.com:igrampe/APLViperStack.git
