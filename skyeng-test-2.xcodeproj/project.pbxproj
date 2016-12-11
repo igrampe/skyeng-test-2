@@ -14,6 +14,7 @@
 		53BEF22D1DFD8F0300AB4EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53BEF21E1DFD8F0300AB4EC1 /* Main.storyboard */; };
 		53BEF22E1DFD8F0300AB4EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BEF2241DFD8F0300AB4EC1 /* Assets.xcassets */; };
 		53BEF2301DFD8F0300AB4EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2291DFD8F0300AB4EC1 /* main.m */; };
+		59A709217B803CB10C4F9603 /* libPods-skyeng-test-2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C663B50A4F7389B008FC8B74 /* libPods-skyeng-test-2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,9 @@
 		53BEF2241DFD8F0300AB4EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53BEF2281DFD8F0300AB4EC1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53BEF2291DFD8F0300AB4EC1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87B25C1FD77451DBEEC38854 /* Pods-skyeng-test-2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skyeng-test-2.release.xcconfig"; path = "Pods/Target Support Files/Pods-skyeng-test-2/Pods-skyeng-test-2.release.xcconfig"; sourceTree = "<group>"; };
+		B97C0815155878C98BCB028D /* Pods-skyeng-test-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skyeng-test-2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skyeng-test-2/Pods-skyeng-test-2.debug.xcconfig"; sourceTree = "<group>"; };
+		C663B50A4F7389B008FC8B74 /* libPods-skyeng-test-2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-skyeng-test-2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A709217B803CB10C4F9603 /* libPods-skyeng-test-2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +87,8 @@
 				53BEF1FE1DFD8E3700AB4EC1 /* skyeng-test-2Tests */,
 				53BEF2091DFD8E3700AB4EC1 /* skyeng-test-2UITests */,
 				53BEF1E31DFD8E3700AB4EC1 /* Products */,
+				8FFFF9C2DDAB833E5264ABB1 /* Pods */,
+				835790B3EB9E2F14781A8F34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,6 +214,23 @@
 			path = Vendor;
 			sourceTree = "<group>";
 		};
+		835790B3EB9E2F14781A8F34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C663B50A4F7389B008FC8B74 /* libPods-skyeng-test-2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FFFF9C2DDAB833E5264ABB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B97C0815155878C98BCB028D /* Pods-skyeng-test-2.debug.xcconfig */,
+				87B25C1FD77451DBEEC38854 /* Pods-skyeng-test-2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -214,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53BEF20F1DFD8E3700AB4EC1 /* Build configuration list for PBXNativeTarget "skyeng-test-2" */;
 			buildPhases = (
+				6FD470FEAE311F1E2B598AF5 /* [CP] Check Pods Manifest.lock */,
 				53BEF1DE1DFD8E3700AB4EC1 /* Sources */,
 				53BEF1DF1DFD8E3700AB4EC1 /* Frameworks */,
 				53BEF1E01DFD8E3700AB4EC1 /* Resources */,
+				C847B772F2BF99C6DE43E1F5 /* [CP] Embed Pods Frameworks */,
+				D7B525253D0FD2C65F0608A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -337,6 +364,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FD470FEAE311F1E2B598AF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C847B772F2BF99C6DE43E1F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skyeng-test-2/Pods-skyeng-test-2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7B525253D0FD2C65F0608A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skyeng-test-2/Pods-skyeng-test-2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		53BEF1DE1DFD8E3700AB4EC1 /* Sources */ = {
@@ -489,6 +564,7 @@
 		};
 		53BEF2101DFD8E3700AB4EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B97C0815155878C98BCB028D /* Pods-skyeng-test-2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5UBV5976ME;
@@ -501,6 +577,7 @@
 		};
 		53BEF2111DFD8E3700AB4EC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B25C1FD77451DBEEC38854 /* Pods-skyeng-test-2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5UBV5976ME;
