@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D77D6D7D89D465F4EA4A802 /* SESignInInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 96352630BBC6F7064DBA6560 /* SESignInInteractor.m */; };
+		4EB6214E451CF5F5CF86BC57 /* SESignInPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2D9E01E0D16A9B0B81E864 /* SESignInPresenter.m */; };
+		4FBBE230C08B7A438D3A7F19 /* SESignInAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 7293BFDAB27594CAD950EA5B /* SESignInAssembly.m */; };
 		53BEF2001DFD8E3700AB4EC1 /* skyeng_test_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF1FF1DFD8E3700AB4EC1 /* skyeng_test_2Tests.m */; };
 		53BEF20B1DFD8E3700AB4EC1 /* skyeng_test_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF20A1DFD8E3700AB4EC1 /* skyeng_test_2UITests.m */; };
 		53BEF22B1DFD8F0300AB4EC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF21A1DFD8F0300AB4EC1 /* AppDelegate.m */; };
@@ -14,7 +17,17 @@
 		53BEF22D1DFD8F0300AB4EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53BEF21E1DFD8F0300AB4EC1 /* Main.storyboard */; };
 		53BEF22E1DFD8F0300AB4EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BEF2241DFD8F0300AB4EC1 /* Assets.xcassets */; };
 		53BEF2301DFD8F0300AB4EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2291DFD8F0300AB4EC1 /* main.m */; };
+		53BEF23E1DFD9D2A00AB4EC1 /* SERootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF23D1DFD9D2A00AB4EC1 /* SERootView.m */; };
+		53BEF2421DFD9D4C00AB4EC1 /* SEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2411DFD9D4C00AB4EC1 /* SEViewController.m */; };
+		53BEF2461DFD9E6C00AB4EC1 /* SERootRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2451DFD9E6B00AB4EC1 /* SERootRouter.m */; };
+		53BEF2491DFD9E9900AB4EC1 /* SERootPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2481DFD9E9900AB4EC1 /* SERootPresenter.m */; };
+		53BEF24E1DFD9EDD00AB4EC1 /* SERootInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF24D1DFD9EDD00AB4EC1 /* SERootInteractor.m */; };
+		53BEF2521DFD9FBB00AB4EC1 /* SERootAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2511DFD9FBB00AB4EC1 /* SERootAssembly.m */; };
+		53BEF2551DFDA6B600AB4EC1 /* SEAppAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2541DFDA6B600AB4EC1 /* SEAppAssembly.m */; };
+		53BEF25A1DFDABAC00AB4EC1 /* SESegueAddAsChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2591DFDABAC00AB4EC1 /* SESegueAddAsChild.m */; };
 		59A709217B803CB10C4F9603 /* libPods-skyeng-test-2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C663B50A4F7389B008FC8B74 /* libPods-skyeng-test-2.a */; };
+		6B21CDEFAD845F1AD15CFF71 /* SESignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D15A31FF49BEBECBB35D3CC /* SESignInView.m */; };
+		F4A5B87E2B54DB33C706DAD4 /* SESignInRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 306B931C0F5235448C0395E1 /* SESignInRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		306B931C0F5235448C0395E1 /* SESignInRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESignInRouter.m; sourceTree = "<group>"; };
+		39493BEB8933D9E1D8B63911 /* SESignInInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInInteractor.h; sourceTree = "<group>"; };
+		4393F0357EE28686DD6CE044 /* SESignInModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInModuleInput.h; sourceTree = "<group>"; };
+		4AA795B4EFE7FB4B65C7FA5C /* SESignInRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInRouter.h; sourceTree = "<group>"; };
 		53BEF1E21DFD8E3700AB4EC1 /* skyeng-test-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "skyeng-test-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BEF1FB1DFD8E3700AB4EC1 /* skyeng-test-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "skyeng-test-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BEF1FF1DFD8E3700AB4EC1 /* skyeng_test_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skyeng_test_2Tests.m; sourceTree = "<group>"; };
@@ -49,9 +66,42 @@
 		53BEF2241DFD8F0300AB4EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53BEF2281DFD8F0300AB4EC1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53BEF2291DFD8F0300AB4EC1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53BEF23A1DFD9CF900AB4EC1 /* SERootViewInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SERootViewInput.h; sourceTree = "<group>"; };
+		53BEF23B1DFD9D1100AB4EC1 /* SERootViewOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SERootViewOutput.h; sourceTree = "<group>"; };
+		53BEF23C1DFD9D2A00AB4EC1 /* SERootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERootView.h; sourceTree = "<group>"; };
+		53BEF23D1DFD9D2A00AB4EC1 /* SERootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SERootView.m; sourceTree = "<group>"; };
+		53BEF2401DFD9D4C00AB4EC1 /* SEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEViewController.h; sourceTree = "<group>"; };
+		53BEF2411DFD9D4C00AB4EC1 /* SEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEViewController.m; sourceTree = "<group>"; };
+		53BEF2431DFD9E5B00AB4EC1 /* SERootRouterInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SERootRouterInput.h; sourceTree = "<group>"; };
+		53BEF2441DFD9E6B00AB4EC1 /* SERootRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERootRouter.h; sourceTree = "<group>"; };
+		53BEF2451DFD9E6B00AB4EC1 /* SERootRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SERootRouter.m; sourceTree = "<group>"; };
+		53BEF2471DFD9E9900AB4EC1 /* SERootPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERootPresenter.h; sourceTree = "<group>"; };
+		53BEF2481DFD9E9900AB4EC1 /* SERootPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SERootPresenter.m; sourceTree = "<group>"; };
+		53BEF24A1DFD9EC200AB4EC1 /* SERootInteractorInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SERootInteractorInput.h; sourceTree = "<group>"; };
+		53BEF24B1DFD9ECE00AB4EC1 /* SERootInteractorOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SERootInteractorOutput.h; sourceTree = "<group>"; };
+		53BEF24C1DFD9EDD00AB4EC1 /* SERootInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERootInteractor.h; sourceTree = "<group>"; };
+		53BEF24D1DFD9EDD00AB4EC1 /* SERootInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SERootInteractor.m; sourceTree = "<group>"; };
+		53BEF2501DFD9FBB00AB4EC1 /* SERootAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERootAssembly.h; sourceTree = "<group>"; };
+		53BEF2511DFD9FBB00AB4EC1 /* SERootAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SERootAssembly.m; sourceTree = "<group>"; };
+		53BEF2531DFDA6B600AB4EC1 /* SEAppAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAppAssembly.h; sourceTree = "<group>"; };
+		53BEF2541DFDA6B600AB4EC1 /* SEAppAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAppAssembly.m; sourceTree = "<group>"; };
+		53BEF2581DFDABAC00AB4EC1 /* SESegueAddAsChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESegueAddAsChild.h; sourceTree = "<group>"; };
+		53BEF2591DFDABAC00AB4EC1 /* SESegueAddAsChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESegueAddAsChild.m; sourceTree = "<group>"; };
+		6D99633BBE334DAC5012DE95 /* SESignInViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInViewOutput.h; sourceTree = "<group>"; };
+		7293BFDAB27594CAD950EA5B /* SESignInAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESignInAssembly.m; sourceTree = "<group>"; };
+		78F441F727F16B7248D41F43 /* SESignInViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInViewInput.h; sourceTree = "<group>"; };
+		7C17F8FC3DA0EEE8E9BDC477 /* SESignInPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInPresenter.h; sourceTree = "<group>"; };
 		87B25C1FD77451DBEEC38854 /* Pods-skyeng-test-2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skyeng-test-2.release.xcconfig"; path = "Pods/Target Support Files/Pods-skyeng-test-2/Pods-skyeng-test-2.release.xcconfig"; sourceTree = "<group>"; };
+		8D15A31FF49BEBECBB35D3CC /* SESignInView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESignInView.m; sourceTree = "<group>"; };
+		96352630BBC6F7064DBA6560 /* SESignInInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESignInInteractor.m; sourceTree = "<group>"; };
+		A0A179FD705B6E6D4ABB61CF /* SESignInInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInInteractorInput.h; sourceTree = "<group>"; };
+		ACFCA6277B6FC2DB9D43FDEE /* SESignInRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInRouterInput.h; sourceTree = "<group>"; };
+		AE2D9E01E0D16A9B0B81E864 /* SESignInPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESignInPresenter.m; sourceTree = "<group>"; };
 		B97C0815155878C98BCB028D /* Pods-skyeng-test-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skyeng-test-2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skyeng-test-2/Pods-skyeng-test-2.debug.xcconfig"; sourceTree = "<group>"; };
 		C663B50A4F7389B008FC8B74 /* libPods-skyeng-test-2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-skyeng-test-2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2116757351FE0B196C0FC2 /* SESignInView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInView.h; sourceTree = "<group>"; };
+		FBD90A0D208102F05F4DCC5F /* SESignInInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInInteractorOutput.h; sourceTree = "<group>"; };
+		FC119D7397556549F26ACC8B /* SESignInAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInAssembly.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +130,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		372ABC1E28DADE693E7DED2A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4393F0357EE28686DD6CE044 /* SESignInModuleInput.h */,
+				7C17F8FC3DA0EEE8E9BDC477 /* SESignInPresenter.h */,
+				AE2D9E01E0D16A9B0B81E864 /* SESignInPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		53BEF1D91DFD8E3700AB4EC1 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +202,8 @@
 			children = (
 				53BEF2191DFD8F0300AB4EC1 /* AppDelegate.h */,
 				53BEF21A1DFD8F0300AB4EC1 /* AppDelegate.m */,
+				53BEF2531DFDA6B600AB4EC1 /* SEAppAssembly.h */,
+				53BEF2541DFDA6B600AB4EC1 /* SEAppAssembly.m */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -172,6 +234,8 @@
 		53BEF2221DFD8F0300AB4EC1 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				53BEF2351DFD9CB400AB4EC1 /* Root */,
+				EE6CC58C8EA71682ED66CB95 /* SignIn */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -194,6 +258,8 @@
 		53BEF2261DFD8F0300AB4EC1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				53BEF2571DFDAB9A00AB4EC1 /* Segue */,
+				53BEF23F1DFD9D4400AB4EC1 /* ViewController */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -214,6 +280,86 @@
 			path = Vendor;
 			sourceTree = "<group>";
 		};
+		53BEF2351DFD9CB400AB4EC1 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				53BEF24F1DFD9FAC00AB4EC1 /* Assembly */,
+				53BEF2361DFD9CB400AB4EC1 /* Interactor */,
+				53BEF2371DFD9CB400AB4EC1 /* Presenter */,
+				53BEF2381DFD9CB400AB4EC1 /* Router */,
+				53BEF2391DFD9CB400AB4EC1 /* View */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		53BEF2361DFD9CB400AB4EC1 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				53BEF24A1DFD9EC200AB4EC1 /* SERootInteractorInput.h */,
+				53BEF24B1DFD9ECE00AB4EC1 /* SERootInteractorOutput.h */,
+				53BEF24C1DFD9EDD00AB4EC1 /* SERootInteractor.h */,
+				53BEF24D1DFD9EDD00AB4EC1 /* SERootInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		53BEF2371DFD9CB400AB4EC1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				53BEF2471DFD9E9900AB4EC1 /* SERootPresenter.h */,
+				53BEF2481DFD9E9900AB4EC1 /* SERootPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		53BEF2381DFD9CB400AB4EC1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				53BEF2431DFD9E5B00AB4EC1 /* SERootRouterInput.h */,
+				53BEF2441DFD9E6B00AB4EC1 /* SERootRouter.h */,
+				53BEF2451DFD9E6B00AB4EC1 /* SERootRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		53BEF2391DFD9CB400AB4EC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53BEF23A1DFD9CF900AB4EC1 /* SERootViewInput.h */,
+				53BEF23B1DFD9D1100AB4EC1 /* SERootViewOutput.h */,
+				53BEF23C1DFD9D2A00AB4EC1 /* SERootView.h */,
+				53BEF23D1DFD9D2A00AB4EC1 /* SERootView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53BEF23F1DFD9D4400AB4EC1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53BEF2401DFD9D4C00AB4EC1 /* SEViewController.h */,
+				53BEF2411DFD9D4C00AB4EC1 /* SEViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		53BEF24F1DFD9FAC00AB4EC1 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				53BEF2501DFD9FBB00AB4EC1 /* SERootAssembly.h */,
+				53BEF2511DFD9FBB00AB4EC1 /* SERootAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		53BEF2571DFDAB9A00AB4EC1 /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				53BEF2581DFDABAC00AB4EC1 /* SESegueAddAsChild.h */,
+				53BEF2591DFDABAC00AB4EC1 /* SESegueAddAsChild.m */,
+			);
+			path = Segue;
+			sourceTree = "<group>";
+		};
 		835790B3EB9E2F14781A8F34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +375,59 @@
 				87B25C1FD77451DBEEC38854 /* Pods-skyeng-test-2.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		999374C263DE3E6BFA280023 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				FC119D7397556549F26ACC8B /* SESignInAssembly.h */,
+				7293BFDAB27594CAD950EA5B /* SESignInAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		9B9EC667DA4957F5E8B5DA18 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A0A179FD705B6E6D4ABB61CF /* SESignInInteractorInput.h */,
+				FBD90A0D208102F05F4DCC5F /* SESignInInteractorOutput.h */,
+				39493BEB8933D9E1D8B63911 /* SESignInInteractor.h */,
+				96352630BBC6F7064DBA6560 /* SESignInInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B03D494F89855DFDD16D3D97 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				ACFCA6277B6FC2DB9D43FDEE /* SESignInRouterInput.h */,
+				4AA795B4EFE7FB4B65C7FA5C /* SESignInRouter.h */,
+				306B931C0F5235448C0395E1 /* SESignInRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EE6CC58C8EA71682ED66CB95 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				F6CD484498E3F602AA25E43E /* View */,
+				372ABC1E28DADE693E7DED2A /* Presenter */,
+				9B9EC667DA4957F5E8B5DA18 /* Interactor */,
+				B03D494F89855DFDD16D3D97 /* Router */,
+				999374C263DE3E6BFA280023 /* Assembly */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		F6CD484498E3F602AA25E43E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78F441F727F16B7248D41F43 /* SESignInViewInput.h */,
+				6D99633BBE334DAC5012DE95 /* SESignInViewOutput.h */,
+				EA2116757351FE0B196C0FC2 /* SESignInView.h */,
+				8D15A31FF49BEBECBB35D3CC /* SESignInView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +495,7 @@
 		53BEF1DA1DFD8E3700AB4EC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SE;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = igrampe;
 				TargetAttributes = {
@@ -418,8 +618,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53BEF2461DFD9E6C00AB4EC1 /* SERootRouter.m in Sources */,
+				53BEF2421DFD9D4C00AB4EC1 /* SEViewController.m in Sources */,
+				53BEF25A1DFDABAC00AB4EC1 /* SESegueAddAsChild.m in Sources */,
+				53BEF2491DFD9E9900AB4EC1 /* SERootPresenter.m in Sources */,
+				53BEF23E1DFD9D2A00AB4EC1 /* SERootView.m in Sources */,
 				53BEF2301DFD8F0300AB4EC1 /* main.m in Sources */,
+				53BEF2551DFDA6B600AB4EC1 /* SEAppAssembly.m in Sources */,
+				53BEF24E1DFD9EDD00AB4EC1 /* SERootInteractor.m in Sources */,
 				53BEF22B1DFD8F0300AB4EC1 /* AppDelegate.m in Sources */,
+				53BEF2521DFD9FBB00AB4EC1 /* SERootAssembly.m in Sources */,
+				6B21CDEFAD845F1AD15CFF71 /* SESignInView.m in Sources */,
+				4EB6214E451CF5F5CF86BC57 /* SESignInPresenter.m in Sources */,
+				0D77D6D7D89D465F4EA4A802 /* SESignInInteractor.m in Sources */,
+				F4A5B87E2B54DB33C706DAD4 /* SESignInRouter.m in Sources */,
+				4FBBE230C08B7A438D3A7F19 /* SESignInAssembly.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,6 +870,7 @@
 				53BEF2111DFD8E3700AB4EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53BEF2121DFD8E3700AB4EC1 /* Build configuration list for PBXNativeTarget "skyeng-test-2Tests" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +879,7 @@
 				53BEF2141DFD8E3700AB4EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53BEF2151DFD8E3700AB4EC1 /* Build configuration list for PBXNativeTarget "skyeng-test-2UITests" */ = {
 			isa = XCConfigurationList;
@@ -673,6 +888,7 @@
 				53BEF2171DFD8E3700AB4EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

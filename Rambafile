@@ -1,0 +1,27 @@
+### Headers settings
+company: igrampe
+
+### Xcode project settings
+project_name: skyeng-test-2
+xcodeproj_path: skyeng-test-2.xcodeproj
+prefix: SE
+
+### Code generation settings section
+# The main project target name
+project_target: skyeng-test-2
+
+# The file path for new modules
+project_file_path: skyeng-test-2/Modules
+
+# The Xcode group path to new modules
+project_group_path: skyeng-test-2/Modules
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+catalogs:
+- 'https://github.com/rambler-ios/generamba-catalog'
+- 'https://github.com/igrampe/viper_template'
+templates:
+- {name: objc_viper_template}
