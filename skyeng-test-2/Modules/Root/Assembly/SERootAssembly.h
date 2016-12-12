@@ -6,10 +6,10 @@
 //  Copyright © 2016 igrampe. All rights reserved.
 //
 
-#import <Typhoon/Typhoon.h>
+#import "SEModuleAssembly.h"
 #import "SESignInAssembly.h"
 
-@interface SERootAssembly : TyphoonAssembly
+@interface SERootAssembly : SEModuleAssembly
 
 @property (nonatomic, strong, readonly) SESignInAssembly *singInAssembly;
 

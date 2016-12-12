@@ -10,6 +10,11 @@
 		0D77D6D7D89D465F4EA4A802 /* SESignInInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 96352630BBC6F7064DBA6560 /* SESignInInteractor.m */; };
 		4EB6214E451CF5F5CF86BC57 /* SESignInPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2D9E01E0D16A9B0B81E864 /* SESignInPresenter.m */; };
 		4FBBE230C08B7A438D3A7F19 /* SESignInAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 7293BFDAB27594CAD950EA5B /* SESignInAssembly.m */; };
+		53B901011DFEAAFA0081E303 /* SEStateServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B900FE1DFEAAFA0081E303 /* SEStateServiceBase.m */; };
+		53B901051DFEAE770081E303 /* SEServicesAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B901041DFEAE770081E303 /* SEServicesAssembly.m */; };
+		53B901081DFEAFD90081E303 /* SEApiServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B901071DFEAFD90081E303 /* SEApiServiceBase.m */; };
+		53B9010B1DFEAFF10081E303 /* SESyncServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B9010A1DFEAFF10081E303 /* SESyncServiceBase.m */; };
+		53B9010F1DFEB06A0081E303 /* SEModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B9010E1DFEB06A0081E303 /* SEModuleAssembly.m */; };
 		53BEF2001DFD8E3700AB4EC1 /* skyeng_test_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF1FF1DFD8E3700AB4EC1 /* skyeng_test_2Tests.m */; };
 		53BEF20B1DFD8E3700AB4EC1 /* skyeng_test_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF20A1DFD8E3700AB4EC1 /* skyeng_test_2UITests.m */; };
 		53BEF22B1DFD8F0300AB4EC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF21A1DFD8F0300AB4EC1 /* AppDelegate.m */; };
@@ -52,6 +57,20 @@
 		39493BEB8933D9E1D8B63911 /* SESignInInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInInteractor.h; sourceTree = "<group>"; };
 		4393F0357EE28686DD6CE044 /* SESignInModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInModuleInput.h; sourceTree = "<group>"; };
 		4AA795B4EFE7FB4B65C7FA5C /* SESignInRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInRouter.h; sourceTree = "<group>"; };
+		53B900FA1DFEAAFA0081E303 /* SEApiService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEApiService.h; sourceTree = "<group>"; };
+		53B900FC1DFEAAFA0081E303 /* SEStateService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEStateService.h; sourceTree = "<group>"; };
+		53B900FD1DFEAAFA0081E303 /* SEStateServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEStateServiceBase.h; sourceTree = "<group>"; };
+		53B900FE1DFEAAFA0081E303 /* SEStateServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEStateServiceBase.m; sourceTree = "<group>"; };
+		53B901001DFEAAFA0081E303 /* SESyncService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESyncService.h; sourceTree = "<group>"; };
+		53B901021DFEAE540081E303 /* SEServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEServices.h; sourceTree = "<group>"; };
+		53B901031DFEAE770081E303 /* SEServicesAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEServicesAssembly.h; sourceTree = "<group>"; };
+		53B901041DFEAE770081E303 /* SEServicesAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEServicesAssembly.m; sourceTree = "<group>"; };
+		53B901061DFEAFD90081E303 /* SEApiServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEApiServiceBase.h; sourceTree = "<group>"; };
+		53B901071DFEAFD90081E303 /* SEApiServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEApiServiceBase.m; sourceTree = "<group>"; };
+		53B901091DFEAFF10081E303 /* SESyncServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESyncServiceBase.h; sourceTree = "<group>"; };
+		53B9010A1DFEAFF10081E303 /* SESyncServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESyncServiceBase.m; sourceTree = "<group>"; };
+		53B9010D1DFEB06A0081E303 /* SEModuleAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEModuleAssembly.h; sourceTree = "<group>"; };
+		53B9010E1DFEB06A0081E303 /* SEModuleAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEModuleAssembly.m; sourceTree = "<group>"; };
 		53BEF1E21DFD8E3700AB4EC1 /* skyeng-test-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "skyeng-test-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BEF1FB1DFD8E3700AB4EC1 /* skyeng-test-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "skyeng-test-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BEF1FF1DFD8E3700AB4EC1 /* skyeng_test_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skyeng_test_2Tests.m; sourceTree = "<group>"; };
@@ -138,6 +157,45 @@
 				AE2D9E01E0D16A9B0B81E864 /* SESignInPresenter.m */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		53B900F91DFEAAFA0081E303 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				53B900FA1DFEAAFA0081E303 /* SEApiService.h */,
+				53B901061DFEAFD90081E303 /* SEApiServiceBase.h */,
+				53B901071DFEAFD90081E303 /* SEApiServiceBase.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		53B900FB1DFEAAFA0081E303 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				53B900FC1DFEAAFA0081E303 /* SEStateService.h */,
+				53B900FD1DFEAAFA0081E303 /* SEStateServiceBase.h */,
+				53B900FE1DFEAAFA0081E303 /* SEStateServiceBase.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		53B900FF1DFEAAFA0081E303 /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+				53B901001DFEAAFA0081E303 /* SESyncService.h */,
+				53B901091DFEAFF10081E303 /* SESyncServiceBase.h */,
+				53B9010A1DFEAFF10081E303 /* SESyncServiceBase.m */,
+			);
+			path = Sync;
+			sourceTree = "<group>";
+		};
+		53B9010C1DFEB0560081E303 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				53B9010D1DFEB06A0081E303 /* SEModuleAssembly.h */,
+				53B9010E1DFEB06A0081E303 /* SEModuleAssembly.m */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 		53BEF1D91DFD8E3700AB4EC1 = {
@@ -251,6 +309,12 @@
 		53BEF2251DFD8F0300AB4EC1 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				53B901021DFEAE540081E303 /* SEServices.h */,
+				53B901031DFEAE770081E303 /* SEServicesAssembly.h */,
+				53B901041DFEAE770081E303 /* SEServicesAssembly.m */,
+				53B900F91DFEAAFA0081E303 /* Api */,
+				53B900FB1DFEAAFA0081E303 /* State */,
+				53B900FF1DFEAAFA0081E303 /* Sync */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -258,6 +322,7 @@
 		53BEF2261DFD8F0300AB4EC1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				53B9010C1DFEB0560081E303 /* Module */,
 				53BEF2571DFDAB9A00AB4EC1 /* Segue */,
 				53BEF23F1DFD9D4400AB4EC1 /* ViewController */,
 			);
@@ -619,13 +684,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				53BEF2461DFD9E6C00AB4EC1 /* SERootRouter.m in Sources */,
+				53B901081DFEAFD90081E303 /* SEApiServiceBase.m in Sources */,
 				53BEF2421DFD9D4C00AB4EC1 /* SEViewController.m in Sources */,
 				53BEF25A1DFDABAC00AB4EC1 /* SESegueAddAsChild.m in Sources */,
 				53BEF2491DFD9E9900AB4EC1 /* SERootPresenter.m in Sources */,
+				53B901011DFEAAFA0081E303 /* SEStateServiceBase.m in Sources */,
+				53B9010B1DFEAFF10081E303 /* SESyncServiceBase.m in Sources */,
 				53BEF23E1DFD9D2A00AB4EC1 /* SERootView.m in Sources */,
 				53BEF2301DFD8F0300AB4EC1 /* main.m in Sources */,
 				53BEF2551DFDA6B600AB4EC1 /* SEAppAssembly.m in Sources */,
 				53BEF24E1DFD9EDD00AB4EC1 /* SERootInteractor.m in Sources */,
+				53B9010F1DFEB06A0081E303 /* SEModuleAssembly.m in Sources */,
 				53BEF22B1DFD8F0300AB4EC1 /* AppDelegate.m in Sources */,
 				53BEF2521DFD9FBB00AB4EC1 /* SERootAssembly.m in Sources */,
 				6B21CDEFAD845F1AD15CFF71 /* SESignInView.m in Sources */,
@@ -633,6 +702,7 @@
 				0D77D6D7D89D465F4EA4A802 /* SESignInInteractor.m in Sources */,
 				F4A5B87E2B54DB33C706DAD4 /* SESignInRouter.m in Sources */,
 				4FBBE230C08B7A438D3A7F19 /* SESignInAssembly.m in Sources */,
+				53B901051DFEAE770081E303 /* SEServicesAssembly.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
