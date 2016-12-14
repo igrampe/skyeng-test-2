@@ -18,7 +18,7 @@
 
 #pragma mark - SERootViewOutput
 
-- (void)viewIsReady
+- (void)viewIsReady {
 }
 
 @end
