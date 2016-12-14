@@ -19,6 +19,11 @@
 #pragma mark - SERootViewOutput
 
 - (void)viewIsReady {
+    if ([self.interactor isAuthorized]) {
+        [self.router openSettingsModule];
+    } else {
+        [self.router openSignInModule];
+    }
 }
 
 @end
