@@ -23,6 +23,7 @@
 	<key>TyphoonInitialAssemblies</key>
 	<array>
 		<string>SEAppAssembly</string>
+		<string>SEServicesAssembly</string>
 		<string>SERootAssembly</string>
 		<string>SESignInAssembly</string>
 	</array>

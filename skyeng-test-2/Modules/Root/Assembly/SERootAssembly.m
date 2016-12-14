@@ -53,6 +53,8 @@
             ^(TyphoonDefinition *definition) {
                 [definition injectProperty:@selector(output)
                                       with:[self presenterRoot]];
+                [definition injectProperty:@selector(stateService)
+                                      with:[self.servicesAssembly stateService]];
             }];
 }
 

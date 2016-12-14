@@ -10,4 +10,6 @@
 
 @protocol SERootInteractorInput <NSObject>
 
+- (BOOL)isAuthorized;
+
 @end

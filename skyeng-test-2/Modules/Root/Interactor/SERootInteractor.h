@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import "SERootInteractorOutput.h"
+#import "SEStateService.h"
 
 @interface SERootInteractor : NSObject
 
 @property (nonatomic, weak) id<SERootInteractorOutput> output;
+@property (nonatomic, strong) id<SEStateService> stateService;
 
 @end

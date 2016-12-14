@@ -18,8 +18,7 @@
 
 #pragma mark - SERootViewOutput
 
-- (void)viewIsReady {
-    [self.router openSignInModule];
+- (void)viewIsReady
 }
 
 @end

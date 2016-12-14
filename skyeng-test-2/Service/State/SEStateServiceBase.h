@@ -11,4 +11,6 @@
 
 @interface SEStateServiceBase : NSObject <SEStateService>
 
+@property (nonatomic, strong) NSString *token;
+
 @end

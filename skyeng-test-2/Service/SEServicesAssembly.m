@@ -28,8 +28,6 @@
                           configuration:
             ^(TyphoonDefinition *definition) {
                 definition.scope = TyphoonScopeLazySingleton;
-                [definition injectProperty:@selector(token)
-                                      with:[self stateService].token];
             }];
 }
 

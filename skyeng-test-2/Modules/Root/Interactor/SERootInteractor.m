@@ -7,7 +7,18 @@
 //
 
 #import "SERootInteractor.h"
+#import "SERootInteractorInput.h"
+
+@interface SERootInteractor () <SERootInteractorInput>
+
+@end
 
 @implementation SERootInteractor
+
+#pragma mark - SERootInteractorInput
+
+- (BOOL)isAuthorized {
+    return [self.stateService isAuthorized];
+}
 
 @end

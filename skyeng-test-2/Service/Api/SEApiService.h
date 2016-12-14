@@ -10,6 +10,4 @@
 
 @protocol SEApiService <NSObject>
 
-@property (nonatomic, strong) NSString *token;
-
 @end

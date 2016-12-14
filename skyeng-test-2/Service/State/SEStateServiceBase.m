@@ -42,7 +42,7 @@ NSString *const SEStateServiceBaseDefaultsKeyLaunchesCount = @"SEStateServiceBas
 #pragma mark - SEStateService
 
 - (BOOL)isAuthorized {
-    return NO;
+    return (self.token.length > 0);
 }
 
 - (void)setToken:(NSString *)token {
