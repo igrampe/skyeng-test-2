@@ -15,6 +15,8 @@
 #import "SEPrimaryButton.h"
 #import "SESecondaryButton.h"
 
+#import "APLKeyboardHelper.h"
+
 @interface SESignInView ()
 
 @property (nonatomic, strong) UIScrollView *scrollView;
@@ -64,6 +66,25 @@
     [self.scrollView addSubview:self.hintLabel];
     
     [self.view relayout];
+    
+    [self handleKeyboardWillShow:^(CGSize keyboardSize, double duration) {
+        self.scrollView.contentInset = UIEdgeInsetsMake(self.scrollView.contentInset.top,
+                                                        self.scrollView.contentInset.left,
+                                                        keyboardSize.height,
+                                                        self.scrollView.contentInset.right);
+    }];
+    [self handleKeyboardWillHide:^(CGSize keyboardSize, double duration) {
+        self.scrollView.contentInset = UIEdgeInsetsMake(self.scrollView.contentInset.top,
+                                                        self.scrollView.contentInset.left,
+                                                        0,
+                                                        self.scrollView.contentInset.right);
+    }];
+    [self handleKeyboardWillChange:^(CGSize keyboardSize, double duration) {
+        self.scrollView.contentInset = UIEdgeInsetsMake(self.scrollView.contentInset.top,
+                                                        self.scrollView.contentInset.left,
+                                                        keyboardSize.height,
+                                                        self.scrollView.contentInset.right);
+    }];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
