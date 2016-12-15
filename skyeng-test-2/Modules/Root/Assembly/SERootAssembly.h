@@ -8,10 +8,12 @@
 
 #import "SEModuleAssembly.h"
 #import "SESignInAssembly.h"
+#import "SESettingsAssembly.h"
 
 @interface SERootAssembly : SEModuleAssembly
 
 @property (nonatomic, strong, readonly) SESignInAssembly *singInAssembly;
+@property (nonatomic, strong, readonly) SESettingsAssembly *settingsAssembly;
 
 - (UIViewController *)viewRoot;
 

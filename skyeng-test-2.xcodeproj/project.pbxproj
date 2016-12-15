@@ -7,143 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D77D6D7D89D465F4EA4A802 = {
-			isa = PBXBuildFile;
-			fileRef = 96352630BBC6F7064DBA6560;
-		};
-		4EB6214E451CF5F5CF86BC57 = {
-			isa = PBXBuildFile;
-			fileRef = AE2D9E01E0D16A9B0B81E864;
-		};
-		4FBBE230C08B7A438D3A7F19 = {
-			isa = PBXBuildFile;
-			fileRef = 7293BFDAB27594CAD950EA5B;
-		};
-		502527A55C7079847592D8B0 = {
-			isa = PBXBuildFile;
-			fileRef = F232A45CEC274775461463BA;
-		};
-		53B901011DFEAAFA0081E303 = {
-			isa = PBXBuildFile;
-			fileRef = 53B900FE1DFEAAFA0081E303;
-		};
-		53B901051DFEAE770081E303 = {
-			isa = PBXBuildFile;
-			fileRef = 53B901041DFEAE770081E303;
-		};
-		53B901081DFEAFD90081E303 = {
-			isa = PBXBuildFile;
-			fileRef = 53B901071DFEAFD90081E303;
-		};
-		53B9010B1DFEAFF10081E303 = {
-			isa = PBXBuildFile;
-			fileRef = 53B9010A1DFEAFF10081E303;
-		};
-		53B9010F1DFEB06A0081E303 = {
-			isa = PBXBuildFile;
-			fileRef = 53B9010E1DFEB06A0081E303;
-		};
-		53BEF2001DFD8E3700AB4EC1 = {
-			isa = PBXBuildFile;
-			fileRef = 53BEF1FF1DFD8E3700AB4EC1;
-		};
-		53BEF20B1DFD8E3700AB4EC1 = {
-			isa = PBXBuildFile;
-			fileRef = 53BEF20A1DFD8E3700AB4EC1;
-		};
-		53BEF22B1DFD8F0300AB4EC1 = {
-			isa = PBXBuildFile;
-			fileRef = 53BEF21A1DFD8F0300AB4EC1;
-		};
-		53BEF22C1DFD8F0300AB4EC1 = {
-			isa = PBXBuildFile;
-			fileRef = 53BEF21C1DFD8F0300AB4EC1;
-		};
-		53BEF22D1DFD8F0300AB4EC1 = {
-			isa = PBXBuildFile;
-			fileRef = 53BEF21E1DFD8F0300AB4EC1;
-		};
-		53BEF22E1DFD8F0300AB4EC1 = {
-			isa = PBXBuildFile;
-			fileRef = 53BEF2241DFD8F0300AB4EC1;
-		};
-		53BEF2301DFD8F0300AB4EC1 = {
-			isa = PBXBuildFile;
-			fileRef = 53BEF2291DFD8F0300AB4EC1;
-		};
-		53BEF23E1DFD9D2A00AB4EC1 = {
-			isa = PBXBuildFile;
-			fileRef = 53BEF23D1DFD9D2A00AB4EC1;
-		};
-		53BEF2421DFD9D4C00AB4EC1 = {
-			isa = PBXBuildFile;
-			fileRef = 53BEF2411DFD9D4C00AB4EC1;
-		};
-		53BEF2461DFD9E6C00AB4EC1 = {
-			isa = PBXBuildFile;
-			fileRef = 53BEF2451DFD9E6B00AB4EC1;
-		};
-		53BEF2491DFD9E9900AB4EC1 = {
-			isa = PBXBuildFile;
-			fileRef = 53BEF2481DFD9E9900AB4EC1;
-		};
-		53BEF24E1DFD9EDD00AB4EC1 = {
-			isa = PBXBuildFile;
-			fileRef = 53BEF24D1DFD9EDD00AB4EC1;
-		};
-		53BEF2521DFD9FBB00AB4EC1 = {
-			isa = PBXBuildFile;
-			fileRef = 53BEF2511DFD9FBB00AB4EC1;
-		};
-		53BEF2551DFDA6B600AB4EC1 = {
-			isa = PBXBuildFile;
-			fileRef = 53BEF2541DFDA6B600AB4EC1;
-		};
-		53BEF25A1DFDABAC00AB4EC1 = {
-			isa = PBXBuildFile;
-			fileRef = 53BEF2591DFDABAC00AB4EC1;
-		};
-		59A709217B803CB10C4F9603 = {
-			isa = PBXBuildFile;
-			fileRef = C663B50A4F7389B008FC8B74;
-		};
-		6B21CDEFAD845F1AD15CFF71 = {
-			isa = PBXBuildFile;
-			fileRef = 8D15A31FF49BEBECBB35D3CC;
-		};
-		86185AE67F334C2165E11E46 = {
-			isa = PBXBuildFile;
-			fileRef = 8E8131D64DB4E668D886B506;
-		};
-		DC39EE2E7C6C498EC9BA8DDB = {
-			isa = PBXBuildFile;
-			fileRef = 3039AF5F755A91C826FBCB0B;
-		};
-		E66DF91786184AC15CF207D4 = {
-			isa = PBXBuildFile;
-			fileRef = 10D32A7F9400524C11B09FA0;
-		};
-		F4A5B87E2B54DB33C706DAD4 = {
-			isa = PBXBuildFile;
-			fileRef = 306B931C0F5235448C0395E1;
-		};
-		F69858DC90A02BD7BCDD4C6E = {
-			isa = PBXBuildFile;
-			fileRef = F5D98E4FCFD58C13A05A5013;
-		};
+		09D50245E00189CF0F8FA0FB /* SEConfirmCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54114B66F049B141D253774E /* SEConfirmCodeView.m */; };
+		0D77D6D7D89D465F4EA4A802 /* SESignInInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 96352630BBC6F7064DBA6560 /* SESignInInteractor.m */; };
+		4EB6214E451CF5F5CF86BC57 /* SESignInPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2D9E01E0D16A9B0B81E864 /* SESignInPresenter.m */; };
+		4FBBE230C08B7A438D3A7F19 /* SESignInAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 7293BFDAB27594CAD950EA5B /* SESignInAssembly.m */; };
+		502527A55C7079847592D8B0 /* SESettingsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F232A45CEC274775461463BA /* SESettingsPresenter.m */; };
+		534245271E02543B00B50161 /* SETextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 534245261E02543B00B50161 /* SETextField.m */; };
+		5342452C1E02557800B50161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534245291E02557800B50161 /* LaunchScreen.storyboard */; };
+		5342452F1E02558400B50161 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5342452D1E02558400B50161 /* OpenSans-Light.ttf */; };
+		534245301E02558400B50161 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5342452E1E02558400B50161 /* OpenSans-Regular.ttf */; };
+		534245361E02564A00B50161 /* SEPrimaryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 534245351E02564A00B50161 /* SEPrimaryButton.m */; };
+		534245391E02569800B50161 /* SESecondaryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 534245381E02569800B50161 /* SESecondaryButton.m */; };
+		53756EC51E02480100D8D5CF /* SERoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756EC41E02480100D8D5CF /* SERoundedButton.m */; };
+		53756EE61E02491100D8D5CF /* APLBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756EC81E02491100D8D5CF /* APLBlocks.m */; };
+		53756EE81E02491100D8D5CF /* APLFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756ECC1E02491100D8D5CF /* APLFileSystem.m */; };
+		53756EE91E02491100D8D5CF /* APLKeyboardHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756ECE1E02491100D8D5CF /* APLKeyboardHelper.m */; };
+		53756EEA1E02491100D8D5CF /* APLPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756ED01E02491100D8D5CF /* APLPageControl.m */; };
+		53756EEB1E02491100D8D5CF /* APLTextHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756ED21E02491100D8D5CF /* APLTextHelper.m */; };
+		53756EEC1E02491100D8D5CF /* APLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756ED41E02491100D8D5CF /* APLView.m */; };
+		53756EED1E02491100D8D5CF /* NSNotificationCenter+APL.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756ED61E02491100D8D5CF /* NSNotificationCenter+APL.m */; };
+		53756EEE1E02491100D8D5CF /* NSObject+APL.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756ED81E02491100D8D5CF /* NSObject+APL.m */; };
+		53756EEF1E02491100D8D5CF /* NSString+Attributing.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756EDA1E02491100D8D5CF /* NSString+Attributing.m */; };
+		53756EF01E02491100D8D5CF /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756EDC1E02491100D8D5CF /* NSString+Utils.m */; };
+		53756EF11E02491100D8D5CF /* UIColor+APL.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756EDE1E02491100D8D5CF /* UIColor+APL.m */; };
+		53756EF71E024C6800D8D5CF /* UIView+Relayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756EF61E024C6800D8D5CF /* UIView+Relayout.m */; };
+		53756EFA1E024E2300D8D5CF /* SEAppTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756EF91E024E2300D8D5CF /* SEAppTheme.m */; };
+		53B901011DFEAAFA0081E303 /* SEStateServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B900FE1DFEAAFA0081E303 /* SEStateServiceBase.m */; };
+		53B901051DFEAE770081E303 /* SEServicesAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B901041DFEAE770081E303 /* SEServicesAssembly.m */; };
+		53B901081DFEAFD90081E303 /* SEApiServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B901071DFEAFD90081E303 /* SEApiServiceBase.m */; };
+		53B9010B1DFEAFF10081E303 /* SESyncServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B9010A1DFEAFF10081E303 /* SESyncServiceBase.m */; };
+		53B9010F1DFEB06A0081E303 /* SEModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B9010E1DFEB06A0081E303 /* SEModuleAssembly.m */; };
+		53BEF2001DFD8E3700AB4EC1 /* skyeng_test_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF1FF1DFD8E3700AB4EC1 /* skyeng_test_2Tests.m */; };
+		53BEF20B1DFD8E3700AB4EC1 /* skyeng_test_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF20A1DFD8E3700AB4EC1 /* skyeng_test_2UITests.m */; };
+		53BEF22B1DFD8F0300AB4EC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF21A1DFD8F0300AB4EC1 /* AppDelegate.m */; };
+		53BEF22E1DFD8F0300AB4EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BEF2241DFD8F0300AB4EC1 /* Assets.xcassets */; };
+		53BEF2301DFD8F0300AB4EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2291DFD8F0300AB4EC1 /* main.m */; };
+		53BEF23E1DFD9D2A00AB4EC1 /* SERootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF23D1DFD9D2A00AB4EC1 /* SERootView.m */; };
+		53BEF2421DFD9D4C00AB4EC1 /* SEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2411DFD9D4C00AB4EC1 /* SEViewController.m */; };
+		53BEF2461DFD9E6C00AB4EC1 /* SERootRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2451DFD9E6B00AB4EC1 /* SERootRouter.m */; };
+		53BEF2491DFD9E9900AB4EC1 /* SERootPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2481DFD9E9900AB4EC1 /* SERootPresenter.m */; };
+		53BEF24E1DFD9EDD00AB4EC1 /* SERootInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF24D1DFD9EDD00AB4EC1 /* SERootInteractor.m */; };
+		53BEF2521DFD9FBB00AB4EC1 /* SERootAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2511DFD9FBB00AB4EC1 /* SERootAssembly.m */; };
+		53BEF2551DFDA6B600AB4EC1 /* SEAppAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2541DFDA6B600AB4EC1 /* SEAppAssembly.m */; };
+		53BEF25A1DFDABAC00AB4EC1 /* SESegueAddAsChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2591DFDABAC00AB4EC1 /* SESegueAddAsChild.m */; };
+		59A709217B803CB10C4F9603 /* libPods-skyeng-test-2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C663B50A4F7389B008FC8B74 /* libPods-skyeng-test-2.a */; };
+		5C350555A24F68CE8F122AAE /* SEConfirmCodeAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 982B0B53E19738820F84E31F /* SEConfirmCodeAssembly.m */; };
+		6B21CDEFAD845F1AD15CFF71 /* SESignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D15A31FF49BEBECBB35D3CC /* SESignInView.m */; };
+		7B12F56DD7037FF97C3376EE /* SEConfirmCodeRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA467726EB32FDB69E3F3C /* SEConfirmCodeRouter.m */; };
+		86185AE67F334C2165E11E46 /* SESettingsInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8131D64DB4E668D886B506 /* SESettingsInteractor.m */; };
+		9534E60BA561375E3BF0C3E9 /* SEConfirmCodeInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E40A05694D26B319A598F02 /* SEConfirmCodeInteractor.m */; };
+		D0D7A4FBE5D0D333A20BBB6B /* SEConfirmCodePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E23731E834B61800C2AB94 /* SEConfirmCodePresenter.m */; };
+		DC39EE2E7C6C498EC9BA8DDB /* SESettingsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 3039AF5F755A91C826FBCB0B /* SESettingsAssembly.m */; };
+		E66DF91786184AC15CF207D4 /* SESettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D32A7F9400524C11B09FA0 /* SESettingsView.m */; };
+		F4A5B87E2B54DB33C706DAD4 /* SESignInRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 306B931C0F5235448C0395E1 /* SESignInRouter.m */; };
+		F69858DC90A02BD7BCDD4C6E /* SESettingsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D98E4FCFD58C13A05A5013 /* SESettingsRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		53BEF1FC1DFD8E3700AB4EC1 = {
+		53BEF1FC1DFD8E3700AB4EC1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 53BEF1DA1DFD8E3700AB4EC1;
+			containerPortal = 53BEF1DA1DFD8E3700AB4EC1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 53BEF1E11DFD8E3700AB4EC1;
 			remoteInfo = "skyeng-test-2";
 		};
-		53BEF2071DFD8E3700AB4EC1 = {
+		53BEF2071DFD8E3700AB4EC1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 53BEF1DA1DFD8E3700AB4EC1;
+			containerPortal = 53BEF1DA1DFD8E3700AB4EC1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 53BEF1E11DFD8E3700AB4EC1;
 			remoteInfo = "skyeng-test-2";
@@ -151,604 +81,162 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10D32A7F9400524C11B09FA0 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SESettingsView.m;
-			sourceTree = "<group>";
-		};
-		24852F6A17FF68C3300C8F1E = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESettingsPresenter.h;
-			sourceTree = "<group>";
-		};
-		3039AF5F755A91C826FBCB0B = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SESettingsAssembly.m;
-			sourceTree = "<group>";
-		};
-		306B931C0F5235448C0395E1 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SESignInRouter.m;
-			sourceTree = "<group>";
-		};
-		39493BEB8933D9E1D8B63911 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESignInInteractor.h;
-			sourceTree = "<group>";
-		};
-		397B71568FC64136E0960777 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESettingsRouter.h;
-			sourceTree = "<group>";
-		};
-		4393F0357EE28686DD6CE044 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESignInModuleInput.h;
-			sourceTree = "<group>";
-		};
-		4AA795B4EFE7FB4B65C7FA5C = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESignInRouter.h;
-			sourceTree = "<group>";
-		};
-		53B900FA1DFEAAFA0081E303 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SEApiService.h;
-			sourceTree = "<group>";
-		};
-		53B900FC1DFEAAFA0081E303 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SEStateService.h;
-			sourceTree = "<group>";
-		};
-		53B900FD1DFEAAFA0081E303 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SEStateServiceBase.h;
-			sourceTree = "<group>";
-		};
-		53B900FE1DFEAAFA0081E303 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SEStateServiceBase.m;
-			sourceTree = "<group>";
-		};
-		53B901001DFEAAFA0081E303 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESyncService.h;
-			sourceTree = "<group>";
-		};
-		53B901021DFEAE540081E303 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			path = SEServices.h;
-			sourceTree = "<group>";
-		};
-		53B901031DFEAE770081E303 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SEServicesAssembly.h;
-			sourceTree = "<group>";
-		};
-		53B901041DFEAE770081E303 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SEServicesAssembly.m;
-			sourceTree = "<group>";
-		};
-		53B901061DFEAFD90081E303 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SEApiServiceBase.h;
-			sourceTree = "<group>";
-		};
-		53B901071DFEAFD90081E303 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SEApiServiceBase.m;
-			sourceTree = "<group>";
-		};
-		53B901091DFEAFF10081E303 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESyncServiceBase.h;
-			sourceTree = "<group>";
-		};
-		53B9010A1DFEAFF10081E303 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SESyncServiceBase.m;
-			sourceTree = "<group>";
-		};
-		53B9010D1DFEB06A0081E303 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SEModuleAssembly.h;
-			sourceTree = "<group>";
-		};
-		53B9010E1DFEB06A0081E303 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SEModuleAssembly.m;
-			sourceTree = "<group>";
-		};
-		53BEF1E21DFD8E3700AB4EC1 = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.application;
-			includeInIndex = 0;
-			path = "skyeng-test-2.app";
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		53BEF1FB1DFD8E3700AB4EC1 = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.cfbundle;
-			includeInIndex = 0;
-			path = "skyeng-test-2Tests.xctest";
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		53BEF1FF1DFD8E3700AB4EC1 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.objc;
-			path = skyeng_test_2Tests.m;
-			sourceTree = "<group>";
-		};
-		53BEF2011DFD8E3700AB4EC1 = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.plist.xml;
-			path = Info.plist;
-			sourceTree = "<group>";
-		};
-		53BEF2061DFD8E3700AB4EC1 = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.cfbundle;
-			includeInIndex = 0;
-			path = "skyeng-test-2UITests.xctest";
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		53BEF20A1DFD8E3700AB4EC1 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.objc;
-			path = skyeng_test_2UITests.m;
-			sourceTree = "<group>";
-		};
-		53BEF20C1DFD8E3700AB4EC1 = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.plist.xml;
-			path = Info.plist;
-			sourceTree = "<group>";
-		};
-		53BEF2191DFD8F0300AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = AppDelegate.h;
-			sourceTree = "<group>";
-		};
-		53BEF21A1DFD8F0300AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = AppDelegate.m;
-			sourceTree = "<group>";
-		};
-		53BEF21D1DFD8F0300AB4EC1 = {
-			isa = PBXFileReference;
-			lastKnownFileType = file.storyboard;
-			name = Base;
-			path = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		53BEF21F1DFD8F0300AB4EC1 = {
-			isa = PBXFileReference;
-			lastKnownFileType = file.storyboard;
-			name = Base;
-			path = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		53BEF2241DFD8F0300AB4EC1 = {
-			isa = PBXFileReference;
-			lastKnownFileType = folder.assetcatalog;
-			path = Assets.xcassets;
-			sourceTree = "<group>";
-		};
-		53BEF2281DFD8F0300AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = text.plist.xml;
-			path = Info.plist;
-			sourceTree = "<group>";
-		};
-		53BEF2291DFD8F0300AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = main.m;
-			sourceTree = "<group>";
-		};
-		53BEF23A1DFD9CF900AB4EC1 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			path = SERootViewInput.h;
-			sourceTree = "<group>";
-		};
-		53BEF23B1DFD9D1100AB4EC1 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			path = SERootViewOutput.h;
-			sourceTree = "<group>";
-		};
-		53BEF23C1DFD9D2A00AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SERootView.h;
-			sourceTree = "<group>";
-		};
-		53BEF23D1DFD9D2A00AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SERootView.m;
-			sourceTree = "<group>";
-		};
-		53BEF2401DFD9D4C00AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SEViewController.h;
-			sourceTree = "<group>";
-		};
-		53BEF2411DFD9D4C00AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SEViewController.m;
-			sourceTree = "<group>";
-		};
-		53BEF2431DFD9E5B00AB4EC1 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			path = SERootRouterInput.h;
-			sourceTree = "<group>";
-		};
-		53BEF2441DFD9E6B00AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SERootRouter.h;
-			sourceTree = "<group>";
-		};
-		53BEF2451DFD9E6B00AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SERootRouter.m;
-			sourceTree = "<group>";
-		};
-		53BEF2471DFD9E9900AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SERootPresenter.h;
-			sourceTree = "<group>";
-		};
-		53BEF2481DFD9E9900AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SERootPresenter.m;
-			sourceTree = "<group>";
-		};
-		53BEF24A1DFD9EC200AB4EC1 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			path = SERootInteractorInput.h;
-			sourceTree = "<group>";
-		};
-		53BEF24B1DFD9ECE00AB4EC1 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			path = SERootInteractorOutput.h;
-			sourceTree = "<group>";
-		};
-		53BEF24C1DFD9EDD00AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SERootInteractor.h;
-			sourceTree = "<group>";
-		};
-		53BEF24D1DFD9EDD00AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SERootInteractor.m;
-			sourceTree = "<group>";
-		};
-		53BEF2501DFD9FBB00AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SERootAssembly.h;
-			sourceTree = "<group>";
-		};
-		53BEF2511DFD9FBB00AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SERootAssembly.m;
-			sourceTree = "<group>";
-		};
-		53BEF2531DFDA6B600AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SEAppAssembly.h;
-			sourceTree = "<group>";
-		};
-		53BEF2541DFDA6B600AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SEAppAssembly.m;
-			sourceTree = "<group>";
-		};
-		53BEF2581DFDABAC00AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESegueAddAsChild.h;
-			sourceTree = "<group>";
-		};
-		53BEF2591DFDABAC00AB4EC1 = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SESegueAddAsChild.m;
-			sourceTree = "<group>";
-		};
-		5BE7CA21F11B6253439F7349 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESettingsInteractor.h;
-			sourceTree = "<group>";
-		};
-		6BC5B604F93C30E21C5EF76C = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESettingsInteractorInput.h;
-			sourceTree = "<group>";
-		};
-		6D99633BBE334DAC5012DE95 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESignInViewOutput.h;
-			sourceTree = "<group>";
-		};
-		7293BFDAB27594CAD950EA5B = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SESignInAssembly.m;
-			sourceTree = "<group>";
-		};
-		763EA1EA4DE692F71CC001CD = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESettingsModuleInput.h;
-			sourceTree = "<group>";
-		};
-		768F60EDF7824E77F961768B = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESettingsViewInput.h;
-			sourceTree = "<group>";
-		};
-		78F441F727F16B7248D41F43 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESignInViewInput.h;
-			sourceTree = "<group>";
-		};
-		7A5F6EFAA45F95BAC1DC5B2B = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESettingsView.h;
-			sourceTree = "<group>";
-		};
-		7C17F8FC3DA0EEE8E9BDC477 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESignInPresenter.h;
-			sourceTree = "<group>";
-		};
-		81B9424716656C079F3B43CC = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESettingsViewOutput.h;
-			sourceTree = "<group>";
-		};
-		87B25C1FD77451DBEEC38854 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.xcconfig;
-			name = "Pods-skyeng-test-2.release.xcconfig";
-			path = "Pods/Target Support Files/Pods-skyeng-test-2/Pods-skyeng-test-2.release.xcconfig";
-			sourceTree = "<group>";
-		};
-		8D15A31FF49BEBECBB35D3CC = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SESignInView.m;
-			sourceTree = "<group>";
-		};
-		8E8131D64DB4E668D886B506 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SESettingsInteractor.m;
-			sourceTree = "<group>";
-		};
-		96352630BBC6F7064DBA6560 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SESignInInteractor.m;
-			sourceTree = "<group>";
-		};
-		A0A179FD705B6E6D4ABB61CF = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESignInInteractorInput.h;
-			sourceTree = "<group>";
-		};
-		A19C41DB86C5F9AF7B1D20B1 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESettingsAssembly.h;
-			sourceTree = "<group>";
-		};
-		A8DFD517FC5EA3B9BB3159AC = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESettingsRouterInput.h;
-			sourceTree = "<group>";
-		};
-		ACFCA6277B6FC2DB9D43FDEE = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESignInRouterInput.h;
-			sourceTree = "<group>";
-		};
-		AE2D9E01E0D16A9B0B81E864 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SESignInPresenter.m;
-			sourceTree = "<group>";
-		};
-		B97C0815155878C98BCB028D = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.xcconfig;
-			name = "Pods-skyeng-test-2.debug.xcconfig";
-			path = "Pods/Target Support Files/Pods-skyeng-test-2/Pods-skyeng-test-2.debug.xcconfig";
-			sourceTree = "<group>";
-		};
-		C663B50A4F7389B008FC8B74 = {
-			isa = PBXFileReference;
-			explicitFileType = archive.ar;
-			includeInIndex = 0;
-			path = "libPods-skyeng-test-2.a";
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D95F10FDC9E27E768DE1F97B = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESettingsInteractorOutput.h;
-			sourceTree = "<group>";
-		};
-		EA2116757351FE0B196C0FC2 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESignInView.h;
-			sourceTree = "<group>";
-		};
-		F232A45CEC274775461463BA = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SESettingsPresenter.m;
-			sourceTree = "<group>";
-		};
-		F5D98E4FCFD58C13A05A5013 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = SESettingsRouter.m;
-			sourceTree = "<group>";
-		};
-		FBD90A0D208102F05F4DCC5F = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESignInInteractorOutput.h;
-			sourceTree = "<group>";
-		};
-		FC119D7397556549F26ACC8B = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = SESignInAssembly.h;
-			sourceTree = "<group>";
-		};
+		10D32A7F9400524C11B09FA0 /* SESettingsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESettingsView.m; sourceTree = "<group>"; };
+		184D29F023A79A11D9115ED6 /* SEConfirmCodeViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeViewOutput.h; sourceTree = "<group>"; };
+		1DBA467726EB32FDB69E3F3C /* SEConfirmCodeRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SEConfirmCodeRouter.m; sourceTree = "<group>"; };
+		21D2C43AAE6B40E51662F65E /* SEConfirmCodeInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeInteractorInput.h; sourceTree = "<group>"; };
+		236E8F00C213C93CDCF9C2CC /* SEConfirmCodeViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeViewInput.h; sourceTree = "<group>"; };
+		24852F6A17FF68C3300C8F1E /* SESettingsPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsPresenter.h; sourceTree = "<group>"; };
+		3039AF5F755A91C826FBCB0B /* SESettingsAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESettingsAssembly.m; sourceTree = "<group>"; };
+		306B931C0F5235448C0395E1 /* SESignInRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESignInRouter.m; sourceTree = "<group>"; };
+		368F9962E17ABC111D77A1A3 /* SEConfirmCodeAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeAssembly.h; sourceTree = "<group>"; };
+		39493BEB8933D9E1D8B63911 /* SESignInInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInInteractor.h; sourceTree = "<group>"; };
+		397B71568FC64136E0960777 /* SESettingsRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsRouter.h; sourceTree = "<group>"; };
+		3E40A05694D26B319A598F02 /* SEConfirmCodeInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SEConfirmCodeInteractor.m; sourceTree = "<group>"; };
+		4393F0357EE28686DD6CE044 /* SESignInModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInModuleInput.h; sourceTree = "<group>"; };
+		4AA795B4EFE7FB4B65C7FA5C /* SESignInRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInRouter.h; sourceTree = "<group>"; };
+		534245251E02543B00B50161 /* SETextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextField.h; sourceTree = "<group>"; };
+		534245261E02543B00B50161 /* SETextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextField.m; sourceTree = "<group>"; };
+		5342452A1E02557800B50161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5342452D1E02558400B50161 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		5342452E1E02558400B50161 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		534245341E02564A00B50161 /* SEPrimaryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEPrimaryButton.h; sourceTree = "<group>"; };
+		534245351E02564A00B50161 /* SEPrimaryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEPrimaryButton.m; sourceTree = "<group>"; };
+		534245371E02569800B50161 /* SESecondaryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESecondaryButton.h; sourceTree = "<group>"; };
+		534245381E02569800B50161 /* SESecondaryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESecondaryButton.m; sourceTree = "<group>"; };
+		53756EBC1E0123AB00D8D5CF /* SESignInModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESignInModuleOutput.h; sourceTree = "<group>"; };
+		53756EC11E013B8600D8D5CF /* SESettingsModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESettingsModuleOutput.h; sourceTree = "<group>"; };
+		53756EC31E02480100D8D5CF /* SERoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERoundedButton.h; sourceTree = "<group>"; };
+		53756EC41E02480100D8D5CF /* SERoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SERoundedButton.m; sourceTree = "<group>"; };
+		53756EC71E02491100D8D5CF /* APLBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLBlocks.h; sourceTree = "<group>"; };
+		53756EC81E02491100D8D5CF /* APLBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLBlocks.m; sourceTree = "<group>"; };
+		53756ECB1E02491100D8D5CF /* APLFileSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLFileSystem.h; sourceTree = "<group>"; };
+		53756ECC1E02491100D8D5CF /* APLFileSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLFileSystem.m; sourceTree = "<group>"; };
+		53756ECD1E02491100D8D5CF /* APLKeyboardHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLKeyboardHelper.h; sourceTree = "<group>"; };
+		53756ECE1E02491100D8D5CF /* APLKeyboardHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLKeyboardHelper.m; sourceTree = "<group>"; };
+		53756ECF1E02491100D8D5CF /* APLPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLPageControl.h; sourceTree = "<group>"; };
+		53756ED01E02491100D8D5CF /* APLPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLPageControl.m; sourceTree = "<group>"; };
+		53756ED11E02491100D8D5CF /* APLTextHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLTextHelper.h; sourceTree = "<group>"; };
+		53756ED21E02491100D8D5CF /* APLTextHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLTextHelper.m; sourceTree = "<group>"; };
+		53756ED31E02491100D8D5CF /* APLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLView.h; sourceTree = "<group>"; };
+		53756ED41E02491100D8D5CF /* APLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLView.m; sourceTree = "<group>"; };
+		53756ED51E02491100D8D5CF /* NSNotificationCenter+APL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+APL.h"; sourceTree = "<group>"; };
+		53756ED61E02491100D8D5CF /* NSNotificationCenter+APL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+APL.m"; sourceTree = "<group>"; };
+		53756ED71E02491100D8D5CF /* NSObject+APL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+APL.h"; sourceTree = "<group>"; };
+		53756ED81E02491100D8D5CF /* NSObject+APL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+APL.m"; sourceTree = "<group>"; };
+		53756ED91E02491100D8D5CF /* NSString+Attributing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Attributing.h"; sourceTree = "<group>"; };
+		53756EDA1E02491100D8D5CF /* NSString+Attributing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Attributing.m"; sourceTree = "<group>"; };
+		53756EDB1E02491100D8D5CF /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		53756EDC1E02491100D8D5CF /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		53756EDD1E02491100D8D5CF /* UIColor+APL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+APL.h"; sourceTree = "<group>"; };
+		53756EDE1E02491100D8D5CF /* UIColor+APL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+APL.m"; sourceTree = "<group>"; };
+		53756EF51E024C6800D8D5CF /* UIView+Relayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Relayout.h"; sourceTree = "<group>"; };
+		53756EF61E024C6800D8D5CF /* UIView+Relayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Relayout.m"; sourceTree = "<group>"; };
+		53756EF81E024E2300D8D5CF /* SEAppTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAppTheme.h; sourceTree = "<group>"; };
+		53756EF91E024E2300D8D5CF /* SEAppTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAppTheme.m; sourceTree = "<group>"; };
+		53B900FA1DFEAAFA0081E303 /* SEApiService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEApiService.h; sourceTree = "<group>"; };
+		53B900FC1DFEAAFA0081E303 /* SEStateService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEStateService.h; sourceTree = "<group>"; };
+		53B900FD1DFEAAFA0081E303 /* SEStateServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEStateServiceBase.h; sourceTree = "<group>"; };
+		53B900FE1DFEAAFA0081E303 /* SEStateServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEStateServiceBase.m; sourceTree = "<group>"; };
+		53B901001DFEAAFA0081E303 /* SESyncService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESyncService.h; sourceTree = "<group>"; };
+		53B901021DFEAE540081E303 /* SEServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEServices.h; sourceTree = "<group>"; };
+		53B901031DFEAE770081E303 /* SEServicesAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEServicesAssembly.h; sourceTree = "<group>"; };
+		53B901041DFEAE770081E303 /* SEServicesAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEServicesAssembly.m; sourceTree = "<group>"; };
+		53B901061DFEAFD90081E303 /* SEApiServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEApiServiceBase.h; sourceTree = "<group>"; };
+		53B901071DFEAFD90081E303 /* SEApiServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEApiServiceBase.m; sourceTree = "<group>"; };
+		53B901091DFEAFF10081E303 /* SESyncServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESyncServiceBase.h; sourceTree = "<group>"; };
+		53B9010A1DFEAFF10081E303 /* SESyncServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESyncServiceBase.m; sourceTree = "<group>"; };
+		53B9010D1DFEB06A0081E303 /* SEModuleAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEModuleAssembly.h; sourceTree = "<group>"; };
+		53B9010E1DFEB06A0081E303 /* SEModuleAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEModuleAssembly.m; sourceTree = "<group>"; };
+		53BEF1E21DFD8E3700AB4EC1 /* skyeng-test-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "skyeng-test-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BEF1FB1DFD8E3700AB4EC1 /* skyeng-test-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "skyeng-test-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BEF1FF1DFD8E3700AB4EC1 /* skyeng_test_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skyeng_test_2Tests.m; sourceTree = "<group>"; };
+		53BEF2011DFD8E3700AB4EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53BEF2061DFD8E3700AB4EC1 /* skyeng-test-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "skyeng-test-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BEF20A1DFD8E3700AB4EC1 /* skyeng_test_2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skyeng_test_2UITests.m; sourceTree = "<group>"; };
+		53BEF20C1DFD8E3700AB4EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53BEF2191DFD8F0300AB4EC1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53BEF21A1DFD8F0300AB4EC1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53BEF2241DFD8F0300AB4EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53BEF2281DFD8F0300AB4EC1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53BEF2291DFD8F0300AB4EC1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53BEF23A1DFD9CF900AB4EC1 /* SERootViewInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SERootViewInput.h; sourceTree = "<group>"; };
+		53BEF23B1DFD9D1100AB4EC1 /* SERootViewOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SERootViewOutput.h; sourceTree = "<group>"; };
+		53BEF23C1DFD9D2A00AB4EC1 /* SERootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERootView.h; sourceTree = "<group>"; };
+		53BEF23D1DFD9D2A00AB4EC1 /* SERootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SERootView.m; sourceTree = "<group>"; };
+		53BEF2401DFD9D4C00AB4EC1 /* SEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEViewController.h; sourceTree = "<group>"; };
+		53BEF2411DFD9D4C00AB4EC1 /* SEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEViewController.m; sourceTree = "<group>"; };
+		53BEF2431DFD9E5B00AB4EC1 /* SERootRouterInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SERootRouterInput.h; sourceTree = "<group>"; };
+		53BEF2441DFD9E6B00AB4EC1 /* SERootRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERootRouter.h; sourceTree = "<group>"; };
+		53BEF2451DFD9E6B00AB4EC1 /* SERootRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SERootRouter.m; sourceTree = "<group>"; };
+		53BEF2471DFD9E9900AB4EC1 /* SERootPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERootPresenter.h; sourceTree = "<group>"; };
+		53BEF2481DFD9E9900AB4EC1 /* SERootPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SERootPresenter.m; sourceTree = "<group>"; };
+		53BEF24A1DFD9EC200AB4EC1 /* SERootInteractorInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SERootInteractorInput.h; sourceTree = "<group>"; };
+		53BEF24B1DFD9ECE00AB4EC1 /* SERootInteractorOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SERootInteractorOutput.h; sourceTree = "<group>"; };
+		53BEF24C1DFD9EDD00AB4EC1 /* SERootInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERootInteractor.h; sourceTree = "<group>"; };
+		53BEF24D1DFD9EDD00AB4EC1 /* SERootInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SERootInteractor.m; sourceTree = "<group>"; };
+		53BEF2501DFD9FBB00AB4EC1 /* SERootAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERootAssembly.h; sourceTree = "<group>"; };
+		53BEF2511DFD9FBB00AB4EC1 /* SERootAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SERootAssembly.m; sourceTree = "<group>"; };
+		53BEF2531DFDA6B600AB4EC1 /* SEAppAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAppAssembly.h; sourceTree = "<group>"; };
+		53BEF2541DFDA6B600AB4EC1 /* SEAppAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAppAssembly.m; sourceTree = "<group>"; };
+		53BEF2581DFDABAC00AB4EC1 /* SESegueAddAsChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESegueAddAsChild.h; sourceTree = "<group>"; };
+		53BEF2591DFDABAC00AB4EC1 /* SESegueAddAsChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESegueAddAsChild.m; sourceTree = "<group>"; };
+		54114B66F049B141D253774E /* SEConfirmCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SEConfirmCodeView.m; sourceTree = "<group>"; };
+		5BE7CA21F11B6253439F7349 /* SESettingsInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsInteractor.h; sourceTree = "<group>"; };
+		6BC5B604F93C30E21C5EF76C /* SESettingsInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsInteractorInput.h; sourceTree = "<group>"; };
+		6D99633BBE334DAC5012DE95 /* SESignInViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInViewOutput.h; sourceTree = "<group>"; };
+		7293BFDAB27594CAD950EA5B /* SESignInAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESignInAssembly.m; sourceTree = "<group>"; };
+		72DA8C2D3863077CB5D34BD3 /* SEConfirmCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeView.h; sourceTree = "<group>"; };
+		73E23731E834B61800C2AB94 /* SEConfirmCodePresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SEConfirmCodePresenter.m; sourceTree = "<group>"; };
+		763EA1EA4DE692F71CC001CD /* SESettingsModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsModuleInput.h; sourceTree = "<group>"; };
+		768F60EDF7824E77F961768B /* SESettingsViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsViewInput.h; sourceTree = "<group>"; };
+		78F441F727F16B7248D41F43 /* SESignInViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInViewInput.h; sourceTree = "<group>"; };
+		7A5F6EFAA45F95BAC1DC5B2B /* SESettingsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsView.h; sourceTree = "<group>"; };
+		7C17F8FC3DA0EEE8E9BDC477 /* SESignInPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInPresenter.h; sourceTree = "<group>"; };
+		81B9424716656C079F3B43CC /* SESettingsViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsViewOutput.h; sourceTree = "<group>"; };
+		8549A530976B204C4B5C69BD /* SEConfirmCodeRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeRouterInput.h; sourceTree = "<group>"; };
+		87B25C1FD77451DBEEC38854 /* Pods-skyeng-test-2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skyeng-test-2.release.xcconfig"; path = "Pods/Target Support Files/Pods-skyeng-test-2/Pods-skyeng-test-2.release.xcconfig"; sourceTree = "<group>"; };
+		8D15A31FF49BEBECBB35D3CC /* SESignInView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESignInView.m; sourceTree = "<group>"; };
+		8E8131D64DB4E668D886B506 /* SESettingsInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESettingsInteractor.m; sourceTree = "<group>"; };
+		96352630BBC6F7064DBA6560 /* SESignInInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESignInInteractor.m; sourceTree = "<group>"; };
+		982B0B53E19738820F84E31F /* SEConfirmCodeAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SEConfirmCodeAssembly.m; sourceTree = "<group>"; };
+		A0A179FD705B6E6D4ABB61CF /* SESignInInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInInteractorInput.h; sourceTree = "<group>"; };
+		A19C41DB86C5F9AF7B1D20B1 /* SESettingsAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsAssembly.h; sourceTree = "<group>"; };
+		A8DFD517FC5EA3B9BB3159AC /* SESettingsRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsRouterInput.h; sourceTree = "<group>"; };
+		ACFCA6277B6FC2DB9D43FDEE /* SESignInRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInRouterInput.h; sourceTree = "<group>"; };
+		AE2D9E01E0D16A9B0B81E864 /* SESignInPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESignInPresenter.m; sourceTree = "<group>"; };
+		AE6A44615184B160E38A4384 /* SEConfirmCodeModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeModuleInput.h; sourceTree = "<group>"; };
+		B97C0815155878C98BCB028D /* Pods-skyeng-test-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skyeng-test-2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skyeng-test-2/Pods-skyeng-test-2.debug.xcconfig"; sourceTree = "<group>"; };
+		BA11D0680833264B3B3F757E /* SEConfirmCodeInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeInteractorOutput.h; sourceTree = "<group>"; };
+		C663B50A4F7389B008FC8B74 /* libPods-skyeng-test-2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-skyeng-test-2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A6696FD629DF99D4E47BB2 /* SEConfirmCodePresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodePresenter.h; sourceTree = "<group>"; };
+		D95F10FDC9E27E768DE1F97B /* SESettingsInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsInteractorOutput.h; sourceTree = "<group>"; };
+		EA2116757351FE0B196C0FC2 /* SESignInView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInView.h; sourceTree = "<group>"; };
+		EC271EFA066BE46CEEC513B4 /* SEConfirmCodeInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeInteractor.h; sourceTree = "<group>"; };
+		F232A45CEC274775461463BA /* SESettingsPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESettingsPresenter.m; sourceTree = "<group>"; };
+		F5D98E4FCFD58C13A05A5013 /* SESettingsRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESettingsRouter.m; sourceTree = "<group>"; };
+		FBD90A0D208102F05F4DCC5F /* SESignInInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInInteractorOutput.h; sourceTree = "<group>"; };
+		FC119D7397556549F26ACC8B /* SESignInAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInAssembly.h; sourceTree = "<group>"; };
+		FF4B545E51A950F3D40F5398 /* SEConfirmCodeRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeRouter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		53BEF1DF1DFD8E3700AB4EC1 = {
+		53BEF1DF1DFD8E3700AB4EC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59A709217B803CB10C4F9603,
+				59A709217B803CB10C4F9603 /* libPods-skyeng-test-2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53BEF1F81DFD8E3700AB4EC1 = {
+		53BEF1F81DFD8E3700AB4EC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53BEF2031DFD8E3700AB4EC1 = {
+		53BEF2031DFD8E3700AB4EC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -758,76 +246,159 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07CF7801E53733D9C822E642 = {
+		07CF7801E53733D9C822E642 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				768F60EDF7824E77F961768B,
-				81B9424716656C079F3B43CC,
-				7A5F6EFAA45F95BAC1DC5B2B,
-				10D32A7F9400524C11B09FA0,
+				768F60EDF7824E77F961768B /* SESettingsViewInput.h */,
+				81B9424716656C079F3B43CC /* SESettingsViewOutput.h */,
+				7A5F6EFAA45F95BAC1DC5B2B /* SESettingsView.h */,
+				10D32A7F9400524C11B09FA0 /* SESettingsView.m */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
-		14A199B75EAA13D0D7B547BF = {
+		14A199B75EAA13D0D7B547BF /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				07CF7801E53733D9C822E642,
-				871413698BAB373B04BACDCC,
-				768E4F0EF6C8C0BAA6F019E7,
-				59531B3A7AED24FC46652DA6,
-				D85331A66D2FAFF65C3FB5DB,
+				07CF7801E53733D9C822E642 /* View */,
+				871413698BAB373B04BACDCC /* Presenter */,
+				768E4F0EF6C8C0BAA6F019E7 /* Interactor */,
+				59531B3A7AED24FC46652DA6 /* Router */,
+				D85331A66D2FAFF65C3FB5DB /* Assembly */,
 			);
-			name = Settings;
 			path = Settings;
 			sourceTree = "<group>";
 		};
-		372ABC1E28DADE693E7DED2A = {
+		1F48C54A1CB1475A144056CB /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				4393F0357EE28686DD6CE044,
-				7C17F8FC3DA0EEE8E9BDC477,
-				AE2D9E01E0D16A9B0B81E864,
+				8549A530976B204C4B5C69BD /* SEConfirmCodeRouterInput.h */,
+				FF4B545E51A950F3D40F5398 /* SEConfirmCodeRouter.h */,
+				1DBA467726EB32FDB69E3F3C /* SEConfirmCodeRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		27D19A693C906F40A4B37116 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				236E8F00C213C93CDCF9C2CC /* SEConfirmCodeViewInput.h */,
+				184D29F023A79A11D9115ED6 /* SEConfirmCodeViewOutput.h */,
+				72DA8C2D3863077CB5D34BD3 /* SEConfirmCodeView.h */,
+				54114B66F049B141D253774E /* SEConfirmCodeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		372ABC1E28DADE693E7DED2A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				53756EBC1E0123AB00D8D5CF /* SESignInModuleOutput.h */,
+				4393F0357EE28686DD6CE044 /* SESignInModuleInput.h */,
+				7C17F8FC3DA0EEE8E9BDC477 /* SESignInPresenter.h */,
+				AE2D9E01E0D16A9B0B81E864 /* SESignInPresenter.m */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		53B900F91DFEAAFA0081E303 = {
+		534245281E02557800B50161 /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				53B900FA1DFEAAFA0081E303,
-				53B901061DFEAFD90081E303,
-				53B901071DFEAFD90081E303,
+				534245291E02557800B50161 /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		5342452B1E02557800B50161 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5342452D1E02558400B50161 /* OpenSans-Light.ttf */,
+				5342452E1E02558400B50161 /* OpenSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		53756EC21E0247F300D8D5CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53756EC31E02480100D8D5CF /* SERoundedButton.h */,
+				53756EC41E02480100D8D5CF /* SERoundedButton.m */,
+				53756EF51E024C6800D8D5CF /* UIView+Relayout.h */,
+				53756EF61E024C6800D8D5CF /* UIView+Relayout.m */,
+				534245251E02543B00B50161 /* SETextField.h */,
+				534245261E02543B00B50161 /* SETextField.m */,
+				534245341E02564A00B50161 /* SEPrimaryButton.h */,
+				534245351E02564A00B50161 /* SEPrimaryButton.m */,
+				534245371E02569800B50161 /* SESecondaryButton.h */,
+				534245381E02569800B50161 /* SESecondaryButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53756EC61E02491100D8D5CF /* APL */ = {
+			isa = PBXGroup;
+			children = (
+				53756EC71E02491100D8D5CF /* APLBlocks.h */,
+				53756EC81E02491100D8D5CF /* APLBlocks.m */,
+				53756ECB1E02491100D8D5CF /* APLFileSystem.h */,
+				53756ECC1E02491100D8D5CF /* APLFileSystem.m */,
+				53756ECD1E02491100D8D5CF /* APLKeyboardHelper.h */,
+				53756ECE1E02491100D8D5CF /* APLKeyboardHelper.m */,
+				53756ECF1E02491100D8D5CF /* APLPageControl.h */,
+				53756ED01E02491100D8D5CF /* APLPageControl.m */,
+				53756ED11E02491100D8D5CF /* APLTextHelper.h */,
+				53756ED21E02491100D8D5CF /* APLTextHelper.m */,
+				53756ED31E02491100D8D5CF /* APLView.h */,
+				53756ED41E02491100D8D5CF /* APLView.m */,
+				53756ED51E02491100D8D5CF /* NSNotificationCenter+APL.h */,
+				53756ED61E02491100D8D5CF /* NSNotificationCenter+APL.m */,
+				53756ED71E02491100D8D5CF /* NSObject+APL.h */,
+				53756ED81E02491100D8D5CF /* NSObject+APL.m */,
+				53756ED91E02491100D8D5CF /* NSString+Attributing.h */,
+				53756EDA1E02491100D8D5CF /* NSString+Attributing.m */,
+				53756EDB1E02491100D8D5CF /* NSString+Utils.h */,
+				53756EDC1E02491100D8D5CF /* NSString+Utils.m */,
+				53756EDD1E02491100D8D5CF /* UIColor+APL.h */,
+				53756EDE1E02491100D8D5CF /* UIColor+APL.m */,
+			);
+			path = APL;
+			sourceTree = "<group>";
+		};
+		53B900F91DFEAAFA0081E303 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				53B900FA1DFEAAFA0081E303 /* SEApiService.h */,
+				53B901061DFEAFD90081E303 /* SEApiServiceBase.h */,
+				53B901071DFEAFD90081E303 /* SEApiServiceBase.m */,
 			);
 			path = Api;
 			sourceTree = "<group>";
 		};
-		53B900FB1DFEAAFA0081E303 = {
+		53B900FB1DFEAAFA0081E303 /* State */ = {
 			isa = PBXGroup;
 			children = (
-				53B900FC1DFEAAFA0081E303,
-				53B900FD1DFEAAFA0081E303,
-				53B900FE1DFEAAFA0081E303,
+				53B900FC1DFEAAFA0081E303 /* SEStateService.h */,
+				53B900FD1DFEAAFA0081E303 /* SEStateServiceBase.h */,
+				53B900FE1DFEAAFA0081E303 /* SEStateServiceBase.m */,
 			);
 			path = State;
 			sourceTree = "<group>";
 		};
-		53B900FF1DFEAAFA0081E303 = {
+		53B900FF1DFEAAFA0081E303 /* Sync */ = {
 			isa = PBXGroup;
 			children = (
-				53B901001DFEAAFA0081E303,
-				53B901091DFEAFF10081E303,
-				53B9010A1DFEAFF10081E303,
+				53B901001DFEAAFA0081E303 /* SESyncService.h */,
+				53B901091DFEAFF10081E303 /* SESyncServiceBase.h */,
+				53B9010A1DFEAFF10081E303 /* SESyncServiceBase.m */,
 			);
 			path = Sync;
 			sourceTree = "<group>";
 		};
-		53B9010C1DFEB0560081E303 = {
+		53B9010C1DFEB0560081E303 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				53B9010D1DFEB06A0081E303,
-				53B9010E1DFEB06A0081E303,
+				53B9010D1DFEB06A0081E303 /* SEModuleAssembly.h */,
+				53B9010E1DFEB06A0081E303 /* SEModuleAssembly.m */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -835,358 +406,394 @@
 		53BEF1D91DFD8E3700AB4EC1 = {
 			isa = PBXGroup;
 			children = (
-				53BEF1E41DFD8E3700AB4EC1,
-				53BEF1FE1DFD8E3700AB4EC1,
-				53BEF2091DFD8E3700AB4EC1,
-				53BEF1E31DFD8E3700AB4EC1,
-				8FFFF9C2DDAB833E5264ABB1,
-				835790B3EB9E2F14781A8F34,
+				53BEF1E41DFD8E3700AB4EC1 /* skyeng-test-2 */,
+				53BEF1FE1DFD8E3700AB4EC1 /* skyeng-test-2Tests */,
+				53BEF2091DFD8E3700AB4EC1 /* skyeng-test-2UITests */,
+				53BEF1E31DFD8E3700AB4EC1 /* Products */,
+				8FFFF9C2DDAB833E5264ABB1 /* Pods */,
+				835790B3EB9E2F14781A8F34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		53BEF1E31DFD8E3700AB4EC1 = {
+		53BEF1E31DFD8E3700AB4EC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF1E21DFD8E3700AB4EC1,
-				53BEF1FB1DFD8E3700AB4EC1,
-				53BEF2061DFD8E3700AB4EC1,
+				53BEF1E21DFD8E3700AB4EC1 /* skyeng-test-2.app */,
+				53BEF1FB1DFD8E3700AB4EC1 /* skyeng-test-2Tests.xctest */,
+				53BEF2061DFD8E3700AB4EC1 /* skyeng-test-2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		53BEF1E41DFD8E3700AB4EC1 = {
+		53BEF1E41DFD8E3700AB4EC1 /* skyeng-test-2 */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF2181DFD8F0300AB4EC1,
-				53BEF21B1DFD8F0300AB4EC1,
-				53BEF2201DFD8F0300AB4EC1,
-				53BEF2211DFD8F0300AB4EC1,
-				53BEF2221DFD8F0300AB4EC1,
-				53BEF2231DFD8F0300AB4EC1,
-				53BEF2251DFD8F0300AB4EC1,
-				53BEF2261DFD8F0300AB4EC1,
-				53BEF2271DFD8F0300AB4EC1,
-				53BEF22A1DFD8F0300AB4EC1,
+				53BEF2181DFD8F0300AB4EC1 /* App */,
+				53BEF2201DFD8F0300AB4EC1 /* Helpers */,
+				53BEF2211DFD8F0300AB4EC1 /* Model */,
+				53BEF2221DFD8F0300AB4EC1 /* Modules */,
+				53BEF2231DFD8F0300AB4EC1 /* Resources */,
+				53BEF2251DFD8F0300AB4EC1 /* Service */,
+				53BEF2261DFD8F0300AB4EC1 /* Shared */,
+				53BEF2271DFD8F0300AB4EC1 /* Supporting Files */,
+				53BEF22A1DFD8F0300AB4EC1 /* Vendor */,
 			);
 			path = "skyeng-test-2";
 			sourceTree = "<group>";
 		};
-		53BEF1FE1DFD8E3700AB4EC1 = {
+		53BEF1FE1DFD8E3700AB4EC1 /* skyeng-test-2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF1FF1DFD8E3700AB4EC1,
-				53BEF2011DFD8E3700AB4EC1,
+				53BEF1FF1DFD8E3700AB4EC1 /* skyeng_test_2Tests.m */,
+				53BEF2011DFD8E3700AB4EC1 /* Info.plist */,
 			);
 			path = "skyeng-test-2Tests";
 			sourceTree = "<group>";
 		};
-		53BEF2091DFD8E3700AB4EC1 = {
+		53BEF2091DFD8E3700AB4EC1 /* skyeng-test-2UITests */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF20A1DFD8E3700AB4EC1,
-				53BEF20C1DFD8E3700AB4EC1,
+				53BEF20A1DFD8E3700AB4EC1 /* skyeng_test_2UITests.m */,
+				53BEF20C1DFD8E3700AB4EC1 /* Info.plist */,
 			);
 			path = "skyeng-test-2UITests";
 			sourceTree = "<group>";
 		};
-		53BEF2181DFD8F0300AB4EC1 = {
+		53BEF2181DFD8F0300AB4EC1 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF2191DFD8F0300AB4EC1,
-				53BEF21A1DFD8F0300AB4EC1,
-				53BEF2531DFDA6B600AB4EC1,
-				53BEF2541DFDA6B600AB4EC1,
+				53BEF2191DFD8F0300AB4EC1 /* AppDelegate.h */,
+				53BEF21A1DFD8F0300AB4EC1 /* AppDelegate.m */,
+				53BEF2531DFDA6B600AB4EC1 /* SEAppAssembly.h */,
+				53BEF2541DFDA6B600AB4EC1 /* SEAppAssembly.m */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		53BEF21B1DFD8F0300AB4EC1 = {
+		53BEF2201DFD8F0300AB4EC1 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF21C1DFD8F0300AB4EC1,
-				53BEF21E1DFD8F0300AB4EC1,
-			);
-			path = Base.lproj;
-			sourceTree = "<group>";
-		};
-		53BEF2201DFD8F0300AB4EC1 = {
-			isa = PBXGroup;
-			children = (
+				53756EF81E024E2300D8D5CF /* SEAppTheme.h */,
+				53756EF91E024E2300D8D5CF /* SEAppTheme.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		53BEF2211DFD8F0300AB4EC1 = {
+		53BEF2211DFD8F0300AB4EC1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		53BEF2221DFD8F0300AB4EC1 = {
+		53BEF2221DFD8F0300AB4EC1 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF2351DFD9CB400AB4EC1,
-				EE6CC58C8EA71682ED66CB95,
-				14A199B75EAA13D0D7B547BF,
+				53BEF2351DFD9CB400AB4EC1 /* Root */,
+				EE6CC58C8EA71682ED66CB95 /* SignIn */,
+				14A199B75EAA13D0D7B547BF /* Settings */,
+				ECEFD63D138396F383899152 /* ConfirmCode */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		53BEF2231DFD8F0300AB4EC1 = {
+		53BEF2231DFD8F0300AB4EC1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF2241DFD8F0300AB4EC1,
+				534245281E02557800B50161 /* Base.lproj */,
+				5342452B1E02557800B50161 /* Fonts */,
+				53BEF2241DFD8F0300AB4EC1 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		53BEF2251DFD8F0300AB4EC1 = {
+		53BEF2251DFD8F0300AB4EC1 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				53B901021DFEAE540081E303,
-				53B901031DFEAE770081E303,
-				53B901041DFEAE770081E303,
-				53B900F91DFEAAFA0081E303,
-				53B900FB1DFEAAFA0081E303,
-				53B900FF1DFEAAFA0081E303,
+				53B901021DFEAE540081E303 /* SEServices.h */,
+				53B901031DFEAE770081E303 /* SEServicesAssembly.h */,
+				53B901041DFEAE770081E303 /* SEServicesAssembly.m */,
+				53B900F91DFEAAFA0081E303 /* Api */,
+				53B900FB1DFEAAFA0081E303 /* State */,
+				53B900FF1DFEAAFA0081E303 /* Sync */,
 			);
 			path = Service;
 			sourceTree = "<group>";
 		};
-		53BEF2261DFD8F0300AB4EC1 = {
+		53BEF2261DFD8F0300AB4EC1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				53B9010C1DFEB0560081E303,
-				53BEF2571DFDAB9A00AB4EC1,
-				53BEF23F1DFD9D4400AB4EC1,
+				53756EC21E0247F300D8D5CF /* View */,
+				53B9010C1DFEB0560081E303 /* Module */,
+				53BEF2571DFDAB9A00AB4EC1 /* Segue */,
+				53BEF23F1DFD9D4400AB4EC1 /* ViewController */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		53BEF2271DFD8F0300AB4EC1 = {
+		53BEF2271DFD8F0300AB4EC1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF2281DFD8F0300AB4EC1,
-				53BEF2291DFD8F0300AB4EC1,
+				53BEF2281DFD8F0300AB4EC1 /* Info.plist */,
+				53BEF2291DFD8F0300AB4EC1 /* main.m */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		53BEF22A1DFD8F0300AB4EC1 = {
+		53BEF22A1DFD8F0300AB4EC1 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				53756EC61E02491100D8D5CF /* APL */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
 		};
-		53BEF2351DFD9CB400AB4EC1 = {
+		53BEF2351DFD9CB400AB4EC1 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF24F1DFD9FAC00AB4EC1,
-				53BEF2361DFD9CB400AB4EC1,
-				53BEF2371DFD9CB400AB4EC1,
-				53BEF2381DFD9CB400AB4EC1,
-				53BEF2391DFD9CB400AB4EC1,
+				53BEF24F1DFD9FAC00AB4EC1 /* Assembly */,
+				53BEF2361DFD9CB400AB4EC1 /* Interactor */,
+				53BEF2371DFD9CB400AB4EC1 /* Presenter */,
+				53BEF2381DFD9CB400AB4EC1 /* Router */,
+				53BEF2391DFD9CB400AB4EC1 /* View */,
 			);
 			path = Root;
 			sourceTree = "<group>";
 		};
-		53BEF2361DFD9CB400AB4EC1 = {
+		53BEF2361DFD9CB400AB4EC1 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF24A1DFD9EC200AB4EC1,
-				53BEF24B1DFD9ECE00AB4EC1,
-				53BEF24C1DFD9EDD00AB4EC1,
-				53BEF24D1DFD9EDD00AB4EC1,
+				53BEF24A1DFD9EC200AB4EC1 /* SERootInteractorInput.h */,
+				53BEF24B1DFD9ECE00AB4EC1 /* SERootInteractorOutput.h */,
+				53BEF24C1DFD9EDD00AB4EC1 /* SERootInteractor.h */,
+				53BEF24D1DFD9EDD00AB4EC1 /* SERootInteractor.m */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
 		};
-		53BEF2371DFD9CB400AB4EC1 = {
+		53BEF2371DFD9CB400AB4EC1 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF2471DFD9E9900AB4EC1,
-				53BEF2481DFD9E9900AB4EC1,
+				53BEF2471DFD9E9900AB4EC1 /* SERootPresenter.h */,
+				53BEF2481DFD9E9900AB4EC1 /* SERootPresenter.m */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		53BEF2381DFD9CB400AB4EC1 = {
+		53BEF2381DFD9CB400AB4EC1 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF2431DFD9E5B00AB4EC1,
-				53BEF2441DFD9E6B00AB4EC1,
-				53BEF2451DFD9E6B00AB4EC1,
+				53BEF2431DFD9E5B00AB4EC1 /* SERootRouterInput.h */,
+				53BEF2441DFD9E6B00AB4EC1 /* SERootRouter.h */,
+				53BEF2451DFD9E6B00AB4EC1 /* SERootRouter.m */,
 			);
 			path = Router;
 			sourceTree = "<group>";
 		};
-		53BEF2391DFD9CB400AB4EC1 = {
+		53BEF2391DFD9CB400AB4EC1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF23A1DFD9CF900AB4EC1,
-				53BEF23B1DFD9D1100AB4EC1,
-				53BEF23C1DFD9D2A00AB4EC1,
-				53BEF23D1DFD9D2A00AB4EC1,
+				53BEF23A1DFD9CF900AB4EC1 /* SERootViewInput.h */,
+				53BEF23B1DFD9D1100AB4EC1 /* SERootViewOutput.h */,
+				53BEF23C1DFD9D2A00AB4EC1 /* SERootView.h */,
+				53BEF23D1DFD9D2A00AB4EC1 /* SERootView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		53BEF23F1DFD9D4400AB4EC1 = {
+		53BEF23F1DFD9D4400AB4EC1 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF2401DFD9D4C00AB4EC1,
-				53BEF2411DFD9D4C00AB4EC1,
+				53BEF2401DFD9D4C00AB4EC1 /* SEViewController.h */,
+				53BEF2411DFD9D4C00AB4EC1 /* SEViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		53BEF24F1DFD9FAC00AB4EC1 = {
+		53BEF24F1DFD9FAC00AB4EC1 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF2501DFD9FBB00AB4EC1,
-				53BEF2511DFD9FBB00AB4EC1,
+				53BEF2501DFD9FBB00AB4EC1 /* SERootAssembly.h */,
+				53BEF2511DFD9FBB00AB4EC1 /* SERootAssembly.m */,
 			);
 			path = Assembly;
 			sourceTree = "<group>";
 		};
-		53BEF2571DFDAB9A00AB4EC1 = {
+		53BEF2571DFDAB9A00AB4EC1 /* Segue */ = {
 			isa = PBXGroup;
 			children = (
-				53BEF2581DFDABAC00AB4EC1,
-				53BEF2591DFDABAC00AB4EC1,
+				53BEF2581DFDABAC00AB4EC1 /* SESegueAddAsChild.h */,
+				53BEF2591DFDABAC00AB4EC1 /* SESegueAddAsChild.m */,
 			);
 			path = Segue;
 			sourceTree = "<group>";
 		};
-		59531B3A7AED24FC46652DA6 = {
+		59531B3A7AED24FC46652DA6 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				A8DFD517FC5EA3B9BB3159AC,
-				397B71568FC64136E0960777,
-				F5D98E4FCFD58C13A05A5013,
+				A8DFD517FC5EA3B9BB3159AC /* SESettingsRouterInput.h */,
+				397B71568FC64136E0960777 /* SESettingsRouter.h */,
+				F5D98E4FCFD58C13A05A5013 /* SESettingsRouter.m */,
 			);
-			name = Router;
 			path = Router;
 			sourceTree = "<group>";
 		};
-		768E4F0EF6C8C0BAA6F019E7 = {
+		768E4F0EF6C8C0BAA6F019E7 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				6BC5B604F93C30E21C5EF76C,
-				D95F10FDC9E27E768DE1F97B,
-				5BE7CA21F11B6253439F7349,
-				8E8131D64DB4E668D886B506,
+				6BC5B604F93C30E21C5EF76C /* SESettingsInteractorInput.h */,
+				D95F10FDC9E27E768DE1F97B /* SESettingsInteractorOutput.h */,
+				5BE7CA21F11B6253439F7349 /* SESettingsInteractor.h */,
+				8E8131D64DB4E668D886B506 /* SESettingsInteractor.m */,
 			);
-			name = Interactor;
 			path = Interactor;
 			sourceTree = "<group>";
 		};
-		835790B3EB9E2F14781A8F34 = {
+		835790B3EB9E2F14781A8F34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C663B50A4F7389B008FC8B74,
+				C663B50A4F7389B008FC8B74 /* libPods-skyeng-test-2.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		871413698BAB373B04BACDCC = {
+		871413698BAB373B04BACDCC /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				763EA1EA4DE692F71CC001CD,
-				24852F6A17FF68C3300C8F1E,
-				F232A45CEC274775461463BA,
+				53756EC11E013B8600D8D5CF /* SESettingsModuleOutput.h */,
+				763EA1EA4DE692F71CC001CD /* SESettingsModuleInput.h */,
+				24852F6A17FF68C3300C8F1E /* SESettingsPresenter.h */,
+				F232A45CEC274775461463BA /* SESettingsPresenter.m */,
 			);
-			name = Presenter;
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		8FFFF9C2DDAB833E5264ABB1 = {
+		8FFFF9C2DDAB833E5264ABB1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B97C0815155878C98BCB028D,
-				87B25C1FD77451DBEEC38854,
+				B97C0815155878C98BCB028D /* Pods-skyeng-test-2.debug.xcconfig */,
+				87B25C1FD77451DBEEC38854 /* Pods-skyeng-test-2.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		999374C263DE3E6BFA280023 = {
+		999374C263DE3E6BFA280023 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				FC119D7397556549F26ACC8B,
-				7293BFDAB27594CAD950EA5B,
+				FC119D7397556549F26ACC8B /* SESignInAssembly.h */,
+				7293BFDAB27594CAD950EA5B /* SESignInAssembly.m */,
 			);
 			path = Assembly;
 			sourceTree = "<group>";
 		};
-		9B9EC667DA4957F5E8B5DA18 = {
+		9B9EC667DA4957F5E8B5DA18 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				A0A179FD705B6E6D4ABB61CF,
-				FBD90A0D208102F05F4DCC5F,
-				39493BEB8933D9E1D8B63911,
-				96352630BBC6F7064DBA6560,
+				A0A179FD705B6E6D4ABB61CF /* SESignInInteractorInput.h */,
+				FBD90A0D208102F05F4DCC5F /* SESignInInteractorOutput.h */,
+				39493BEB8933D9E1D8B63911 /* SESignInInteractor.h */,
+				96352630BBC6F7064DBA6560 /* SESignInInteractor.m */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
 		};
-		B03D494F89855DFDD16D3D97 = {
+		A97EB3156C70DF5D3BED831A /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				ACFCA6277B6FC2DB9D43FDEE,
-				4AA795B4EFE7FB4B65C7FA5C,
-				306B931C0F5235448C0395E1,
+				AE6A44615184B160E38A4384 /* SEConfirmCodeModuleInput.h */,
+				C6A6696FD629DF99D4E47BB2 /* SEConfirmCodePresenter.h */,
+				73E23731E834B61800C2AB94 /* SEConfirmCodePresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B03D494F89855DFDD16D3D97 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				ACFCA6277B6FC2DB9D43FDEE /* SESignInRouterInput.h */,
+				4AA795B4EFE7FB4B65C7FA5C /* SESignInRouter.h */,
+				306B931C0F5235448C0395E1 /* SESignInRouter.m */,
 			);
 			path = Router;
 			sourceTree = "<group>";
 		};
-		D85331A66D2FAFF65C3FB5DB = {
+		B6A9D20DE41BFD0E85301656 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				A19C41DB86C5F9AF7B1D20B1,
-				3039AF5F755A91C826FBCB0B,
+				368F9962E17ABC111D77A1A3 /* SEConfirmCodeAssembly.h */,
+				982B0B53E19738820F84E31F /* SEConfirmCodeAssembly.m */,
 			);
-			name = Assembly;
 			path = Assembly;
 			sourceTree = "<group>";
 		};
-		EE6CC58C8EA71682ED66CB95 = {
+		D85331A66D2FAFF65C3FB5DB /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				F6CD484498E3F602AA25E43E,
-				372ABC1E28DADE693E7DED2A,
-				9B9EC667DA4957F5E8B5DA18,
-				B03D494F89855DFDD16D3D97,
-				999374C263DE3E6BFA280023,
+				A19C41DB86C5F9AF7B1D20B1 /* SESettingsAssembly.h */,
+				3039AF5F755A91C826FBCB0B /* SESettingsAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		ECEFD63D138396F383899152 /* ConfirmCode */ = {
+			isa = PBXGroup;
+			children = (
+				27D19A693C906F40A4B37116 /* View */,
+				A97EB3156C70DF5D3BED831A /* Presenter */,
+				F7B6BEF118BF2A6669042AD3 /* Interactor */,
+				1F48C54A1CB1475A144056CB /* Router */,
+				B6A9D20DE41BFD0E85301656 /* Assembly */,
+			);
+			path = ConfirmCode;
+			sourceTree = "<group>";
+		};
+		EE6CC58C8EA71682ED66CB95 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				F6CD484498E3F602AA25E43E /* View */,
+				372ABC1E28DADE693E7DED2A /* Presenter */,
+				9B9EC667DA4957F5E8B5DA18 /* Interactor */,
+				B03D494F89855DFDD16D3D97 /* Router */,
+				999374C263DE3E6BFA280023 /* Assembly */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
 		};
-		F6CD484498E3F602AA25E43E = {
+		F6CD484498E3F602AA25E43E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				78F441F727F16B7248D41F43,
-				6D99633BBE334DAC5012DE95,
-				EA2116757351FE0B196C0FC2,
-				8D15A31FF49BEBECBB35D3CC,
+				78F441F727F16B7248D41F43 /* SESignInViewInput.h */,
+				6D99633BBE334DAC5012DE95 /* SESignInViewOutput.h */,
+				EA2116757351FE0B196C0FC2 /* SESignInView.h */,
+				8D15A31FF49BEBECBB35D3CC /* SESignInView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F7B6BEF118BF2A6669042AD3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				21D2C43AAE6B40E51662F65E /* SEConfirmCodeInteractorInput.h */,
+				BA11D0680833264B3B3F757E /* SEConfirmCodeInteractorOutput.h */,
+				EC271EFA066BE46CEEC513B4 /* SEConfirmCodeInteractor.h */,
+				3E40A05694D26B319A598F02 /* SEConfirmCodeInteractor.m */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		53BEF1E11DFD8E3700AB4EC1 = {
+		53BEF1E11DFD8E3700AB4EC1 /* skyeng-test-2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53BEF20F1DFD8E3700AB4EC1;
+			buildConfigurationList = 53BEF20F1DFD8E3700AB4EC1 /* Build configuration list for PBXNativeTarget "skyeng-test-2" */;
 			buildPhases = (
-				6FD470FEAE311F1E2B598AF5,
-				53BEF1DE1DFD8E3700AB4EC1,
-				53BEF1DF1DFD8E3700AB4EC1,
-				53BEF1E01DFD8E3700AB4EC1,
-				C847B772F2BF99C6DE43E1F5,
-				D7B525253D0FD2C65F0608A9,
+				6FD470FEAE311F1E2B598AF5 /* [CP] Check Pods Manifest.lock */,
+				53BEF1DE1DFD8E3700AB4EC1 /* Sources */,
+				53BEF1DF1DFD8E3700AB4EC1 /* Frameworks */,
+				53BEF1E01DFD8E3700AB4EC1 /* Resources */,
+				C847B772F2BF99C6DE43E1F5 /* [CP] Embed Pods Frameworks */,
+				D7B525253D0FD2C65F0608A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1194,49 +801,49 @@
 			);
 			name = "skyeng-test-2";
 			productName = "skyeng-test-2";
-			productReference = 53BEF1E21DFD8E3700AB4EC1;
+			productReference = 53BEF1E21DFD8E3700AB4EC1 /* skyeng-test-2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		53BEF1FA1DFD8E3700AB4EC1 = {
+		53BEF1FA1DFD8E3700AB4EC1 /* skyeng-test-2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53BEF2121DFD8E3700AB4EC1;
+			buildConfigurationList = 53BEF2121DFD8E3700AB4EC1 /* Build configuration list for PBXNativeTarget "skyeng-test-2Tests" */;
 			buildPhases = (
-				53BEF1F71DFD8E3700AB4EC1,
-				53BEF1F81DFD8E3700AB4EC1,
-				53BEF1F91DFD8E3700AB4EC1,
+				53BEF1F71DFD8E3700AB4EC1 /* Sources */,
+				53BEF1F81DFD8E3700AB4EC1 /* Frameworks */,
+				53BEF1F91DFD8E3700AB4EC1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				53BEF1FD1DFD8E3700AB4EC1,
+				53BEF1FD1DFD8E3700AB4EC1 /* PBXTargetDependency */,
 			);
 			name = "skyeng-test-2Tests";
 			productName = "skyeng-test-2Tests";
-			productReference = 53BEF1FB1DFD8E3700AB4EC1;
+			productReference = 53BEF1FB1DFD8E3700AB4EC1 /* skyeng-test-2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		53BEF2051DFD8E3700AB4EC1 = {
+		53BEF2051DFD8E3700AB4EC1 /* skyeng-test-2UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53BEF2151DFD8E3700AB4EC1;
+			buildConfigurationList = 53BEF2151DFD8E3700AB4EC1 /* Build configuration list for PBXNativeTarget "skyeng-test-2UITests" */;
 			buildPhases = (
-				53BEF2021DFD8E3700AB4EC1,
-				53BEF2031DFD8E3700AB4EC1,
-				53BEF2041DFD8E3700AB4EC1,
+				53BEF2021DFD8E3700AB4EC1 /* Sources */,
+				53BEF2031DFD8E3700AB4EC1 /* Frameworks */,
+				53BEF2041DFD8E3700AB4EC1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				53BEF2081DFD8E3700AB4EC1,
+				53BEF2081DFD8E3700AB4EC1 /* PBXTargetDependency */,
 			);
 			name = "skyeng-test-2UITests";
 			productName = "skyeng-test-2UITests";
-			productReference = 53BEF2061DFD8E3700AB4EC1;
+			productReference = 53BEF2061DFD8E3700AB4EC1 /* skyeng-test-2UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		53BEF1DA1DFD8E3700AB4EC1 = {
+		53BEF1DA1DFD8E3700AB4EC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SE;
@@ -1262,7 +869,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 53BEF1DD1DFD8E3700AB4EC1;
+			buildConfigurationList = 53BEF1DD1DFD8E3700AB4EC1 /* Build configuration list for PBXProject "skyeng-test-2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1271,38 +878,37 @@
 				Base,
 			);
 			mainGroup = 53BEF1D91DFD8E3700AB4EC1;
-			productRefGroup = 53BEF1E31DFD8E3700AB4EC1;
+			productRefGroup = 53BEF1E31DFD8E3700AB4EC1 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
-				53BEF1E11DFD8E3700AB4EC1,
-				53BEF1FA1DFD8E3700AB4EC1,
-				53BEF2051DFD8E3700AB4EC1,
+				53BEF1E11DFD8E3700AB4EC1 /* skyeng-test-2 */,
+				53BEF1FA1DFD8E3700AB4EC1 /* skyeng-test-2Tests */,
+				53BEF2051DFD8E3700AB4EC1 /* skyeng-test-2UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		53BEF1E01DFD8E3700AB4EC1 = {
+		53BEF1E01DFD8E3700AB4EC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53BEF22C1DFD8F0300AB4EC1,
-				53BEF22E1DFD8F0300AB4EC1,
-				53BEF22D1DFD8F0300AB4EC1,
+				5342452F1E02558400B50161 /* OpenSans-Light.ttf in Resources */,
+				53BEF22E1DFD8F0300AB4EC1 /* Assets.xcassets in Resources */,
+				534245301E02558400B50161 /* OpenSans-Regular.ttf in Resources */,
+				5342452C1E02557800B50161 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53BEF1F91DFD8E3700AB4EC1 = {
+		53BEF1F91DFD8E3700AB4EC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53BEF2041DFD8E3700AB4EC1 = {
+		53BEF2041DFD8E3700AB4EC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1312,7 +918,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6FD470FEAE311F1E2B598AF5 = {
+		6FD470FEAE311F1E2B598AF5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1327,7 +933,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C847B772F2BF99C6DE43E1F5 = {
+		C847B772F2BF99C6DE43E1F5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1342,7 +948,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skyeng-test-2/Pods-skyeng-test-2-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D7B525253D0FD2C65F0608A9 = {
+		D7B525253D0FD2C65F0608A9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1360,90 +966,104 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		53BEF1DE1DFD8E3700AB4EC1 = {
+		53BEF1DE1DFD8E3700AB4EC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53BEF2461DFD9E6C00AB4EC1,
-				53B901081DFEAFD90081E303,
-				53BEF2421DFD9D4C00AB4EC1,
-				53BEF25A1DFDABAC00AB4EC1,
-				53BEF2491DFD9E9900AB4EC1,
-				53B901011DFEAAFA0081E303,
-				53B9010B1DFEAFF10081E303,
-				53BEF23E1DFD9D2A00AB4EC1,
-				53BEF2301DFD8F0300AB4EC1,
-				53BEF2551DFDA6B600AB4EC1,
-				53BEF24E1DFD9EDD00AB4EC1,
-				53B9010F1DFEB06A0081E303,
-				53BEF22B1DFD8F0300AB4EC1,
-				53BEF2521DFD9FBB00AB4EC1,
-				6B21CDEFAD845F1AD15CFF71,
-				4EB6214E451CF5F5CF86BC57,
-				0D77D6D7D89D465F4EA4A802,
-				F4A5B87E2B54DB33C706DAD4,
-				4FBBE230C08B7A438D3A7F19,
-				53B901051DFEAE770081E303,
-				E66DF91786184AC15CF207D4,
-				502527A55C7079847592D8B0,
-				86185AE67F334C2165E11E46,
-				F69858DC90A02BD7BCDD4C6E,
-				DC39EE2E7C6C498EC9BA8DDB,
+				53BEF2461DFD9E6C00AB4EC1 /* SERootRouter.m in Sources */,
+				53756EED1E02491100D8D5CF /* NSNotificationCenter+APL.m in Sources */,
+				53756EE61E02491100D8D5CF /* APLBlocks.m in Sources */,
+				53B901081DFEAFD90081E303 /* SEApiServiceBase.m in Sources */,
+				53BEF2421DFD9D4C00AB4EC1 /* SEViewController.m in Sources */,
+				53BEF25A1DFDABAC00AB4EC1 /* SESegueAddAsChild.m in Sources */,
+				53BEF2491DFD9E9900AB4EC1 /* SERootPresenter.m in Sources */,
+				53B901011DFEAAFA0081E303 /* SEStateServiceBase.m in Sources */,
+				53B9010B1DFEAFF10081E303 /* SESyncServiceBase.m in Sources */,
+				53BEF23E1DFD9D2A00AB4EC1 /* SERootView.m in Sources */,
+				53BEF2301DFD8F0300AB4EC1 /* main.m in Sources */,
+				53756EE81E02491100D8D5CF /* APLFileSystem.m in Sources */,
+				53756EF71E024C6800D8D5CF /* UIView+Relayout.m in Sources */,
+				53756EC51E02480100D8D5CF /* SERoundedButton.m in Sources */,
+				53756EF11E02491100D8D5CF /* UIColor+APL.m in Sources */,
+				53756EF01E02491100D8D5CF /* NSString+Utils.m in Sources */,
+				53BEF2551DFDA6B600AB4EC1 /* SEAppAssembly.m in Sources */,
+				53BEF24E1DFD9EDD00AB4EC1 /* SERootInteractor.m in Sources */,
+				53B9010F1DFEB06A0081E303 /* SEModuleAssembly.m in Sources */,
+				53BEF22B1DFD8F0300AB4EC1 /* AppDelegate.m in Sources */,
+				534245391E02569800B50161 /* SESecondaryButton.m in Sources */,
+				53756EEE1E02491100D8D5CF /* NSObject+APL.m in Sources */,
+				53BEF2521DFD9FBB00AB4EC1 /* SERootAssembly.m in Sources */,
+				6B21CDEFAD845F1AD15CFF71 /* SESignInView.m in Sources */,
+				4EB6214E451CF5F5CF86BC57 /* SESignInPresenter.m in Sources */,
+				0D77D6D7D89D465F4EA4A802 /* SESignInInteractor.m in Sources */,
+				534245271E02543B00B50161 /* SETextField.m in Sources */,
+				53756EFA1E024E2300D8D5CF /* SEAppTheme.m in Sources */,
+				53756EEC1E02491100D8D5CF /* APLView.m in Sources */,
+				F4A5B87E2B54DB33C706DAD4 /* SESignInRouter.m in Sources */,
+				4FBBE230C08B7A438D3A7F19 /* SESignInAssembly.m in Sources */,
+				53B901051DFEAE770081E303 /* SEServicesAssembly.m in Sources */,
+				E66DF91786184AC15CF207D4 /* SESettingsView.m in Sources */,
+				502527A55C7079847592D8B0 /* SESettingsPresenter.m in Sources */,
+				86185AE67F334C2165E11E46 /* SESettingsInteractor.m in Sources */,
+				534245361E02564A00B50161 /* SEPrimaryButton.m in Sources */,
+				53756EEB1E02491100D8D5CF /* APLTextHelper.m in Sources */,
+				F69858DC90A02BD7BCDD4C6E /* SESettingsRouter.m in Sources */,
+				DC39EE2E7C6C498EC9BA8DDB /* SESettingsAssembly.m in Sources */,
+				53756EE91E02491100D8D5CF /* APLKeyboardHelper.m in Sources */,
+				09D50245E00189CF0F8FA0FB /* SEConfirmCodeView.m in Sources */,
+				D0D7A4FBE5D0D333A20BBB6B /* SEConfirmCodePresenter.m in Sources */,
+				9534E60BA561375E3BF0C3E9 /* SEConfirmCodeInteractor.m in Sources */,
+				7B12F56DD7037FF97C3376EE /* SEConfirmCodeRouter.m in Sources */,
+				53756EEA1E02491100D8D5CF /* APLPageControl.m in Sources */,
+				53756EEF1E02491100D8D5CF /* NSString+Attributing.m in Sources */,
+				5C350555A24F68CE8F122AAE /* SEConfirmCodeAssembly.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53BEF1F71DFD8E3700AB4EC1 = {
+		53BEF1F71DFD8E3700AB4EC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53BEF2001DFD8E3700AB4EC1,
+				53BEF2001DFD8E3700AB4EC1 /* skyeng_test_2Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53BEF2021DFD8E3700AB4EC1 = {
+		53BEF2021DFD8E3700AB4EC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53BEF20B1DFD8E3700AB4EC1,
+				53BEF20B1DFD8E3700AB4EC1 /* skyeng_test_2UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		53BEF1FD1DFD8E3700AB4EC1 = {
+		53BEF1FD1DFD8E3700AB4EC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 53BEF1E11DFD8E3700AB4EC1;
-			targetProxy = 53BEF1FC1DFD8E3700AB4EC1;
+			target = 53BEF1E11DFD8E3700AB4EC1 /* skyeng-test-2 */;
+			targetProxy = 53BEF1FC1DFD8E3700AB4EC1 /* PBXContainerItemProxy */;
 		};
-		53BEF2081DFD8E3700AB4EC1 = {
+		53BEF2081DFD8E3700AB4EC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 53BEF1E11DFD8E3700AB4EC1;
-			targetProxy = 53BEF2071DFD8E3700AB4EC1;
+			target = 53BEF1E11DFD8E3700AB4EC1 /* skyeng-test-2 */;
+			targetProxy = 53BEF2071DFD8E3700AB4EC1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		53BEF21C1DFD8F0300AB4EC1 = {
+		534245291E02557800B50161 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				53BEF21D1DFD8F0300AB4EC1,
+				5342452A1E02557800B50161 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		53BEF21E1DFD8F0300AB4EC1 = {
-			isa = PBXVariantGroup;
-			children = (
-				53BEF21F1DFD8F0300AB4EC1,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		53BEF20D1DFD8E3700AB4EC1 = {
+		53BEF20D1DFD8E3700AB4EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1490,7 +1110,7 @@
 			};
 			name = Debug;
 		};
-		53BEF20E1DFD8E3700AB4EC1 = {
+		53BEF20E1DFD8E3700AB4EC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1531,9 +1151,9 @@
 			};
 			name = Release;
 		};
-		53BEF2101DFD8E3700AB4EC1 = {
+		53BEF2101DFD8E3700AB4EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B97C0815155878C98BCB028D;
+			baseConfigurationReference = B97C0815155878C98BCB028D /* Pods-skyeng-test-2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5UBV5976ME;
@@ -1544,9 +1164,9 @@
 			};
 			name = Debug;
 		};
-		53BEF2111DFD8E3700AB4EC1 = {
+		53BEF2111DFD8E3700AB4EC1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87B25C1FD77451DBEEC38854;
+			baseConfigurationReference = 87B25C1FD77451DBEEC38854 /* Pods-skyeng-test-2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5UBV5976ME;
@@ -1557,7 +1177,7 @@
 			};
 			name = Release;
 		};
-		53BEF2131DFD8E3700AB4EC1 = {
+		53BEF2131DFD8E3700AB4EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1570,7 +1190,7 @@
 			};
 			name = Debug;
 		};
-		53BEF2141DFD8E3700AB4EC1 = {
+		53BEF2141DFD8E3700AB4EC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1583,7 +1203,7 @@
 			};
 			name = Release;
 		};
-		53BEF2161DFD8E3700AB4EC1 = {
+		53BEF2161DFD8E3700AB4EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 5UBV5976ME;
@@ -1595,7 +1215,7 @@
 			};
 			name = Debug;
 		};
-		53BEF2171DFD8E3700AB4EC1 = {
+		53BEF2171DFD8E3700AB4EC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 5UBV5976ME;
@@ -1610,43 +1230,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		53BEF1DD1DFD8E3700AB4EC1 = {
+		53BEF1DD1DFD8E3700AB4EC1 /* Build configuration list for PBXProject "skyeng-test-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53BEF20D1DFD8E3700AB4EC1,
-				53BEF20E1DFD8E3700AB4EC1,
+				53BEF20D1DFD8E3700AB4EC1 /* Debug */,
+				53BEF20E1DFD8E3700AB4EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53BEF20F1DFD8E3700AB4EC1 = {
+		53BEF20F1DFD8E3700AB4EC1 /* Build configuration list for PBXNativeTarget "skyeng-test-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53BEF2101DFD8E3700AB4EC1,
-				53BEF2111DFD8E3700AB4EC1,
+				53BEF2101DFD8E3700AB4EC1 /* Debug */,
+				53BEF2111DFD8E3700AB4EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53BEF2121DFD8E3700AB4EC1 = {
+		53BEF2121DFD8E3700AB4EC1 /* Build configuration list for PBXNativeTarget "skyeng-test-2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53BEF2131DFD8E3700AB4EC1,
-				53BEF2141DFD8E3700AB4EC1,
+				53BEF2131DFD8E3700AB4EC1 /* Debug */,
+				53BEF2141DFD8E3700AB4EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53BEF2151DFD8E3700AB4EC1 = {
+		53BEF2151DFD8E3700AB4EC1 /* Build configuration list for PBXNativeTarget "skyeng-test-2UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53BEF2161DFD8E3700AB4EC1,
-				53BEF2171DFD8E3700AB4EC1,
+				53BEF2161DFD8E3700AB4EC1 /* Debug */,
+				53BEF2171DFD8E3700AB4EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 53BEF1DA1DFD8E3700AB4EC1;
+	rootObject = 53BEF1DA1DFD8E3700AB4EC1 /* Project object */;
 }

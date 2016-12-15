@@ -9,7 +9,7 @@
 
 
 #import "SESettingsRouter.h"
-#import <APLModuleOpenPromise.h>
+#import <APLViperStack.h>
 
 @interface SESettingsRouter ()
 

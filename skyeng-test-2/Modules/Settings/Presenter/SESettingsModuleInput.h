@@ -9,3 +9,8 @@
 
 
 #import <Foundation/Foundation.h>
+#import <APLViperStack.h>
+
+@protocol SESettingsModuleInput <APLModuleInput>
+
+@end

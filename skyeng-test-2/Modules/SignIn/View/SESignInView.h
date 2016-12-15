@@ -14,6 +14,6 @@
 
 @interface SESignInView : SEViewController
 
-@property (nonatomic, weak) id<SESignInViewOutput> output;
+@property (nonatomic, strong) id<SESignInViewOutput> output;
 
 @end

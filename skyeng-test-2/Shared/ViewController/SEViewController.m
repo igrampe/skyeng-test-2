@@ -15,6 +15,8 @@
 
 @implementation SEViewController
 
+@synthesize moduleInput;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupView];

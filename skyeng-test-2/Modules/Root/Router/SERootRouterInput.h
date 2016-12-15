@@ -11,6 +11,8 @@
 @protocol SERootRouterInput <NSObject>
 
 - (void)openSignInModule;
+- (void)closeSignInModule;
 - (void)openSettingsModule;
+- (void)closeSettingsModule;
 
 @end

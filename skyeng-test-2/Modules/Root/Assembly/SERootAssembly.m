@@ -11,6 +11,7 @@
 #import "SERootPresenter.h"
 #import "SERootRouter.h"
 #import "SERootInteractor.h"
+#import "SESegueAddAsChild.h"
 
 @implementation SERootAssembly
 
@@ -42,8 +43,16 @@
             ^(TyphoonDefinition *definition) {
                 [definition injectProperty:@selector(transitionHandler)
                                       with:[self viewRoot]];
+                
                 [definition injectProperty:@selector(signInAssembly)
                                       with:self.singInAssembly];
+                [definition injectProperty:@selector(signInModuleOutput)
+                                      with:[self presenterRoot]];
+                
+                [definition injectProperty:@selector(settingsAssembly)
+                                      with:self.settingsAssembly];
+                [definition injectProperty:@selector(settingsModuleOutput)
+                                      with:[self presenterRoot]];
             }];
 }
 

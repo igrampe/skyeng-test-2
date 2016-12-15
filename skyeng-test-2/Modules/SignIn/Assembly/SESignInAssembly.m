@@ -22,6 +22,8 @@
             ^(TyphoonDefinition *definition) {
                 [definition injectProperty:@selector(output)
                                       with:[self presenterSignIn]];
+                [definition injectProperty:@selector(moduleInput)
+                                      with:[self presenterSignIn]];
             }];
 }
 

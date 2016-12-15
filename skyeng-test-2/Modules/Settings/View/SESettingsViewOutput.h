@@ -12,4 +12,6 @@
 
 @protocol SESettingsViewOutput <NSObject>
 
+- (void)actionLogout;
+
 @end

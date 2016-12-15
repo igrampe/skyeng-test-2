@@ -9,7 +9,7 @@
 
 
 #import <Foundation/Foundation.h>
-#import <APLViperStack/TransitionHandler/APLTransitionHandler.h>
+#import <APLViperStack.h>
 #import "SESignInRouterInput.h"
 
 @interface SESignInRouter : NSObject <SESignInRouterInput>

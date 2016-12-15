@@ -6,8 +6,8 @@
 //  Copyright © 2016 igrampe. All rights reserved.
 //
 
-#import <APLViperStack/APLSegueBase.h>
+#import <APLViperStack.h>
 
-@interface SESegueAddAsChild : APLSegueBase
+@interface SESegueAddAsChild : APLSegue
 
 @end

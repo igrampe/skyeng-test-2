@@ -11,11 +11,19 @@
 #import "SESignInPresenter.h"
 #import "SESignInViewOutput.h"
 #import "SESignInInteractorOutput.h"
+#import "SESignInModuleInput.h"
+#import "SESignInModuleOutput.h"
 
-@interface SESignInPresenter () <SESignInViewOutput, SESignInInteractorOutput>
+@interface SESignInPresenter () <SESignInViewOutput, SESignInInteractorOutput, SESignInModuleInput>
 
 @end
 
 @implementation SESignInPresenter
+
+@synthesize moduleOutput;
+
+- (void)viewIsReady {
+    
+}
 
 @end

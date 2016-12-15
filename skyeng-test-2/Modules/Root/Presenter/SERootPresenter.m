@@ -9,8 +9,10 @@
 #import "SERootPresenter.h"
 #import "SERootViewOutput.h"
 #import "SERootInteractorOutput.h"
+#import "SESignInModuleOutput.h"
+#import "SESettingsModuleOutput.h"
 
-@interface SERootPresenter () <SERootViewOutput, SERootInteractorOutput>
+@interface SERootPresenter () <SERootViewOutput, SERootInteractorOutput, SESignInModuleOutput, SESettingsModuleOutput>
 
 @end
 
@@ -24,6 +26,18 @@
     } else {
         [self.router openSignInModule];
     }
+}
+
+#pragma mark - SESignInModuleOutput
+
+- (void)signInModuleDidFinish {
+    [self.router closeSignInModule];
+}
+
+#pragma mark - SESettingsModuleOutput
+
+- (void)settingsModuleDidFinish {
+    [self.router closeSettingsModule];
 }
 
 @end

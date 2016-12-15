@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <APLViperStack/TransitionHandler/APLTransitionHandler.h>
+#import <APLViperStack.h>
 #import "SERootRouterInput.h"
 #import "SESettingsAssembly.h"
 
@@ -17,7 +17,10 @@
 
 @property (nonatomic, weak) id<APLTransitionHandler> transitionHandler;
 
-@property (nonatomic, strong, readonly) SESignInAssembly *signInAssembly;
-@property (nonatomic, strong, readonly) SESettingsAssembly *settingsAssembly;
+@property (nonatomic, strong) SESignInAssembly *signInAssembly;
+@property (nonatomic, strong) SESettingsAssembly *settingsAssembly;
+
+@property (nonatomic, weak) id signInModuleOutput;
+@property (nonatomic, weak) id settingsModuleOutput;
 
 @end

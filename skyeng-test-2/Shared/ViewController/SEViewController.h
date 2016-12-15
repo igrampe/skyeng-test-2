@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <APLViperStack.h>
+#import "UIView+Relayout.h"
+#import "SEAppTheme.h"
 
-@interface SEViewController : UIViewController
+@interface SEViewController : UIViewController <APLTransitionHandler>
 
 @property (nonatomic, assign) BOOL didSetupConstraints;
 

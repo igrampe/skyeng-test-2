@@ -9,7 +9,7 @@
 
 
 #import <Foundation/Foundation.h>
-#import <APLViperStack/TransitionHandler/APLTransitionHandler.h>
+#import <APLViperStack.h>
 #import "SESettingsRouterInput.h"
 
 @interface SESettingsRouter : NSObject <SESettingsRouterInput>

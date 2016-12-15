@@ -10,9 +10,10 @@
 
 #import <UIKit/UIKit.h>
 #import "SESettingsViewOutput.h"
+#import "SEViewController.h"
 
-@interface SESettingsView : UIViewController
+@interface SESettingsView : SEViewController
 
-@property (nonatomic, weak) id<SESettingsViewOutput> output;
+@property (nonatomic, strong) id<SESettingsViewOutput> output;
 
 @end

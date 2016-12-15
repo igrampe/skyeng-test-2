@@ -12,4 +12,6 @@
 
 @protocol SESignInViewOutput <NSObject>
 
+- (void)viewIsReady;
+
 @end

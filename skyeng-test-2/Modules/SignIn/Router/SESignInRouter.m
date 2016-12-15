@@ -9,7 +9,7 @@
 
 
 #import "SESignInRouter.h"
-#import <APLModuleOpenPromise.h>
+#import <APLViperStack.h>
 
 @interface SESignInRouter ()
 

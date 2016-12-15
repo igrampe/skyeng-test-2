@@ -16,12 +16,11 @@
 
 - (void)setupView {
     [super setupView];
-    self.view.backgroundColor = [UIColor redColor];
+    [self.output viewIsReady];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    [self.output viewIsReady];
 }
 
 @end

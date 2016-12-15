@@ -11,18 +11,18 @@
 @implementation SESegueAddAsChild
 
 - (void)perform {
-    [self.sourceViewController addChildViewController:self.destinationViewController];
-    self.destinationViewController.view.frame = self.sourceViewController.view.bounds;
-    [self.sourceViewController.view addSubview:self.destinationViewController.view];
-    [self.destinationViewController didMoveToParentViewController:self.sourceViewController];
+    [self.source addChildViewController:self.destination];
+    self.destination.view.frame = self.source.view.bounds;
+    [self.source.view addSubview:self.destination.view];
+    [self.destination didMoveToParentViewController:self.source];
 }
 
 - (void)unwind {
-    [self.destinationViewController willMoveToParentViewController:nil];
-    [self.destinationViewController.view removeFromSuperview];
-    [self.destinationViewController removeFromParentViewController];
-    [self.sourceViewController viewWillAppear:NO];
-    [self.sourceViewController viewDidAppear:NO];
+    [self.destination willMoveToParentViewController:nil];
+    [self.destination.view removeFromSuperview];
+    [self.destination removeFromParentViewController];
+    [self.source viewWillAppear:NO];
+    [self.source viewDidAppear:NO];
 }
 
 @end

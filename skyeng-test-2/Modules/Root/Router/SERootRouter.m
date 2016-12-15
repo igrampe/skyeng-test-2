@@ -7,17 +7,16 @@
 //
 
 #import "SERootRouter.h"
-#import <APLModuleOpenPromise.h>
+#import <APLViperStack.h>
 #import "SESegueAddAsChild.h"
 #import "SESignInAssembly.h"
-
-static NSString *kSERootRouterOpenSignInModule = @"kSERootRouterOpenSignInModule";
-static NSString *kSERootRouterOpenSettingsModule = @"kSERootRouterOpenSettingsModule";
 
 @interface SERootRouter ()
 
 @property (nonatomic, strong) APLModuleOpenPromise *openSignInModulePromise;
 @property (nonatomic, strong) APLModuleOpenPromise *openSettingsModulePromise;
+@property (nonatomic, strong) APLSegue *openSignInSegue;
+@property (nonatomic, strong) APLSegue *openSettingsSegue;
 
 @end
 
@@ -26,25 +25,34 @@ static NSString *kSERootRouterOpenSettingsModule = @"kSERootRouterOpenSettingsMo
 #pragma mark - SERootRouterInput
 
 - (void)openSignInModule {
-    SESegueAddAsChild *segue = [[SESegueAddAsChild alloc] initWithIdentifier:kSERootRouterOpenSignInModule
-                                                                      source:(UIViewController *)self.transitionHandler
-                                                                 destination:self.signInAssembly.viewSignIn];
-    self.openSignInModulePromise = [self.transitionHandler openModuleWithSegue:segue];
-    [self.openSignInModulePromise linkWithBlock:
-     ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
-        return nil;
+    self.openSignInSegue = [SESegueAddAsChild new];
+    UINavigationController *navCtl = [[UINavigationController alloc] initWithRootViewController:self.signInAssembly.viewSignIn];
+    self.openSignInSegue.source = (UIViewController *)self.transitionHandler;
+    self.openSignInSegue.destination = navCtl;
+    self.openSignInModulePromise = [self.transitionHandler openModuleWithAPLSegue:self.openSignInSegue
+                                                                        linkBlock:
+                                    ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
+        return self.signInModuleOutput;
     }];
 }
 
+- (void)closeSignInModule {
+    [self.openSignInSegue unwind];
+}
+
 - (void)openSettingsModule {
-    SESegueAddAsChild *segue = [[SESegueAddAsChild alloc] initWithIdentifier:kSERootRouterOpenSettingsModule
-                                                                      source:(UIViewController *)self.transitionHandler
-                                                                 destination:self.settingsAssembly.viewSettings];
-    self.openSettingsModulePromise = [self.transitionHandler openModuleWithSegue:segue];
-    [self.openSettingsModulePromise linkWithBlock:
-     ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
-         return nil;
-     }];
+    self.openSettingsSegue = [SESegueAddAsChild new];
+    self.openSettingsSegue.source = (UIViewController *)self.transitionHandler;
+    self.openSettingsSegue.destination = self.settingsAssembly.viewSettings;
+    self.openSettingsModulePromise = [self.transitionHandler openModuleWithAPLSegue:self.openSettingsSegue
+                                                                          linkBlock:
+                                    ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
+                                        return self.settingsModuleOutput;
+                                    }];
+}
+
+- (void)closeSettingsModule {
+    [self.openSettingsSegue unwind];
 }
 
 @end
