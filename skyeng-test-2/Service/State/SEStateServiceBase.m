@@ -20,6 +20,7 @@ NSString *const SEStateServiceBaseDefaultsKeyLaunchesCount = @"SEStateServiceBas
 @implementation SEStateServiceBase
 
 @synthesize token = _token;
+@synthesize emailToLogin;
 
 - (instancetype)init {
     self = [super init];

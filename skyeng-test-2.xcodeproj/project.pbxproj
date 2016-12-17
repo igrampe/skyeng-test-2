@@ -18,6 +18,7 @@
 		534245301E02558400B50161 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5342452E1E02558400B50161 /* OpenSans-Regular.ttf */; };
 		534245361E02564A00B50161 /* SEPrimaryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 534245351E02564A00B50161 /* SEPrimaryButton.m */; };
 		534245391E02569800B50161 /* SESecondaryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 534245381E02569800B50161 /* SESecondaryButton.m */; };
+		5342453C1E05682700B50161 /* NSString+EmailValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5342453B1E05682700B50161 /* NSString+EmailValidate.m */; };
 		53756EC51E02480100D8D5CF /* SERoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756EC41E02480100D8D5CF /* SERoundedButton.m */; };
 		53756EE61E02491100D8D5CF /* APLBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756EC81E02491100D8D5CF /* APLBlocks.m */; };
 		53756EE81E02491100D8D5CF /* APLFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756ECC1E02491100D8D5CF /* APLFileSystem.m */; };
@@ -104,6 +105,8 @@
 		534245351E02564A00B50161 /* SEPrimaryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEPrimaryButton.m; sourceTree = "<group>"; };
 		534245371E02569800B50161 /* SESecondaryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESecondaryButton.h; sourceTree = "<group>"; };
 		534245381E02569800B50161 /* SESecondaryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESecondaryButton.m; sourceTree = "<group>"; };
+		5342453A1E05682700B50161 /* NSString+EmailValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EmailValidate.h"; sourceTree = "<group>"; };
+		5342453B1E05682700B50161 /* NSString+EmailValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EmailValidate.m"; sourceTree = "<group>"; };
 		53756EBC1E0123AB00D8D5CF /* SESignInModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESignInModuleOutput.h; sourceTree = "<group>"; };
 		53756EC11E013B8600D8D5CF /* SESettingsModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESettingsModuleOutput.h; sourceTree = "<group>"; };
 		53756EC31E02480100D8D5CF /* SERoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERoundedButton.h; sourceTree = "<group>"; };
@@ -475,6 +478,8 @@
 			children = (
 				53756EF81E024E2300D8D5CF /* SEAppTheme.h */,
 				53756EF91E024E2300D8D5CF /* SEAppTheme.m */,
+				5342453A1E05682700B50161 /* NSString+EmailValidate.h */,
+				5342453B1E05682700B50161 /* NSString+EmailValidate.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -994,6 +999,7 @@
 				53756EEE1E02491100D8D5CF /* NSObject+APL.m in Sources */,
 				53BEF2521DFD9FBB00AB4EC1 /* SERootAssembly.m in Sources */,
 				6B21CDEFAD845F1AD15CFF71 /* SESignInView.m in Sources */,
+				5342453C1E05682700B50161 /* NSString+EmailValidate.m in Sources */,
 				4EB6214E451CF5F5CF86BC57 /* SESignInPresenter.m in Sources */,
 				0D77D6D7D89D465F4EA4A802 /* SESignInInteractor.m in Sources */,
 				534245271E02543B00B50161 /* SETextField.m in Sources */,

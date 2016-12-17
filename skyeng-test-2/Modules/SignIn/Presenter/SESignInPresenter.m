@@ -14,6 +14,8 @@
 #import "SESignInModuleInput.h"
 #import "SESignInModuleOutput.h"
 
+#import "NSString+EmailValidate.h"
+
 @interface SESignInPresenter () <SESignInViewOutput, SESignInInteractorOutput, SESignInModuleInput>
 
 @end
@@ -22,8 +24,14 @@
 
 @synthesize moduleOutput;
 
+#pragma mark - SESignInViewOutput
+
 - (void)viewIsReady {
-    
+    [self.view setEmailFieldEnabled:NO];
+}
+
+- (void)eventEmailFieldTextDidChange:(NSString *)text {
+    [self.view setEmailFieldEnabled:(text && [text isValidEmail])];
 }
 
 @end

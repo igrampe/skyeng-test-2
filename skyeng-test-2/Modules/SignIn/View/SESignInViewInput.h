@@ -12,4 +12,6 @@
 
 @protocol SESignInViewInput <NSObject>
 
+- (void)setEmailFieldEnabled:(BOOL)enabled;
+
 @end

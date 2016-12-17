@@ -21,7 +21,8 @@
 - (UIColor *)colorText;
 - (UIColor *)colorHint;
 
-- (UIColor *)colorButtonPrimaryBackground;
+- (UIColor *)colorButtonPrimaryBackgroundNormal;
+- (UIColor *)colorButtonPrimaryBackgroundDisabled;
 - (UIColor *)colorButtonPrimaryTitle;
 
 - (UIColor *)colorButtonSecondaryBorder;

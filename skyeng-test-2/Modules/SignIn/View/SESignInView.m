@@ -17,7 +17,7 @@
 
 #import "APLKeyboardHelper.h"
 
-@interface SESignInView ()
+@interface SESignInView () <UITextFieldDelegate>
 
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic, strong) UILabel *headerLabel;
@@ -29,6 +29,10 @@
 @end
 
 @implementation SESignInView
+
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
 
 - (void)setupView {
     [super setupView];
@@ -85,11 +89,17 @@
                                                         keyboardSize.height,
                                                         self.scrollView.contentInset.right);
     }];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(textFieldTextDidChange:)
+                                                 name:UITextFieldTextDidChangeNotification
+                                               object:nil];
+    
+    [self.output viewIsReady];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    [self.output viewIsReady];
 }
 
 - (void)updateViewConstraints {
@@ -124,6 +134,23 @@
     [self.hintLabel autoPinEdgeToSuperviewEdge:ALEdgeRight withInset:16];
     [self.hintLabel autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.passwordButton withOffset:16];
     [self.hintLabel autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:16];
+}
+
+#pragma mark - SESignInViewInput
+
+- (void)setEmailFieldEnabled:(BOOL)enabled {
+    if (self.codeButton.enabled != enabled) {
+        self.codeButton.enabled = enabled;
+    }
+}
+
+#pragma mark - Notifications
+
+- (void)textFieldTextDidChange:(NSNotification *)notification {
+    UITextField *textField = [notification object];
+    if (textField == self.emailField) {
+        [self.output eventEmailFieldTextDidChange:self.emailField.text];
+    }
 }
 
 @end

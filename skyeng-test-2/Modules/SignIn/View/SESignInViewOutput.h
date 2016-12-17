@@ -13,5 +13,6 @@
 @protocol SESignInViewOutput <NSObject>
 
 - (void)viewIsReady;
+- (void)eventEmailFieldTextDidChange:(NSString *)text;
 
 @end

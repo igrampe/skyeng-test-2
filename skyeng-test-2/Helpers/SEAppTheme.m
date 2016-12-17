@@ -46,8 +46,12 @@
 
 #pragma mark -- Button
 
-- (UIColor *)colorButtonPrimaryBackground {
+- (UIColor *)colorButtonPrimaryBackgroundNormal {
     return UIColorWithHex(@"5D9CEC");
+}
+
+- (UIColor *)colorButtonPrimaryBackgroundDisabled {
+    return [UIColorWithHex(@"5D9CEC") colorWithAlphaComponent:0.5];;
 }
 
 - (UIColor *)colorButtonPrimaryTitle {

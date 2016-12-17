@@ -11,6 +11,7 @@
 @protocol SEStateService <NSObject>
 
 @property (nonatomic, strong) NSString *token;
+@property (nonatomic, strong) NSString *emailToLogin;
 
 - (BOOL)isAuthorized;
 
