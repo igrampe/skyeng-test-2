@@ -15,6 +15,7 @@
 #import "SESignInModuleOutput.h"
 
 #import "NSString+EmailValidate.h"
+#import "SEError.h"
 
 @interface SESignInPresenter () <SESignInViewOutput, SESignInInteractorOutput, SESignInModuleInput>
 
@@ -32,6 +33,33 @@
 
 - (void)eventEmailFieldTextDidChange:(NSString *)text {
     [self.view setEmailFieldEnabled:(text && [text isValidEmail])];
+}
+
+- (void)actionCodeButton {
+    NSString *email = [self.view valueEmail];
+    if ((email && [email isValidEmail])) {
+        [self.view showLoaderWithMessage:@"Отправка кода...".localized];
+        [self.interactor apiRequestCodeForEmail:email];
+    }
+}
+
+#pragma mark - SESignInInteractorOutput
+
+- (void)requestCodeDidFinishWithReciever:(SEAuthCodeReciever *)reciever {
+    [self.view hideLoader];
+    // Open confirm
+}
+
+- (void)requestCodeDidFailWithError:(NSError *)error {
+    NSString *title = @"Не удалось отправить код".localized;
+    NSString *message;
+    if ([error.domain isEqualToString:SEErrorDomainApp]) {
+        message = [SEError errorMessageForCode:error.code];
+    } else {
+        message = [SEError errorMessageForConnectionError];
+    }
+    [self.view hideLoader];
+    [self.view showErrorWithTitle:title message:message];
 }
 
 @end

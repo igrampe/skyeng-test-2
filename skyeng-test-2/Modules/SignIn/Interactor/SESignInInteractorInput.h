@@ -12,4 +12,6 @@
 
 @protocol SESignInInteractorInput <NSObject>
 
+- (void)apiRequestCodeForEmail:(NSString *)email;
+
 @end

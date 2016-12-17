@@ -10,8 +10,16 @@
 
 #import <Foundation/Foundation.h>
 
+@class SEAlertOption;
+
 @protocol SESignInViewInput <NSObject>
 
 - (void)setEmailFieldEnabled:(BOOL)enabled;
+
+- (NSString *)valueEmail;
+
+- (void)showLoaderWithMessage:(NSString *)message;
+- (void)hideLoader;
+- (void)showErrorWithTitle:(NSString *)title message:(NSString *)message;
 
 @end

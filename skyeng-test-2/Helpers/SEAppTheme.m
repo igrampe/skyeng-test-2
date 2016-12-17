@@ -8,6 +8,7 @@
 
 #import "SEAppTheme.h"
 #import "UIColor+APL.h"
+#import <SVProgressHUD.h>
 
 @implementation SEAppTheme
 
@@ -18,6 +19,12 @@
         _sharedInstance = [[self alloc] init];
     });
     return _sharedInstance;
+}
+
+- (void)configure {
+    [SVProgressHUD setBackgroundColor:UIColorWithHex(@"5A5A5A")];
+    [SVProgressHUD setForegroundColor:[UIColor whiteColor]];
+    [SVProgressHUD setDefaultAnimationType:SVProgressHUDAnimationTypeNative];
 }
 
 #pragma mark - Font

@@ -8,6 +8,7 @@
 
 #import "SEStateServiceBase.h"
 #import <UICKeyChainStore.h>
+#import "SEAuthCodeReciever.h"
 
 NSString *const SEStateServiceBaseDefaultsKeyLaunchesCount = @"SEStateServiceBaseDefaultsKeyLaunchesCount";
 
@@ -20,7 +21,7 @@ NSString *const SEStateServiceBaseDefaultsKeyLaunchesCount = @"SEStateServiceBas
 @implementation SEStateServiceBase
 
 @synthesize token = _token;
-@synthesize emailToLogin;
+@synthesize authCodeReciever;
 
 - (instancetype)init {
     self = [super init];

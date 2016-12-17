@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+@class SEAuthCodeReciever;
+
 @protocol SEStateService <NSObject>
 
 @property (nonatomic, strong) NSString *token;
-@property (nonatomic, strong) NSString *emailToLogin;
+@property (nonatomic, strong) SEAuthCodeReciever *authCodeReciever;
 
 - (BOOL)isAuthorized;
 

@@ -10,14 +10,17 @@
 
 #import "SESignInView.h"
 #import <PureLayout.h>
+#import <SVProgressHUD.h>
 
 #import "SETextField.h"
 #import "SEPrimaryButton.h"
 #import "SESecondaryButton.h"
+#import "SESignInViewInput.h"
 
 #import "APLKeyboardHelper.h"
 
-@interface SESignInView () <UITextFieldDelegate>
+
+@interface SESignInView () <UITextFieldDelegate, SESignInViewInput>
 
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic, strong) UILabel *headerLabel;
@@ -36,7 +39,7 @@
 
 - (void)setupView {
     [super setupView];
-    self.title = @"Вход";
+    self.title = @"Вход".localized;
     self.view.backgroundColor = [THEME colorMainBackground];
     
     self.scrollView = [UIScrollView newAutoLayoutView];
@@ -46,19 +49,23 @@
     self.headerLabel.numberOfLines = 0;
     self.headerLabel.font = [THEME primaryFontWithSize:15];
     self.headerLabel.textColor = [THEME colorText];
-    self.headerLabel.text = @"Войдите под вашим аккаунтом в школе Skyeng и получите доступ к мобильному личному кабинету.";
+    self.headerLabel.text = @"Войдите под вашим аккаунтом в школе Skyeng и получите доступ к мобильному личному кабинету.".localized;
     [self.scrollView addSubview:self.headerLabel];
     
     self.emailField = [SETextField newAutoLayoutView];
-    self.emailField.placeholder = @"Электронная почта";
+    self.emailField.placeholder = @"Электронная почта".localized;
+    self.emailField.keyboardType = UIKeyboardTypeEmailAddress;
     [self.scrollView addSubview:self.emailField];
     
     self.codeButton = [SEPrimaryButton newAutoLayoutView];
-    [self.codeButton setTitle:@"Получить код для входа" forState:UIControlStateNormal];
+    [self.codeButton setTitle:@"Получить код для входа".localized forState:UIControlStateNormal];
+    [self.codeButton addTarget:self.output
+                        action:@selector(actionCodeButton)
+              forControlEvents:UIControlEventTouchUpInside];
     [self.scrollView addSubview:self.codeButton];
     
     self.passwordButton = [SESecondaryButton newAutoLayoutView];
-    [self.passwordButton setTitle:@"Обычный вход с паролем" forState:UIControlStateNormal];
+    [self.passwordButton setTitle:@"Обычный вход с паролем".localized forState:UIControlStateNormal];
     [self.scrollView addSubview:self.passwordButton];
     
     self.hintLabel = [UILabel newAutoLayoutView];
@@ -66,7 +73,7 @@
     self.hintLabel.textColor = [THEME colorHint];
     self.hintLabel.numberOfLines = 0;
     self.hintLabel.textAlignment = NSTextAlignmentCenter;
-    self.hintLabel.text = @"Сложный пароль или не хотите искать — войдите по коду. Или используйте обычный вход.";
+    self.hintLabel.text = @"Сложный пароль или не хотите искать — войдите по коду. Или используйте обычный вход.".localized;
     [self.scrollView addSubview:self.hintLabel];
     
     [self.view relayout];
@@ -138,10 +145,37 @@
 
 #pragma mark - SESignInViewInput
 
+#pragma mark -- Configure
+
 - (void)setEmailFieldEnabled:(BOOL)enabled {
     if (self.codeButton.enabled != enabled) {
         self.codeButton.enabled = enabled;
     }
+}
+
+#pragma mark -- Getters
+
+- (NSString *)valueEmail {
+    return self.emailField.text;
+}
+
+#pragma mark -- Actions
+
+- (void)showLoaderWithMessage:(NSString *)message {
+    [SVProgressHUD showWithStatus:message];
+}
+
+- (void)hideLoader {
+    [SVProgressHUD popActivity];
+}
+
+- (void)showErrorWithTitle:(NSString *)title message:(NSString *)message {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *action = [UIAlertAction actionWithTitle:@"Попробовать снова".localized
+                                                     style:UIAlertActionStyleDefault
+                                                   handler:nil];
+    [alert addAction:action];
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 #pragma mark - Notifications

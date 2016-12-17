@@ -15,4 +15,6 @@
 - (void)viewIsReady;
 - (void)eventEmailFieldTextDidChange:(NSString *)text;
 
+- (void)actionCodeButton;
+
 @end

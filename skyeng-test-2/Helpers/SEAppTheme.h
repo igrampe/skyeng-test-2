@@ -14,6 +14,8 @@
 
 #define THEME [SEAppTheme sharedObject]
 
+- (void)configure;
+
 - (UIFont *)primaryFontWithSize:(CGFloat)size;
 - (UIFont *)secondaryFontWithSize:(CGFloat)size;
 

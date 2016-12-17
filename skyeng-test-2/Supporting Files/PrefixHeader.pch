@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  skyeng-test-2
+//
+//  Created by Semyon Belokovsky on 17/12/2016.
+//  Copyright © 2016 igrampe. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "NSString+Localized.h"
+
+#endif /* PrefixHeader_pch */

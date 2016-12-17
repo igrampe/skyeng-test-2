@@ -26,7 +26,7 @@
     [self.logoutButton addTarget:self.output
                           action:@selector(actionLogout)
                 forControlEvents:UIControlEventTouchUpInside];
-    [self.logoutButton setTitle:@"Logout" forState:UIControlStateNormal];
+    [self.logoutButton setTitle:@"Выход".localized forState:UIControlStateNormal];
     [self.logoutButton setTintColor:[UIColor blackColor]];
     self.logoutButton.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:self.logoutButton];

@@ -55,6 +55,8 @@
             ^(TyphoonDefinition *definition) {
                 [definition injectProperty:@selector(output)
                                       with:[self presenterSignIn]];
+                [definition injectProperty:@selector(apiService)
+                                      with:[self.servicesAssembly apiService]];
             }];
 }
 

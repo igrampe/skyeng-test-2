@@ -1,5 +1,5 @@
 //
-//  SEApiServiceBase.h
+//  SEApiServiceEmulator.h
 //  skyeng-test-2
 //
 //  Created by Semyon Belokovsky on 12/12/2016.
@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "SEApiService.h"
 
-@interface SEApiServiceBase : NSObject <SEApiService>
+@interface SEApiServiceEmulator : NSObject <SEApiService>
 
 @end

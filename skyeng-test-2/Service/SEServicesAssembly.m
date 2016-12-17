@@ -8,7 +8,7 @@
 
 #import "SEServicesAssembly.h"
 #import "SEStateServiceBase.h"
-#import "SEApiServiceBase.h"
+#import "SEApiServiceEmulator.h"
 #import "SESyncServiceBase.h"
 
 @implementation SEServicesAssembly
@@ -24,7 +24,7 @@
 }
 
 - (id<SEApiService>)apiService {
-    return [TyphoonDefinition withClass:[SEApiServiceBase class]
+    return [TyphoonDefinition withClass:[SEApiServiceEmulator class]
                           configuration:
             ^(TyphoonDefinition *definition) {
                 definition.scope = TyphoonScopeLazySingleton;

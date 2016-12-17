@@ -9,7 +9,11 @@
 
 
 #import <Foundation/Foundation.h>
+#import "SEAuthCodeReciever.h"
 
 @protocol SESignInInteractorOutput <NSObject>
+
+- (void)requestCodeDidFinishWithReciever:(SEAuthCodeReciever *)reciever;
+- (void)requestCodeDidFailWithError:(NSError *)error;
 
 @end

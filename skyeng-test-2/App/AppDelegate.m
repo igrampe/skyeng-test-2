@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SEAppTheme.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [THEME configure];
     self.window.rootViewController = self.rootViewController;
     [self.window makeKeyAndVisible];
     return YES;

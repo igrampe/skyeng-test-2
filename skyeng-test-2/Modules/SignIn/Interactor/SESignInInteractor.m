@@ -12,4 +12,19 @@
 
 @implementation SESignInInteractor
 
+@synthesize apiService;
+
+- (void)apiRequestCodeForEmail:(NSString *)email {
+    [self.apiService requestCodeForEmail:email
+                                 handler:
+     ^(NSError *error, SEAuthCodeReciever *reciever) {
+         if (error) {
+             [self.output requestCodeDidFailWithError:error];
+         } else {
+             [self.output requestCodeDidFinishWithReciever:reciever];
+         }
+     }];
+}
+
+
 @end

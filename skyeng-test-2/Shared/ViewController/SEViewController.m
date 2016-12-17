@@ -16,6 +16,7 @@
 @implementation SEViewController
 
 @synthesize moduleInput;
+@synthesize coordinator;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
