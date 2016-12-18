@@ -8,11 +8,11 @@
 //
 
 
-#import <UIKit/UIKit.h>
 #import "SEConfirmCodeViewOutput.h"
+#import "SEViewController.h"
 
-@interface SEConfirmCodeView : UIViewController
+@interface SEConfirmCodeView : SEViewController
 
-@property (nonatomic, weak) id<SEConfirmCodeViewOutput> output;
+@property (nonatomic, strong) id<SEConfirmCodeViewOutput> output;
 
 @end

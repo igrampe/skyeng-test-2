@@ -10,7 +10,11 @@
 
 #import "SEModuleAssembly.h"
 
+@class SEConfirmCodeAssembly;
+
 @interface SESignInAssembly : SEModuleAssembly
+
+@property (nonatomic, readonly) SEConfirmCodeAssembly *confirmCodeAssembly;
 
 - (UIViewController *)viewSignIn;
 

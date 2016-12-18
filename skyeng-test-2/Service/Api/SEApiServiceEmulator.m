@@ -20,14 +20,14 @@
 
 - (NSURLSessionTask *)requestCodeForEmail:(NSString *)email
                                   handler:(SEApiServiceRequestCodeHandler)handler {
-    if (self.reqestCodeAttemps == 0) {
+    if (self.reqestCodeAttemps == 0+100) {
         NSError *error = [[NSError alloc] initWithDomain:@"NETWORK"
                                                     code:500
                                                 userInfo:nil];
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             handler(error, nil);
         });
-    } else if (self.reqestCodeAttemps == 1) {
+    } else if (self.reqestCodeAttemps == 1+100) {
         NSError *error = [[NSError alloc] initWithDomain:SEErrorDomainApp
                                                     code:SEErrorCodeIncorrectEmail
                                                 userInfo:nil];

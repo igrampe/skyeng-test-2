@@ -22,6 +22,7 @@
 		5342453F1E0580D300B50161 /* SEAuthCodeReciever.m in Sources */ = {isa = PBXBuildFile; fileRef = 5342453E1E0580D300B50161 /* SEAuthCodeReciever.m */; };
 		534245491E058F4E00B50161 /* SEError.m in Sources */ = {isa = PBXBuildFile; fileRef = 534245481E058F4E00B50161 /* SEError.m */; };
 		5342454C1E05937B00B50161 /* NSString+Localized.m in Sources */ = {isa = PBXBuildFile; fileRef = 5342454B1E05937B00B50161 /* NSString+Localized.m */; };
+		534245501E06946A00B50161 /* SESeguePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5342454F1E06946A00B50161 /* SESeguePush.m */; };
 		53756EC51E02480100D8D5CF /* SERoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756EC41E02480100D8D5CF /* SERoundedButton.m */; };
 		53756EE61E02491100D8D5CF /* APLBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756EC81E02491100D8D5CF /* APLBlocks.m */; };
 		53756EE81E02491100D8D5CF /* APLFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756ECC1E02491100D8D5CF /* APLFileSystem.m */; };
@@ -117,6 +118,8 @@
 		5342454A1E05937B00B50161 /* NSString+Localized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Localized.h"; sourceTree = "<group>"; };
 		5342454B1E05937B00B50161 /* NSString+Localized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Localized.m"; sourceTree = "<group>"; };
 		5342454D1E0593C200B50161 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5342454E1E06946A00B50161 /* SESeguePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESeguePush.h; sourceTree = "<group>"; };
+		5342454F1E06946A00B50161 /* SESeguePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESeguePush.m; sourceTree = "<group>"; };
 		53756EBC1E0123AB00D8D5CF /* SESignInModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESignInModuleOutput.h; sourceTree = "<group>"; };
 		53756EC11E013B8600D8D5CF /* SESettingsModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESettingsModuleOutput.h; sourceTree = "<group>"; };
 		53756EC31E02480100D8D5CF /* SERoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERoundedButton.h; sourceTree = "<group>"; };
@@ -646,6 +649,8 @@
 			children = (
 				53BEF2581DFDABAC00AB4EC1 /* SESegueAddAsChild.h */,
 				53BEF2591DFDABAC00AB4EC1 /* SESegueAddAsChild.m */,
+				5342454E1E06946A00B50161 /* SESeguePush.h */,
+				5342454F1E06946A00B50161 /* SESeguePush.m */,
 			);
 			path = Segue;
 			sourceTree = "<group>";
@@ -997,6 +1002,7 @@
 				53756EED1E02491100D8D5CF /* NSNotificationCenter+APL.m in Sources */,
 				53756EE61E02491100D8D5CF /* APLBlocks.m in Sources */,
 				53B901081DFEAFD90081E303 /* SEApiServiceEmulator.m in Sources */,
+				534245501E06946A00B50161 /* SESeguePush.m in Sources */,
 				53BEF2421DFD9D4C00AB4EC1 /* SEViewController.m in Sources */,
 				5342454C1E05937B00B50161 /* NSString+Localized.m in Sources */,
 				53BEF25A1DFDABAC00AB4EC1 /* SESegueAddAsChild.m in Sources */,

@@ -10,9 +10,13 @@
 
 #import <Foundation/Foundation.h>
 #import "SEConfirmCodeInteractorOutput.h"
+#import "SEStateService.h"
+#import "SEApiService.h"
 
 @interface SEConfirmCodeInteractor : NSObject
 
 @property (nonatomic, weak) id<SEConfirmCodeInteractorOutput> output;
+@property (nonatomic, strong) id<SEStateService> stateService;
+@property (nonatomic, strong) id<SEApiService> apiService;
 
 @end

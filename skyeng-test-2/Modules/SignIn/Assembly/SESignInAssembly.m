@@ -46,6 +46,8 @@
             ^(TyphoonDefinition *definition) {
                 [definition injectProperty:@selector(transitionHandler)
                                       with:[self viewSignIn]];
+                [definition injectProperty:@selector(confirmCodeAssembly)
+                                      with:self.confirmCodeAssembly];
             }];
 }
 
@@ -57,6 +59,8 @@
                                       with:[self presenterSignIn]];
                 [definition injectProperty:@selector(apiService)
                                       with:[self.servicesAssembly apiService]];
+                [definition injectProperty:@selector(stateService)
+                                      with:[self.servicesAssembly stateService]];
             }];
 }
 

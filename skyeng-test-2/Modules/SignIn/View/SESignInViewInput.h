@@ -14,7 +14,7 @@
 
 @protocol SESignInViewInput <NSObject>
 
-- (void)setEmailFieldEnabled:(BOOL)enabled;
+- (void)setCodeButtonEnabled:(BOOL)enabled;
 
 - (NSString *)valueEmail;
 

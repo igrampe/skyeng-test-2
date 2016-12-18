@@ -12,4 +12,9 @@
 
 @protocol SEConfirmCodeViewInput <NSObject>
 
+- (void)setHeaderText:(NSString *)headerText;
+- (void)setCodeButtonTitle:(NSString *)title;
+- (void)setSignInButtonEnabled:(BOOL)enabled;
+- (void)setCodeButtonEnabled:(BOOL)enabled;
+
 @end

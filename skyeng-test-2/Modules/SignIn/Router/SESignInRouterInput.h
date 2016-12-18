@@ -12,4 +12,6 @@
 
 @protocol SESignInRouterInput <NSObject>
 
+- (void)openConfirmCodeModule;
+
 @end

@@ -14,6 +14,8 @@
 #import "SEConfirmCodeRouter.h"
 #import "SEConfirmCodeInteractor.h"
 
+#import "SEServicesAssembly.h"
+
 @implementation SEConfirmCodeAssembly
 
 - (SEConfirmCodeView *)viewConfirmCode {
@@ -53,11 +55,11 @@
             ^(TyphoonDefinition *definition) {
                 [definition injectProperty:@selector(output)
                                       with:[self presenterConfirmCode]];
+                [definition injectProperty:@selector(stateService)
+                                      with:[self.servicesAssembly stateService]];
+                [definition injectProperty:@selector(apiService)
+                                      with:[self.servicesAssembly apiService]];
             }];
-}
-
-- (UIViewController *)view {
-    return [self viewConfirmCode];
 }
 
 @end

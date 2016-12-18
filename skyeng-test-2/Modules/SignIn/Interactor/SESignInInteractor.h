@@ -11,10 +11,12 @@
 #import <Foundation/Foundation.h>
 #import "SESignInInteractorOutput.h"
 #import "SEApiService.h"
+#import "SEStateService.h"
 
 @interface SESignInInteractor : NSObject
 
 @property (nonatomic, weak) id<SESignInInteractorOutput> output;
 @property (nonatomic, strong) id<SEApiService> apiService;
+@property (nonatomic, strong) id<SEStateService> stateService;
 
 @end

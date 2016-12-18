@@ -10,8 +10,12 @@
 
 #import <Typhoon/Typhoon.h>
 
+@class SEServicesAssembly;
+
 @interface SEConfirmCodeAssembly : TyphoonAssembly
 
-- (UIViewController *)view;
+@property (nonatomic, readonly) SEServicesAssembly *servicesAssembly;
+
+- (UIViewController *)viewConfirmCode;
 
 @end

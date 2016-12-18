@@ -12,4 +12,10 @@
 
 @protocol SEConfirmCodeViewOutput <NSObject>
 
+- (void)eventViewIsReady;
+- (void)eventCodeFieldTextDidChange:(NSString *)text;
+
+- (void)actionSignIn;
+- (void)actionRequestCode;
+
 @end

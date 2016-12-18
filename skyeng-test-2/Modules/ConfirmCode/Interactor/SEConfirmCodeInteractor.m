@@ -9,7 +9,18 @@
 
 
 #import "SEConfirmCodeInteractor.h"
+#import "SEConfirmCodeInteractorInput.h"
+
+@interface SEConfirmCodeInteractor () <SEConfirmCodeInteractorInput>
+
+@end
 
 @implementation SEConfirmCodeInteractor
+
+#pragma mark - SEConfirmCodeInteractorInput
+
+- (SEAuthCodeReciever *)authCodeReciever {
+    return [self.stateService authCodeReciever];
+}
 
 @end

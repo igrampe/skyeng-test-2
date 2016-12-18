@@ -10,6 +10,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class SEAuthCodeReciever;
+
 @protocol SEConfirmCodeInteractorInput <NSObject>
+
+- (SEAuthCodeReciever *)authCodeReciever;
 
 @end

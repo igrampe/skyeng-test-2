@@ -27,6 +27,7 @@
 		<string>SERootAssembly</string>
 		<string>SESignInAssembly</string>
 		<string>SESettingsAssembly</string>
+		<string>SEConfirmCodeAssembly</string>
 	</array>
 	<key>UIAppFonts</key>
 	<array>

@@ -147,7 +147,7 @@
 
 #pragma mark -- Configure
 
-- (void)setEmailFieldEnabled:(BOOL)enabled {
+- (void)setCodeButtonEnabled:(BOOL)enabled {
     if (self.codeButton.enabled != enabled) {
         self.codeButton.enabled = enabled;
     }

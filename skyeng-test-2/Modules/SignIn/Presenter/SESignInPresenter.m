@@ -28,11 +28,11 @@
 #pragma mark - SESignInViewOutput
 
 - (void)viewIsReady {
-    [self.view setEmailFieldEnabled:NO];
+    [self.view setCodeButtonEnabled:NO];
 }
 
 - (void)eventEmailFieldTextDidChange:(NSString *)text {
-    [self.view setEmailFieldEnabled:(text && [text isValidEmail])];
+    [self.view setCodeButtonEnabled:(text && [text isValidEmail])];
 }
 
 - (void)actionCodeButton {
@@ -47,7 +47,7 @@
 
 - (void)requestCodeDidFinishWithReciever:(SEAuthCodeReciever *)reciever {
     [self.view hideLoader];
-    // Open confirm
+    [self.router openConfirmCodeModule];
 }
 
 - (void)requestCodeDidFailWithError:(NSError *)error {

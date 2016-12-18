@@ -12,8 +12,14 @@
 #import <APLViperStack.h>
 #import "SESignInRouterInput.h"
 
+@class SEConfirmCodeAssembly;
+
 @interface SESignInRouter : NSObject <SESignInRouterInput>
 
 @property (nonatomic, weak) id<APLTransitionHandler> transitionHandler;
+
+@property (nonatomic, strong) SEConfirmCodeAssembly *confirmCodeAssembly;
+
+@property (nonatomic, weak) id confirmCodeModuleOutput;
 
 @end

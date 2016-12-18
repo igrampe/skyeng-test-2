@@ -10,6 +10,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class SEAuthCodeReciever;
+
 @protocol SESignInInteractorInput <NSObject>
 
 - (void)apiRequestCodeForEmail:(NSString *)email;
