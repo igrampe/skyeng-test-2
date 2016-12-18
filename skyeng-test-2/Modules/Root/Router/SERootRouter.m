@@ -38,6 +38,7 @@
 
 - (void)closeSignInModule {
     [self.openSignInSegue unwind];
+    self.openSignInSegue = nil;
 }
 
 - (void)openSettingsModule {

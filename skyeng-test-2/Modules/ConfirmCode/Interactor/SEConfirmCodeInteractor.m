@@ -23,4 +23,31 @@
     return [self.stateService authCodeReciever];
 }
 
+- (void)signInWithAuthCode:(NSString *)authCode {
+    [self.apiService signInWithEmail:[self.stateService signInEmail]
+                                code:authCode
+                             handler:
+     ^(NSError *error, NSString *token) {
+         if (error) {
+             [self.output signInDidFailWithError:error];
+         } else {
+             [self.stateService setToken:token];
+             [self.output signInDidFinishWithToken:token];
+         }
+    }];
+}
+
+- (void)requestCode {
+    [self.apiService requestCodeForEmail:[self.stateService signInEmail]
+                                 handler:
+     ^(NSError *error, SEAuthCodeReciever *reciever) {
+         if (error) {
+             [self.output requestCodeDidFailWithError:error];
+         } else {
+             [self.stateService setAuthCodeReciever:reciever];
+             [self.output requestCodeDidFinishWithReciever:reciever];
+         }
+    }];
+}
+
 @end

@@ -12,6 +12,7 @@
 #import "SEConfirmCodeViewInput.h"
 
 #import <PureLayout.h>
+#import <SVProgressHUD.h>
 
 #import "APLKeyboardHelper.h"
 
@@ -128,6 +129,8 @@
 
 #pragma mark - SEConfirmCodeViewInput
 
+#pragma mark -- Configure
+
 - (void)setHeaderText:(NSString *)headerText {
     self.headerLabel.text = headerText;
 }
@@ -142,6 +145,35 @@
 
 - (void)setCodeButtonEnabled:(BOOL)enabled {
     self.codeButton.enabled = enabled;
+}
+
+#pragma mark -- Actions
+
+- (void)showLoaderWithMessage:(NSString *)message {
+    [SVProgressHUD showWithStatus:message];
+}
+
+- (void)hideLoader {
+    [SVProgressHUD popActivity];
+}
+
+- (void)showErrorWithTitle:(NSString *)title message:(NSString *)message {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *action = [UIAlertAction actionWithTitle:@"Попробовать снова".localized
+                                                     style:UIAlertActionStyleDefault
+                                                   handler:nil];
+    [alert addAction:action];
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
+- (void)showSuccessWithMessage:(NSString *)message {
+    [SVProgressHUD showSuccessWithStatus:message];
+}
+
+#pragma mark - Getters
+
+- (NSString *)valueCode {
+    return self.codeField.text;
 }
 
 #pragma mark - Notifications

@@ -19,7 +19,6 @@
 @property (nonatomic, weak) id<APLTransitionHandler> transitionHandler;
 
 @property (nonatomic, strong) SEConfirmCodeAssembly *confirmCodeAssembly;
-
 @property (nonatomic, weak) id confirmCodeModuleOutput;
 
 @end

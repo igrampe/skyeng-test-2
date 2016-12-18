@@ -20,6 +20,7 @@
              [self.output requestCodeDidFailWithError:error];
          } else {
              [self.stateService setAuthCodeReciever:reciever];
+             [self.stateService setSignInEmail:email];
              [self.output requestCodeDidFinishWithReciever:reciever];
          }
      }];

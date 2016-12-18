@@ -120,6 +120,7 @@
 		5342454D1E0593C200B50161 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		5342454E1E06946A00B50161 /* SESeguePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESeguePush.h; sourceTree = "<group>"; };
 		5342454F1E06946A00B50161 /* SESeguePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESeguePush.m; sourceTree = "<group>"; };
+		534245541E06D12000B50161 /* SEConfirmCodeModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeModuleOutput.h; sourceTree = "<group>"; };
 		53756EBC1E0123AB00D8D5CF /* SESignInModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESignInModuleOutput.h; sourceTree = "<group>"; };
 		53756EC11E013B8600D8D5CF /* SESettingsModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESettingsModuleOutput.h; sourceTree = "<group>"; };
 		53756EC31E02480100D8D5CF /* SERoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERoundedButton.h; sourceTree = "<group>"; };
@@ -730,6 +731,7 @@
 				AE6A44615184B160E38A4384 /* SEConfirmCodeModuleInput.h */,
 				C6A6696FD629DF99D4E47BB2 /* SEConfirmCodePresenter.h */,
 				73E23731E834B61800C2AB94 /* SEConfirmCodePresenter.m */,
+				534245541E06D12000B50161 /* SEConfirmCodeModuleOutput.h */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";

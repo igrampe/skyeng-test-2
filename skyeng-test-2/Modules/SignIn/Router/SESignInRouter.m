@@ -31,9 +31,9 @@
     self.openConfirmCodeSegue.destination = self.confirmCodeAssembly.viewConfirmCode;
     self.openConfirmCodeModulePromise = [self.transitionHandler openModuleWithAPLSegue:self.openConfirmCodeSegue
                                                                         linkBlock:
-                                    ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
-                                        return self.confirmCodeModuleOutput;
-                                    }];
+    ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
+        return self.confirmCodeModuleOutput;
+    }];
 }
 
 - (void)closeConfirmCodeModule {

@@ -24,6 +24,8 @@
             ^(TyphoonDefinition *definition) {
                 [definition injectProperty:@selector(output)
                                       with:[self presenterConfirmCode]];
+                [definition injectProperty:@selector(moduleInput)
+                                      with:[self presenterConfirmCode]];
             }];
 }
 

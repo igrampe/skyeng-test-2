@@ -11,10 +11,16 @@
 #import "SEConfirmCodePresenter.h"
 #import "SEConfirmCodeViewOutput.h"
 #import "SEConfirmCodeInteractorOutput.h"
+#import "SEConfirmCodeModuleInput.h"
+#import "SEConfirmCodeModuleOutput.h"
 
 #import "SEAuthCodeReciever.h"
+#import "SEError.h"
 
-@interface SEConfirmCodePresenter () <SEConfirmCodeViewOutput, SEConfirmCodeInteractorOutput>
+@interface SEConfirmCodePresenter ()
+<SEConfirmCodeViewOutput,
+SEConfirmCodeInteractorOutput,
+SEConfirmCodeModuleInput>
 
 @property (nonatomic, strong) NSTimer *codeTimer;
 @property (nonatomic, assign) NSInteger timeLeft;
@@ -23,20 +29,22 @@
 
 @implementation SEConfirmCodePresenter
 
+@synthesize moduleOutput;
+
 #pragma mark - SEConfirmCodeViewOutput
 
 - (void)startCodeTimer {
-    self.timeLeft = 300;
-    [self updateCodeButton];
+    self.timeLeft = 5;
+    [self updateUICodeButton];
     self.codeTimer = [NSTimer scheduledTimerWithTimeInterval:1
                                                      repeats:YES
                                                        block:
     ^(NSTimer *timer) {
-        [self updateCodeButton];
+        [self updateUICodeButton];
     }];
 }
 
-- (void)updateCodeButton {
+- (void)updateUICodeButton {
     self.timeLeft--;
     NSString *text = @"Выслать код повторно".localized;
     if (self.timeLeft > 0) {
@@ -51,9 +59,7 @@
     }
 }
 
-#pragma mark -- Events
-
-- (void)eventViewIsReady {
+- (void)updateUIHeaderText {
     SEAuthCodeReciever *reciever = [self.interactor authCodeReciever];
     NSString *recieverTypeText = @"";
     switch (reciever.type) {
@@ -70,9 +76,14 @@
                             recieverTypeText,
                             reciever.value];
     [self.view setHeaderText:headerText];
-    [self.view setSignInButtonEnabled:NO];
+}
+
+#pragma mark -- Events
+
+- (void)eventViewIsReady {
+    [self updateUIHeaderText];
     [self startCodeTimer];
-    [self.view setCodeButtonEnabled:NO];
+    [self.view setSignInButtonEnabled:NO];
 }
 
 - (void)eventCodeFieldTextDidChange:(NSString *)text {
@@ -82,11 +93,54 @@
 #pragma mark -- Actions
 
 - (void)actionSignIn {
-    
+    NSString *code = [self.view valueCode];
+    if (code.length > 3) {
+        [self.view showLoaderWithMessage:@"Выполняется вход...".localized];
+        [self.interactor signInWithAuthCode:code];
+    }
 }
 
 - (void)actionRequestCode {
-    
+    [self.view showLoaderWithMessage:@"Отправка кода...".localized];
+    [self.interactor requestCode];
+}
+
+#pragma mark - SEConfirmCodeInteractorOutput
+
+- (void)requestCodeDidFinishWithReciever:(SEAuthCodeReciever *)reciever {
+    [self updateUIHeaderText];
+    [self.view hideLoader];
+    [self.view setCodeButtonEnabled:NO];
+    [self startCodeTimer];
+}
+
+- (void)requestCodeDidFailWithError:(NSError *)error {
+    NSString *title = @"Не удалось отправить код".localized;
+    NSString *message;
+    if ([error.domain isEqualToString:SEErrorDomainApp]) {
+        message = [SEError errorMessageForCode:error.code];
+    } else {
+        message = [SEError errorMessageForConnectionError];
+    }
+    [self.view hideLoader];
+    [self.view showErrorWithTitle:title message:message];
+}
+
+- (void)signInDidFinishWithToken:(NSString *)token {
+    [self.view showSuccessWithMessage:@"Вход выполнен".localized];
+    [(id <SEConfirmCodeModuleOutput>)self.moduleOutput confirmCodeModuleDidFinish];
+}
+
+- (void)signInDidFailWithError:(NSError *)error {
+    NSString *title = @"Войти не удалось".localized;
+    NSString *message;
+    if ([error.domain isEqualToString:SEErrorDomainApp]) {
+        message = [SEError errorMessageForCode:error.code];
+    } else {
+        message = [SEError errorMessageForConnectionError];
+    }
+    [self.view hideLoader];
+    [self.view showErrorWithTitle:title message:message];
 }
 
 @end

@@ -14,10 +14,16 @@
 #import "SESignInModuleInput.h"
 #import "SESignInModuleOutput.h"
 
+#import "SEConfirmCodeModuleOutput.h"
+
 #import "NSString+EmailValidate.h"
 #import "SEError.h"
 
-@interface SESignInPresenter () <SESignInViewOutput, SESignInInteractorOutput, SESignInModuleInput>
+@interface SESignInPresenter ()
+<SESignInViewOutput,
+SESignInInteractorOutput,
+SESignInModuleInput,
+SEConfirmCodeModuleOutput>
 
 @end
 
@@ -60,6 +66,12 @@
     }
     [self.view hideLoader];
     [self.view showErrorWithTitle:title message:message];
+}
+
+#pragma mark - SEConfirmCodeModuleOutput
+
+- (void)confirmCodeModuleDidFinish {
+    [(id<SESignInModuleOutput>)self.moduleOutput signInModuleDidFinish];
 }
 
 @end

@@ -13,6 +13,7 @@
 @protocol SEStateService <NSObject>
 
 @property (nonatomic, strong) NSString *token;
+@property (nonatomic, strong) NSString *signInEmail;
 @property (nonatomic, strong) SEAuthCodeReciever *authCodeReciever;
 
 - (BOOL)isAuthorized;

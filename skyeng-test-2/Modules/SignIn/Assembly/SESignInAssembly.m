@@ -48,6 +48,8 @@
                                       with:[self viewSignIn]];
                 [definition injectProperty:@selector(confirmCodeAssembly)
                                       with:self.confirmCodeAssembly];
+                [definition injectProperty:@selector(confirmCodeModuleOutput)
+                                      with:[self presenterSignIn]];
             }];
 }
 

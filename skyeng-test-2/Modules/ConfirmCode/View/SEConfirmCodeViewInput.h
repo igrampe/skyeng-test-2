@@ -17,4 +17,11 @@
 - (void)setSignInButtonEnabled:(BOOL)enabled;
 - (void)setCodeButtonEnabled:(BOOL)enabled;
 
+- (void)showLoaderWithMessage:(NSString *)message;
+- (void)hideLoader;
+- (void)showErrorWithTitle:(NSString *)title message:(NSString *)message;
+- (void)showSuccessWithMessage:(NSString *)message;
+
+- (NSString *)valueCode;
+
 @end

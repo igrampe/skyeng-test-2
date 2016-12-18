@@ -18,9 +18,7 @@
 
 @implementation SERootPresenter
 
-#pragma mark - SERootViewOutput
-
-- (void)viewIsReady {
+- (void)openMain {
     if ([self.interactor isAuthorized]) {
         [self.router openSettingsModule];
     } else {
@@ -28,16 +26,24 @@
     }
 }
 
+#pragma mark - SERootViewOutput
+
+- (void)viewIsReady {
+    [self openMain];
+}
+
 #pragma mark - SESignInModuleOutput
 
 - (void)signInModuleDidFinish {
     [self.router closeSignInModule];
+    [self openMain];
 }
 
 #pragma mark - SESettingsModuleOutput
 
 - (void)settingsModuleDidFinish {
     [self.router closeSettingsModule];
+    [self openMain];
 }
 
 @end

@@ -16,4 +16,7 @@
 
 - (SEAuthCodeReciever *)authCodeReciever;
 
+- (void)signInWithAuthCode:(NSString *)authCode;
+- (void)requestCode;
+
 @end

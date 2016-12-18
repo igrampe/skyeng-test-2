@@ -10,6 +10,14 @@
 
 #import <Foundation/Foundation.h>
 
+@class SEAuthCodeReciever;
+
 @protocol SEConfirmCodeInteractorOutput <NSObject>
+
+- (void)requestCodeDidFinishWithReciever:(SEAuthCodeReciever *)reciever;
+- (void)requestCodeDidFailWithError:(NSError *)error;
+
+- (void)signInDidFinishWithToken:(NSString *)token;
+- (void)signInDidFailWithError:(NSError *)error;
 
 @end

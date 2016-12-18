@@ -50,12 +50,14 @@
 - (NSURLSessionTask *)signInWithEmail:(NSString *)email
                              password:(NSString *)password
                               handler:(SEApiServiceSignInHandler)handler {
+    handler(nil, @"11");
     return nil;
 }
 
 - (NSURLSessionTask *)signInWithEmail:(NSString *)email
                                  code:(NSString *)code
                               handler:(SEApiServiceSignInHandler)handler {
+    handler(nil, @"11");
     return nil;
 }
 
