@@ -12,4 +12,6 @@
 
 @protocol SESettingsInteractorInput <NSObject>
 
+- (void)resetToken;
+
 @end

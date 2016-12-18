@@ -14,6 +14,8 @@
 #import "SESettingsRouter.h"
 #import "SESettingsInteractor.h"
 
+#import "SEServicesAssembly.h"
+
 @implementation SESettingsAssembly
 
 - (SESettingsView *)viewSettings {
@@ -55,6 +57,8 @@
             ^(TyphoonDefinition *definition) {
                 [definition injectProperty:@selector(output)
                                       with:[self presenterSettings]];
+                [definition injectProperty:@selector(stateService)
+                                      with:[self.servicesAssembly stateService]];
             }];
 }
 

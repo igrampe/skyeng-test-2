@@ -25,6 +25,7 @@
 #pragma mark - SESettingsViewOutput
 
 - (void)actionLogout {
+    [self.interactor resetToken];
     [(id<SESettingsModuleOutput>)self.moduleOutput settingsModuleDidFinish];
 }
 

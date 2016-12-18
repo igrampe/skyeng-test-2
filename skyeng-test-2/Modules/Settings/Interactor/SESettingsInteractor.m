@@ -12,4 +12,8 @@
 
 @implementation SESettingsInteractor
 
+- (void)resetToken {
+    [self.stateService setToken:nil];
+}
+
 @end

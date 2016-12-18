@@ -10,7 +10,11 @@
 
 #import <Typhoon/Typhoon.h>
 
+@class SEServicesAssembly;
+
 @interface SESettingsAssembly : TyphoonAssembly
+
+@property (nonatomic, readonly) SEServicesAssembly *servicesAssembly;
 
 - (UIViewController *)viewSettings;
 
