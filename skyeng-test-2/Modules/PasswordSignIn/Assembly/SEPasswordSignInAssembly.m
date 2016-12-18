@@ -14,6 +14,8 @@
 #import "SEPasswordSignInRouter.h"
 #import "SEPasswordSignInInteractor.h"
 
+#import "SEServicesAssembly.h"
+
 @implementation SEPasswordSignInAssembly
 
 - (SEPasswordSignInView *)viewPasswordSignIn {
@@ -55,6 +57,10 @@
             ^(TyphoonDefinition *definition) {
                 [definition injectProperty:@selector(output)
                                       with:[self presenterPasswordSignIn]];
+                [definition injectProperty:@selector(apiService)
+                                      with:[self.servicesAssembly apiService]];
+                [definition injectProperty:@selector(stateService)
+                                      with:[self.servicesAssembly stateService]];
             }];
 }
 

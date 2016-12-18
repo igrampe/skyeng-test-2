@@ -11,5 +11,6 @@
 @protocol SEPasswordSignInModuleOutput <APLModuleOutput>
 
 - (void)passwordSignInModuleDidFinish;
+- (void)passwordSignInModuleDidCancel;
 
 @end

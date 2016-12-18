@@ -10,7 +10,11 @@
 
 #import <Typhoon/Typhoon.h>
 
+@class SEServicesAssembly;
+
 @interface SEPasswordSignInAssembly : TyphoonAssembly
+
+@property (nonatomic, readonly) SEServicesAssembly *servicesAssembly;
 
 - (UIViewController *)viewPasswordSignIn;
 

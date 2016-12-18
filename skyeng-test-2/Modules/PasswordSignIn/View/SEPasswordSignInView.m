@@ -163,9 +163,9 @@
 
 #pragma mark -- Configure
 
-- (void)setCodeButtonEnabled:(BOOL)enabled {
-    if (self.codeButton.enabled != enabled) {
-        self.codeButton.enabled = enabled;
+- (void)setSignInButtonEnabled:(BOOL)enabled {
+    if (self.singInButton.enabled != enabled) {
+        self.singInButton.enabled = enabled;
     }
 }
 
@@ -173,6 +173,10 @@
 
 - (NSString *)valueEmail {
     return self.emailField.text;
+}
+
+- (NSString *)valuePassword {
+    return self.passwordField.text;
 }
 
 #pragma mark -- Actions
@@ -192,6 +196,10 @@
                                                    handler:nil];
     [alert addAction:action];
     [self presentViewController:alert animated:YES completion:nil];
+}
+
+- (void)showSuccessWithMessage:(NSString *)message {
+    [SVProgressHUD showSuccessWithStatus:message];
 }
 
 #pragma mark - Notifications

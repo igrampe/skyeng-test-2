@@ -12,6 +12,10 @@
 #import "SEPasswordSignInViewOutput.h"
 #import "SEPasswordSignInInteractorOutput.h"
 #import "SEPasswordSignInModuleInput.h"
+#import "SEPasswordSignInModuleOutput.h"
+
+#import "NSString+EmailValidate.h"
+#import "SEError.h"
 
 @interface SEPasswordSignInPresenter ()
 <SEPasswordSignInViewOutput,
@@ -24,26 +28,57 @@ SEPasswordSignInModuleInput>
 
 @synthesize moduleOutput;
 
+- (void)validateTextFields {
+    NSString *passoword = [self.view valuePassword];
+    NSString *email = [self.view valueEmail];
+    BOOL enabled = email && [email isValidEmail] && (passoword.length > 0);
+    [self.view setSignInButtonEnabled:enabled];
+}
+
 #pragma mark - SEPasswordSignInViewOutput
 
 - (void)eventViewIsReady {
-    
+    [self.view setSignInButtonEnabled:NO];
 }
 
 - (void)eventEmailFieldTextDidChange:(NSString *)text {
-    
+    [self validateTextFields];
 }
 
 - (void)eventPasswordFieldTextDidChange:(NSString *)text {
-    
+    [self validateTextFields];
 }
 
 - (void)actionSignIn {
-    
+    NSString *passoword = [self.view valuePassword];
+    NSString *email = [self.view valueEmail];
+    if (email && [email isValidEmail] && (passoword.length > 1)) {
+        [self.view showLoaderWithMessage:@"Выполняется вход".localized];        
+        [self.interactor apiSignInWithEmail:email password:passoword];
+    }
 }
 
 - (void)actionRequestCode {
-    
+    [(id<SEPasswordSignInModuleOutput>)self.moduleOutput passwordSignInModuleDidCancel];
+}
+
+#pragma mark - SEPasswordSignInInteractorOutput
+
+- (void)signInDidFinishWithToken:(NSString *)token {
+    [self.view showSuccessWithMessage:@"Вход выполнен".localized];
+    [(id<SEPasswordSignInModuleOutput>)self.moduleOutput passwordSignInModuleDidFinish];
+}
+
+- (void)signInDidFailWithError:(NSError *)error {
+    NSString *title = @"Войти не удалось".localized;
+    NSString *message;
+    if ([error.domain isEqualToString:SEErrorDomainApp]) {
+        message = [SEError errorMessageForCode:error.code];
+    } else {
+        message = [SEError errorMessageForConnectionError];
+    }
+    [self.view hideLoader];
+    [self.view showErrorWithTitle:title message:message];
 }
 
 @end

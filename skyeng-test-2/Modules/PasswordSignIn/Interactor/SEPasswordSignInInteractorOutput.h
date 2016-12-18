@@ -12,4 +12,7 @@
 
 @protocol SEPasswordSignInInteractorOutput <NSObject>
 
+- (void)signInDidFinishWithToken:(NSString *)token;
+- (void)signInDidFailWithError:(NSError *)error;
+
 @end

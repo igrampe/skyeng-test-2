@@ -14,5 +14,6 @@
 
 - (void)openConfirmCodeModule;
 - (void)openPasswordSignInModule;
+- (void)closePasswordSignInModule;
 
 @end

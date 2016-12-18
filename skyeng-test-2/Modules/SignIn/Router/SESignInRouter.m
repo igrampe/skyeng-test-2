@@ -48,4 +48,8 @@
      }];
 }
 
+- (void)closePasswordSignInModule {
+    [self.openPasswordSignInSegue unwind];
+}
+
 @end

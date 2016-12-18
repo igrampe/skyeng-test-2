@@ -86,4 +86,8 @@ SEPasswordSignInModuleOutput>
     [(id<SESignInModuleOutput>)self.moduleOutput signInModuleDidFinish];
 }
 
+- (void)passwordSignInModuleDidCancel {
+    [self.router closePasswordSignInModule];
+}
+
 @end

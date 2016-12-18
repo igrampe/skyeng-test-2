@@ -11,8 +11,14 @@
 #import <Foundation/Foundation.h>
 #import "SEPasswordSignInInteractorOutput.h"
 
+#import "SEApiService.h"
+#import "SEStateService.h"
+
 @interface SEPasswordSignInInteractor : NSObject
 
 @property (nonatomic, weak) id<SEPasswordSignInInteractorOutput> output;
+
+@property (nonatomic, strong) id<SEStateService> stateService;
+@property (nonatomic, strong) id<SEApiService> apiService;
 
 @end

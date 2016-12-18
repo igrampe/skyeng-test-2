@@ -12,4 +12,6 @@
 
 @protocol SEPasswordSignInInteractorInput <NSObject>
 
+- (void)apiSignInWithEmail:(NSString *)email password:(NSString *)password;
+
 @end

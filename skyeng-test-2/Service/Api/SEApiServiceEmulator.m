@@ -50,14 +50,18 @@
 - (NSURLSessionTask *)signInWithEmail:(NSString *)email
                              password:(NSString *)password
                               handler:(SEApiServiceSignInHandler)handler {
-    handler(nil, @"11");
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        handler(nil, @"11");
+    });
     return nil;
 }
 
 - (NSURLSessionTask *)signInWithEmail:(NSString *)email
                                  code:(NSString *)code
                               handler:(SEApiServiceSignInHandler)handler {
-    handler(nil, @"11");
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        handler(nil, @"11");
+    });
     return nil;
 }
 

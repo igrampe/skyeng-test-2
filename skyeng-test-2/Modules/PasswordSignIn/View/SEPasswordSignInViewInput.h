@@ -12,4 +12,14 @@
 
 @protocol SEPasswordSignInViewInput <NSObject>
 
+- (void)setSignInButtonEnabled:(BOOL)enabled;
+
+- (NSString *)valueEmail;
+- (NSString *)valuePassword;
+
+- (void)showLoaderWithMessage:(NSString *)message;
+- (void)hideLoader;
+- (void)showErrorWithTitle:(NSString *)title message:(NSString *)message;
+- (void)showSuccessWithMessage:(NSString *)message;
+
 @end
