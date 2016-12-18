@@ -10,7 +10,8 @@
 #import <UICKeyChainStore.h>
 #import "SEAuthCodeReciever.h"
 
-NSString *const SEStateServiceBaseDefaultsKeyLaunchesCount = @"SEStateServiceBaseDefaultsKeyLaunchesCount";
+static NSString *SEStateServiceBaseDefaultsKeyLaunchesCount = @"SEStateServiceBaseDefaultsKeyLaunchesCount";
+static NSString *SEStateServiceBaseKeychainKeyToken = @"SEStateServiceBaseKeychainKeyToken";
 
 @interface SEStateServiceBase ()
 
@@ -38,6 +39,8 @@ NSString *const SEStateServiceBaseDefaultsKeyLaunchesCount = @"SEStateServiceBas
         if (launchCount == 1) {
             [self.keychain removeAllItems];
         }
+        
+        _token = self.keychain[SEStateServiceBaseKeychainKeyToken];
     }
     return self;
 }
@@ -50,6 +53,11 @@ NSString *const SEStateServiceBaseDefaultsKeyLaunchesCount = @"SEStateServiceBas
 
 - (void)setToken:(NSString *)token {
     _token = token;
+    if (_token) {
+        self.keychain[SEStateServiceBaseKeychainKeyToken] = _token;
+    } else {
+        [self.keychain removeItemForKey:SEStateServiceBaseKeychainKeyToken];
+    }
 }
 
 @end
