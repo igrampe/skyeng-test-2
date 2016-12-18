@@ -46,9 +46,15 @@
             ^(TyphoonDefinition *definition) {
                 [definition injectProperty:@selector(transitionHandler)
                                       with:[self viewSignIn]];
+                
                 [definition injectProperty:@selector(confirmCodeAssembly)
                                       with:self.confirmCodeAssembly];
                 [definition injectProperty:@selector(confirmCodeModuleOutput)
+                                      with:[self presenterSignIn]];
+                
+                [definition injectProperty:@selector(passwordSignInAssembly)
+                                      with:self.passwordSignInAssembly];
+                [definition injectProperty:@selector(passwordSignInModuleOutput)
                                       with:[self presenterSignIn]];
             }];
 }

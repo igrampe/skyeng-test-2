@@ -13,6 +13,7 @@
 #import "SESignInRouterInput.h"
 
 @class SEConfirmCodeAssembly;
+@class SEPasswordSignInAssembly;
 
 @interface SESignInRouter : NSObject <SESignInRouterInput>
 
@@ -20,5 +21,8 @@
 
 @property (nonatomic, strong) SEConfirmCodeAssembly *confirmCodeAssembly;
 @property (nonatomic, weak) id confirmCodeModuleOutput;
+
+@property (nonatomic, strong) SEPasswordSignInAssembly *passwordSignInAssembly;
+@property (nonatomic, weak) id passwordSignInModuleOutput;
 
 @end

@@ -1,15 +1,15 @@
 //
-//	SESignInView.m
-//  SignIn
+//	SEPasswordSignInView.m
+//  PasswordSignIn
 //  skyeng-test-2
 //
-//  Created by Semyon Belokovsky on 12/12/2016.
+//  Created by Semyon Belokovsky on 18/12/2016.
 //  Copyright © 2016 igrampe. All rights reserved.
 //
 
 
-#import "SESignInView.h"
-#import "SESignInViewInput.h"
+#import "SEPasswordSignInView.h"
+#import "SEPasswordSignInViewInput.h"
 
 #import <PureLayout.h>
 #import <SVProgressHUD.h>
@@ -20,19 +20,19 @@
 
 #import "APLKeyboardHelper.h"
 
-
-@interface SESignInView () <UITextFieldDelegate, SESignInViewInput>
+@interface SEPasswordSignInView () <SEPasswordSignInViewInput>
 
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic, strong) UILabel *headerLabel;
 @property (nonatomic, strong) SETextField *emailField;
-@property (nonatomic, strong) SEPrimaryButton *codeButton;
-@property (nonatomic, strong) SESecondaryButton *passwordButton;
+@property (nonatomic, strong) SETextField *passwordField;
+@property (nonatomic, strong) SEPrimaryButton *singInButton;
+@property (nonatomic, strong) SESecondaryButton *codeButton;
 @property (nonatomic, strong) UILabel *hintLabel;
 
 @end
 
-@implementation SESignInView
+@implementation SEPasswordSignInView
 
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
@@ -58,26 +58,32 @@
     self.emailField.keyboardType = UIKeyboardTypeEmailAddress;
     [self.scrollView addSubview:self.emailField];
     
-    self.codeButton = [SEPrimaryButton newAutoLayoutView];
-    [self.codeButton setTitle:@"Получить код для входа".localized forState:UIControlStateNormal];
-    [self.codeButton addTarget:self.output
-                        action:@selector(actionCode)
-              forControlEvents:UIControlEventTouchUpInside];
-    [self.scrollView addSubview:self.codeButton];
+    self.passwordField = [SETextField newAutoLayoutView];
+    self.passwordField.secureTextEntry = YES;
+    self.passwordField.placeholder = @"Пароль".localized;
+    self.passwordField.keyboardType = UIKeyboardTypeEmailAddress;
+    [self.scrollView addSubview:self.passwordField];
     
-    self.passwordButton = [SESecondaryButton newAutoLayoutView];
-    [self.passwordButton setTitle:@"Обычный вход с паролем".localized forState:UIControlStateNormal];
-    [self.passwordButton addTarget:self.output
-                        action:@selector(actionPassword)
+    self.singInButton = [SEPrimaryButton newAutoLayoutView];
+    [self.singInButton setTitle:@"Войти".localized forState:UIControlStateNormal];
+    [self.singInButton addTarget:self.output
+                        action:@selector(actionSignIn)
               forControlEvents:UIControlEventTouchUpInside];
-    [self.scrollView addSubview:self.passwordButton];
+    [self.scrollView addSubview:self.singInButton];
+    
+    self.codeButton = [SESecondaryButton newAutoLayoutView];
+    [self.codeButton setTitle:@"Войти без пароля".localized forState:UIControlStateNormal];
+    [self.codeButton addTarget:self.output
+                            action:@selector(actionRequestCode)
+                  forControlEvents:UIControlEventTouchUpInside];
+    [self.scrollView addSubview:self.codeButton];
     
     self.hintLabel = [UILabel newAutoLayoutView];
     self.hintLabel.font = [THEME primaryFontWithSize:13];
     self.hintLabel.textColor = [THEME colorHint];
     self.hintLabel.numberOfLines = 0;
     self.hintLabel.textAlignment = NSTextAlignmentCenter;
-    self.hintLabel.text = @"Сложный пароль или не хотите искать — войдите по коду. Или используйте обычный вход.".localized;
+    self.hintLabel.text = @"Сложный пароль или не хотите искать — используйте вход без пароля.".localized;
     [self.scrollView addSubview:self.hintLabel];
     
     [self.view relayout];
@@ -106,7 +112,7 @@
                                                  name:UITextFieldTextDidChangeNotification
                                                object:nil];
     
-    [self.output viewIsReady];
+    [self.output eventViewIsReady];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -131,23 +137,29 @@
     [self.emailField autoSetDimension:ALDimensionHeight toSize:48];
     [self.emailField autoMatchDimension:ALDimensionWidth toDimension:ALDimensionWidth ofView:self.view];
     
+    [self.passwordField autoPinEdgeToSuperviewEdge:ALEdgeLeft];
+    [self.passwordField autoPinEdgeToSuperviewEdge:ALEdgeRight];
+    [self.passwordField autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.emailField withOffset:2];
+    [self.passwordField autoSetDimension:ALDimensionHeight toSize:48];
+    [self.passwordField autoMatchDimension:ALDimensionWidth toDimension:ALDimensionWidth ofView:self.emailField];
+    
+    [self.singInButton autoPinEdgeToSuperviewEdge:ALEdgeLeft withInset:16];
+    [self.singInButton autoPinEdgeToSuperviewEdge:ALEdgeRight withInset:16];
+    [self.singInButton autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.passwordField withOffset:24];
+    [self.singInButton autoSetDimension:ALDimensionHeight toSize:48];
+    
     [self.codeButton autoPinEdgeToSuperviewEdge:ALEdgeLeft withInset:16];
     [self.codeButton autoPinEdgeToSuperviewEdge:ALEdgeRight withInset:16];
-    [self.codeButton autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.emailField withOffset:24];
-    [self.codeButton autoSetDimension:ALDimensionHeight toSize:48];
-    
-    [self.passwordButton autoPinEdgeToSuperviewEdge:ALEdgeLeft withInset:16];
-    [self.passwordButton autoPinEdgeToSuperviewEdge:ALEdgeRight withInset:16];
-    [self.passwordButton autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.codeButton withOffset:16];
-    [self.passwordButton autoSetDimension:ALDimensionHeight toSize:36];
+    [self.codeButton autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.singInButton withOffset:16];
+    [self.codeButton autoSetDimension:ALDimensionHeight toSize:36];
     
     [self.hintLabel autoPinEdgeToSuperviewEdge:ALEdgeLeft withInset:16];
     [self.hintLabel autoPinEdgeToSuperviewEdge:ALEdgeRight withInset:16];
-    [self.hintLabel autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.passwordButton withOffset:16];
+    [self.hintLabel autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.codeButton withOffset:16];
     [self.hintLabel autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:16];
 }
 
-#pragma mark - SESignInViewInput
+#pragma mark - SEPasswordSignInViewInput
 
 #pragma mark -- Configure
 
@@ -188,6 +200,8 @@
     UITextField *textField = [notification object];
     if (textField == self.emailField) {
         [self.output eventEmailFieldTextDidChange:self.emailField.text];
+    } else if (textField == self.passwordField) {
+        [self.output eventPasswordFieldTextDidChange:self.passwordField.text];
     }
 }
 

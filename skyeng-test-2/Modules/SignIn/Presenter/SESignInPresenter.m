@@ -15,6 +15,7 @@
 #import "SESignInModuleOutput.h"
 
 #import "SEConfirmCodeModuleOutput.h"
+#import "SEPasswordSignInModuleOutput.h"
 
 #import "NSString+EmailValidate.h"
 #import "SEError.h"
@@ -23,7 +24,8 @@
 <SESignInViewOutput,
 SESignInInteractorOutput,
 SESignInModuleInput,
-SEConfirmCodeModuleOutput>
+SEConfirmCodeModuleOutput,
+SEPasswordSignInModuleOutput>
 
 @end
 
@@ -41,12 +43,16 @@ SEConfirmCodeModuleOutput>
     [self.view setCodeButtonEnabled:(text && [text isValidEmail])];
 }
 
-- (void)actionCodeButton {
+- (void)actionCode {
     NSString *email = [self.view valueEmail];
     if ((email && [email isValidEmail])) {
         [self.view showLoaderWithMessage:@"Отправка кода...".localized];
         [self.interactor apiRequestCodeForEmail:email];
     }
+}
+
+- (void)actionPassword {
+    [self.router openPasswordSignInModule];
 }
 
 #pragma mark - SESignInInteractorOutput
@@ -71,6 +77,12 @@ SEConfirmCodeModuleOutput>
 #pragma mark - SEConfirmCodeModuleOutput
 
 - (void)confirmCodeModuleDidFinish {
+    [(id<SESignInModuleOutput>)self.moduleOutput signInModuleDidFinish];
+}
+
+#pragma mark - SEPasswordSignInModuleOutput
+
+- (void)passwordSignInModuleDidFinish {
     [(id<SESignInModuleOutput>)self.moduleOutput signInModuleDidFinish];
 }
 

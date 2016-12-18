@@ -28,6 +28,7 @@
 		<string>SESignInAssembly</string>
 		<string>SESettingsAssembly</string>
 		<string>SEConfirmCodeAssembly</string>
+		<string>SEPasswordSignInAssembly</string>
 	</array>
 	<key>UIAppFonts</key>
 	<array>

@@ -57,13 +57,18 @@
 		53BEF25A1DFDABAC00AB4EC1 /* SESegueAddAsChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BEF2591DFDABAC00AB4EC1 /* SESegueAddAsChild.m */; };
 		59A709217B803CB10C4F9603 /* libPods-skyeng-test-2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C663B50A4F7389B008FC8B74 /* libPods-skyeng-test-2.a */; };
 		5C350555A24F68CE8F122AAE /* SEConfirmCodeAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 982B0B53E19738820F84E31F /* SEConfirmCodeAssembly.m */; };
+		6345BF421581A2508D3FFF10 /* SEPasswordSignInAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C56ABCFBF4FF937F3DF3E0 /* SEPasswordSignInAssembly.m */; };
 		6B21CDEFAD845F1AD15CFF71 /* SESignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D15A31FF49BEBECBB35D3CC /* SESignInView.m */; };
 		7B12F56DD7037FF97C3376EE /* SEConfirmCodeRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA467726EB32FDB69E3F3C /* SEConfirmCodeRouter.m */; };
 		86185AE67F334C2165E11E46 /* SESettingsInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8131D64DB4E668D886B506 /* SESettingsInteractor.m */; };
+		93CD6C754CCA8B352691F8A1 /* SEPasswordSignInPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A7B23368D2389D33549A01 /* SEPasswordSignInPresenter.m */; };
 		9534E60BA561375E3BF0C3E9 /* SEConfirmCodeInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E40A05694D26B319A598F02 /* SEConfirmCodeInteractor.m */; };
 		D0D7A4FBE5D0D333A20BBB6B /* SEConfirmCodePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E23731E834B61800C2AB94 /* SEConfirmCodePresenter.m */; };
+		D83F882E8F54C09AD46E95F9 /* SEPasswordSignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1551F2B874B58593E98D153D /* SEPasswordSignInView.m */; };
+		D986C06EA4DD8B0EB3B457BD /* SEPasswordSignInInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8EEED5F59D8330761B718F /* SEPasswordSignInInteractor.m */; };
 		DC39EE2E7C6C498EC9BA8DDB /* SESettingsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 3039AF5F755A91C826FBCB0B /* SESettingsAssembly.m */; };
 		E66DF91786184AC15CF207D4 /* SESettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D32A7F9400524C11B09FA0 /* SESettingsView.m */; };
+		F1CFE39BF0F384FD671A0C12 /* SEPasswordSignInRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B97F49557B531478C911C2 /* SEPasswordSignInRouter.m */; };
 		F4A5B87E2B54DB33C706DAD4 /* SESignInRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 306B931C0F5235448C0395E1 /* SESignInRouter.m */; };
 		F69858DC90A02BD7BCDD4C6E /* SESettingsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D98E4FCFD58C13A05A5013 /* SESettingsRouter.m */; };
 /* End PBXBuildFile section */
@@ -86,12 +91,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A18B20A5C07876D04FDD4ED /* SEPasswordSignInInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEPasswordSignInInteractorInput.h; sourceTree = "<group>"; };
 		10D32A7F9400524C11B09FA0 /* SESettingsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESettingsView.m; sourceTree = "<group>"; };
+		1551F2B874B58593E98D153D /* SEPasswordSignInView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SEPasswordSignInView.m; sourceTree = "<group>"; };
 		184D29F023A79A11D9115ED6 /* SEConfirmCodeViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeViewOutput.h; sourceTree = "<group>"; };
+		1CADBF7577DD3C6255D73F7A /* SEPasswordSignInRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEPasswordSignInRouter.h; sourceTree = "<group>"; };
 		1DBA467726EB32FDB69E3F3C /* SEConfirmCodeRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SEConfirmCodeRouter.m; sourceTree = "<group>"; };
 		21D2C43AAE6B40E51662F65E /* SEConfirmCodeInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeInteractorInput.h; sourceTree = "<group>"; };
 		236E8F00C213C93CDCF9C2CC /* SEConfirmCodeViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeViewInput.h; sourceTree = "<group>"; };
 		24852F6A17FF68C3300C8F1E /* SESettingsPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsPresenter.h; sourceTree = "<group>"; };
+		26F0F76621DDD15D1A0C04CF /* SEPasswordSignInViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEPasswordSignInViewOutput.h; sourceTree = "<group>"; };
+		2828D7360987F78D4D987D59 /* SEPasswordSignInPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEPasswordSignInPresenter.h; sourceTree = "<group>"; };
 		3039AF5F755A91C826FBCB0B /* SESettingsAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESettingsAssembly.m; sourceTree = "<group>"; };
 		306B931C0F5235448C0395E1 /* SESignInRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESignInRouter.m; sourceTree = "<group>"; };
 		368F9962E17ABC111D77A1A3 /* SEConfirmCodeAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeAssembly.h; sourceTree = "<group>"; };
@@ -100,6 +110,8 @@
 		3E40A05694D26B319A598F02 /* SEConfirmCodeInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SEConfirmCodeInteractor.m; sourceTree = "<group>"; };
 		4393F0357EE28686DD6CE044 /* SESignInModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInModuleInput.h; sourceTree = "<group>"; };
 		4AA795B4EFE7FB4B65C7FA5C /* SESignInRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInRouter.h; sourceTree = "<group>"; };
+		4E8EEED5F59D8330761B718F /* SEPasswordSignInInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SEPasswordSignInInteractor.m; sourceTree = "<group>"; };
+		52C56ABCFBF4FF937F3DF3E0 /* SEPasswordSignInAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SEPasswordSignInAssembly.m; sourceTree = "<group>"; };
 		534245251E02543B00B50161 /* SETextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextField.h; sourceTree = "<group>"; };
 		534245261E02543B00B50161 /* SETextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextField.m; sourceTree = "<group>"; };
 		5342452A1E02557800B50161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -121,6 +133,7 @@
 		5342454E1E06946A00B50161 /* SESeguePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESeguePush.h; sourceTree = "<group>"; };
 		5342454F1E06946A00B50161 /* SESeguePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESeguePush.m; sourceTree = "<group>"; };
 		534245541E06D12000B50161 /* SEConfirmCodeModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeModuleOutput.h; sourceTree = "<group>"; };
+		534245551E06DA4000B50161 /* SEPasswordSignInModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEPasswordSignInModuleOutput.h; sourceTree = "<group>"; };
 		53756EBC1E0123AB00D8D5CF /* SESignInModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESignInModuleOutput.h; sourceTree = "<group>"; };
 		53756EC11E013B8600D8D5CF /* SESettingsModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESettingsModuleOutput.h; sourceTree = "<group>"; };
 		53756EC31E02480100D8D5CF /* SERoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERoundedButton.h; sourceTree = "<group>"; };
@@ -200,6 +213,8 @@
 		53BEF2591DFDABAC00AB4EC1 /* SESegueAddAsChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESegueAddAsChild.m; sourceTree = "<group>"; };
 		54114B66F049B141D253774E /* SEConfirmCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SEConfirmCodeView.m; sourceTree = "<group>"; };
 		5BE7CA21F11B6253439F7349 /* SESettingsInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsInteractor.h; sourceTree = "<group>"; };
+		609C46975564FA0F424A56CF /* SEPasswordSignInView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEPasswordSignInView.h; sourceTree = "<group>"; };
+		6AEA99CEE230A38BE66432C3 /* SEPasswordSignInModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEPasswordSignInModuleInput.h; sourceTree = "<group>"; };
 		6BC5B604F93C30E21C5EF76C /* SESettingsInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsInteractorInput.h; sourceTree = "<group>"; };
 		6D99633BBE334DAC5012DE95 /* SESignInViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInViewOutput.h; sourceTree = "<group>"; };
 		7293BFDAB27594CAD950EA5B /* SESignInAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESignInAssembly.m; sourceTree = "<group>"; };
@@ -214,24 +229,31 @@
 		8549A530976B204C4B5C69BD /* SEConfirmCodeRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeRouterInput.h; sourceTree = "<group>"; };
 		87B25C1FD77451DBEEC38854 /* Pods-skyeng-test-2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skyeng-test-2.release.xcconfig"; path = "Pods/Target Support Files/Pods-skyeng-test-2/Pods-skyeng-test-2.release.xcconfig"; sourceTree = "<group>"; };
 		8D15A31FF49BEBECBB35D3CC /* SESignInView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESignInView.m; sourceTree = "<group>"; };
+		8D8E3716DB01886F48EE1835 /* SEPasswordSignInViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEPasswordSignInViewInput.h; sourceTree = "<group>"; };
 		8E8131D64DB4E668D886B506 /* SESettingsInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESettingsInteractor.m; sourceTree = "<group>"; };
 		96352630BBC6F7064DBA6560 /* SESignInInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESignInInteractor.m; sourceTree = "<group>"; };
 		982B0B53E19738820F84E31F /* SEConfirmCodeAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SEConfirmCodeAssembly.m; sourceTree = "<group>"; };
 		A0A179FD705B6E6D4ABB61CF /* SESignInInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInInteractorInput.h; sourceTree = "<group>"; };
 		A19C41DB86C5F9AF7B1D20B1 /* SESettingsAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsAssembly.h; sourceTree = "<group>"; };
 		A8DFD517FC5EA3B9BB3159AC /* SESettingsRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsRouterInput.h; sourceTree = "<group>"; };
+		AC94029DDBCC403B8F183304 /* SEPasswordSignInInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEPasswordSignInInteractorOutput.h; sourceTree = "<group>"; };
 		ACFCA6277B6FC2DB9D43FDEE /* SESignInRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInRouterInput.h; sourceTree = "<group>"; };
 		AE2D9E01E0D16A9B0B81E864 /* SESignInPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESignInPresenter.m; sourceTree = "<group>"; };
 		AE6A44615184B160E38A4384 /* SEConfirmCodeModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeModuleInput.h; sourceTree = "<group>"; };
 		B97C0815155878C98BCB028D /* Pods-skyeng-test-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skyeng-test-2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skyeng-test-2/Pods-skyeng-test-2.debug.xcconfig"; sourceTree = "<group>"; };
 		BA11D0680833264B3B3F757E /* SEConfirmCodeInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeInteractorOutput.h; sourceTree = "<group>"; };
+		BDE6B04044294B74B187B73D /* SEPasswordSignInRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEPasswordSignInRouterInput.h; sourceTree = "<group>"; };
 		C663B50A4F7389B008FC8B74 /* libPods-skyeng-test-2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-skyeng-test-2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A6696FD629DF99D4E47BB2 /* SEConfirmCodePresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodePresenter.h; sourceTree = "<group>"; };
+		CAFC89CBF4769A9753F1A008 /* SEPasswordSignInInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEPasswordSignInInteractor.h; sourceTree = "<group>"; };
+		D7A7B23368D2389D33549A01 /* SEPasswordSignInPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SEPasswordSignInPresenter.m; sourceTree = "<group>"; };
 		D95F10FDC9E27E768DE1F97B /* SESettingsInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESettingsInteractorOutput.h; sourceTree = "<group>"; };
+		E0F90197F84901FAF553AFB6 /* SEPasswordSignInAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEPasswordSignInAssembly.h; sourceTree = "<group>"; };
 		EA2116757351FE0B196C0FC2 /* SESignInView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInView.h; sourceTree = "<group>"; };
 		EC271EFA066BE46CEEC513B4 /* SEConfirmCodeInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeInteractor.h; sourceTree = "<group>"; };
 		F232A45CEC274775461463BA /* SESettingsPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESettingsPresenter.m; sourceTree = "<group>"; };
 		F5D98E4FCFD58C13A05A5013 /* SESettingsRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SESettingsRouter.m; sourceTree = "<group>"; };
+		F8B97F49557B531478C911C2 /* SEPasswordSignInRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SEPasswordSignInRouter.m; sourceTree = "<group>"; };
 		FBD90A0D208102F05F4DCC5F /* SESignInInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInInteractorOutput.h; sourceTree = "<group>"; };
 		FC119D7397556549F26ACC8B /* SESignInAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SESignInAssembly.h; sourceTree = "<group>"; };
 		FF4B545E51A950F3D40F5398 /* SEConfirmCodeRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEConfirmCodeRouter.h; sourceTree = "<group>"; };
@@ -263,6 +285,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07252A4535C7694FB3655153 /* PasswordSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				CC7DAC55F7451A84DC8B06C3 /* View */,
+				DCDCACB442BAFB8780661372 /* Presenter */,
+				A9821D037B86368D9BE75B27 /* Interactor */,
+				5F09D5500AED24185B18A49A /* Router */,
+				150DBCDAD6536205F2131A69 /* Assembly */,
+			);
+			path = PasswordSignIn;
+			sourceTree = "<group>";
+		};
 		07CF7801E53733D9C822E642 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +318,15 @@
 				D85331A66D2FAFF65C3FB5DB /* Assembly */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		150DBCDAD6536205F2131A69 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				E0F90197F84901FAF553AFB6 /* SEPasswordSignInAssembly.h */,
+				52C56ABCFBF4FF937F3DF3E0 /* SEPasswordSignInAssembly.m */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 		1F48C54A1CB1475A144056CB /* Router */ = {
@@ -518,6 +561,7 @@
 				EE6CC58C8EA71682ED66CB95 /* SignIn */,
 				14A199B75EAA13D0D7B547BF /* Settings */,
 				ECEFD63D138396F383899152 /* ConfirmCode */,
+				07252A4535C7694FB3655153 /* PasswordSignIn */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -666,6 +710,16 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		5F09D5500AED24185B18A49A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				BDE6B04044294B74B187B73D /* SEPasswordSignInRouterInput.h */,
+				1CADBF7577DD3C6255D73F7A /* SEPasswordSignInRouter.h */,
+				F8B97F49557B531478C911C2 /* SEPasswordSignInRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		768E4F0EF6C8C0BAA6F019E7 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
@@ -736,6 +790,17 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		A9821D037B86368D9BE75B27 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0A18B20A5C07876D04FDD4ED /* SEPasswordSignInInteractorInput.h */,
+				AC94029DDBCC403B8F183304 /* SEPasswordSignInInteractorOutput.h */,
+				CAFC89CBF4769A9753F1A008 /* SEPasswordSignInInteractor.h */,
+				4E8EEED5F59D8330761B718F /* SEPasswordSignInInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		B03D494F89855DFDD16D3D97 /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -755,6 +820,17 @@
 			path = Assembly;
 			sourceTree = "<group>";
 		};
+		CC7DAC55F7451A84DC8B06C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D8E3716DB01886F48EE1835 /* SEPasswordSignInViewInput.h */,
+				26F0F76621DDD15D1A0C04CF /* SEPasswordSignInViewOutput.h */,
+				609C46975564FA0F424A56CF /* SEPasswordSignInView.h */,
+				1551F2B874B58593E98D153D /* SEPasswordSignInView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D85331A66D2FAFF65C3FB5DB /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
@@ -762,6 +838,17 @@
 				3039AF5F755A91C826FBCB0B /* SESettingsAssembly.m */,
 			);
 			path = Assembly;
+			sourceTree = "<group>";
+		};
+		DCDCACB442BAFB8780661372 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6AEA99CEE230A38BE66432C3 /* SEPasswordSignInModuleInput.h */,
+				2828D7360987F78D4D987D59 /* SEPasswordSignInPresenter.h */,
+				D7A7B23368D2389D33549A01 /* SEPasswordSignInPresenter.m */,
+				534245551E06DA4000B50161 /* SEPasswordSignInModuleOutput.h */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		ECEFD63D138396F383899152 /* ConfirmCode */ = {
@@ -1051,6 +1138,11 @@
 				53756EEA1E02491100D8D5CF /* APLPageControl.m in Sources */,
 				53756EEF1E02491100D8D5CF /* NSString+Attributing.m in Sources */,
 				5C350555A24F68CE8F122AAE /* SEConfirmCodeAssembly.m in Sources */,
+				D83F882E8F54C09AD46E95F9 /* SEPasswordSignInView.m in Sources */,
+				93CD6C754CCA8B352691F8A1 /* SEPasswordSignInPresenter.m in Sources */,
+				D986C06EA4DD8B0EB3B457BD /* SEPasswordSignInInteractor.m in Sources */,
+				F1CFE39BF0F384FD671A0C12 /* SEPasswordSignInRouter.m in Sources */,
+				6345BF421581A2508D3FFF10 /* SEPasswordSignInAssembly.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

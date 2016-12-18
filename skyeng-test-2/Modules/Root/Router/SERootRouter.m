@@ -31,7 +31,7 @@
     self.openSignInSegue.destination = navCtl;
     self.openSignInModulePromise = [self.transitionHandler openModuleWithAPLSegue:self.openSignInSegue
                                                                         linkBlock:
-                                    ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
+    ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
         return self.signInModuleOutput;
     }];
 }
@@ -47,13 +47,14 @@
     self.openSettingsSegue.destination = self.settingsAssembly.viewSettings;
     self.openSettingsModulePromise = [self.transitionHandler openModuleWithAPLSegue:self.openSettingsSegue
                                                                           linkBlock:
-                                    ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
-                                        return self.settingsModuleOutput;
-                                    }];
+    ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
+        return self.settingsModuleOutput;
+    }];
 }
 
 - (void)closeSettingsModule {
     [self.openSettingsSegue unwind];
+    self.openSettingsSegue = nil;
 }
 
 @end

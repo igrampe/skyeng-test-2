@@ -13,11 +13,12 @@
 
 #import "SESeguePush.h"
 #import "SEConfirmCodeAssembly.h"
+#import "SEPasswordSignInAssembly.h"
 
 @interface SESignInRouter ()
 
-@property (nonatomic, strong) APLModuleOpenPromise *openConfirmCodeModulePromise;
 @property (nonatomic, strong) APLSegue *openConfirmCodeSegue;
+@property (nonatomic, strong) APLSegue *openPasswordSignInSegue;
 
 @end
 
@@ -29,15 +30,22 @@
     self.openConfirmCodeSegue = [SESeguePush new];
     self.openConfirmCodeSegue.source = (UIViewController *)self.transitionHandler;
     self.openConfirmCodeSegue.destination = self.confirmCodeAssembly.viewConfirmCode;
-    self.openConfirmCodeModulePromise = [self.transitionHandler openModuleWithAPLSegue:self.openConfirmCodeSegue
-                                                                        linkBlock:
+    [self.transitionHandler openModuleWithAPLSegue:self.openConfirmCodeSegue
+                                         linkBlock:
     ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
         return self.confirmCodeModuleOutput;
     }];
 }
 
-- (void)closeConfirmCodeModule {
-    [self.openConfirmCodeSegue unwind];
+- (void)openPasswordSignInModule {
+    self.openPasswordSignInSegue = [SESeguePush new];
+    self.openPasswordSignInSegue.source = (UIViewController *)self.transitionHandler;
+    self.openPasswordSignInSegue.destination = self.passwordSignInAssembly.viewPasswordSignIn;
+    [self.transitionHandler openModuleWithAPLSegue:self.openPasswordSignInSegue
+                                         linkBlock:
+     ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
+         return self.passwordSignInModuleOutput;
+     }];
 }
 
 @end
