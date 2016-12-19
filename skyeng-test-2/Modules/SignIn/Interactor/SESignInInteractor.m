@@ -13,15 +13,16 @@
 @implementation SESignInInteractor
 
 - (void)apiRequestCodeForEmail:(NSString *)email {
-    [self.apiService requestCodeForEmail:email
+    __weak typeof(self) welf = self;
+    [welf.apiService requestCodeForEmail:email
                                  handler:
      ^(NSError *error, SEAuthCodeReciever *reciever) {
          if (error) {
-             [self.output requestCodeDidFailWithError:error];
+             [welf.output requestCodeDidFailWithError:error];
          } else {
-             [self.stateService setAuthCodeReciever:reciever];
-             [self.stateService setSignInEmail:email];
-             [self.output requestCodeDidFinishWithReciever:reciever];
+             [welf.stateService setAuthCodeReciever:reciever];
+             [welf.stateService setSignInEmail:email];
+             [welf.output requestCodeDidFinishWithReciever:reciever];
          }
      }];
 }

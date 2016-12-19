@@ -24,28 +24,30 @@
 }
 
 - (void)signInWithAuthCode:(NSString *)authCode {
-    [self.apiService signInWithEmail:[self.stateService signInEmail]
+    __weak typeof(self) welf = self;
+    [welf.apiService signInWithEmail:[welf.stateService signInEmail]
                                 code:authCode
                              handler:
      ^(NSError *error, NSString *token) {
          if (error) {
-             [self.output signInDidFailWithError:error];
+             [welf.output signInDidFailWithError:error];
          } else {
-             [self.stateService setToken:token];
-             [self.output signInDidFinishWithToken:token];
+             [welf.stateService setToken:token];
+             [welf.output signInDidFinishWithToken:token];
          }
     }];
 }
 
 - (void)requestCode {
-    [self.apiService requestCodeForEmail:[self.stateService signInEmail]
+    __weak typeof(self) welf = self;
+    [welf.apiService requestCodeForEmail:[welf.stateService signInEmail]
                                  handler:
      ^(NSError *error, SEAuthCodeReciever *reciever) {
          if (error) {
-             [self.output requestCodeDidFailWithError:error];
+             [welf.output requestCodeDidFailWithError:error];
          } else {
-             [self.stateService setAuthCodeReciever:reciever];
-             [self.output requestCodeDidFinishWithReciever:reciever];
+             [welf.stateService setAuthCodeReciever:reciever];
+             [welf.output requestCodeDidFinishWithReciever:reciever];
          }
     }];
 }

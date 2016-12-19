@@ -30,10 +30,11 @@
     self.openConfirmCodeSegue = [SESeguePush new];
     self.openConfirmCodeSegue.source = (UIViewController *)self.transitionHandler;
     self.openConfirmCodeSegue.destination = self.confirmCodeAssembly.viewConfirmCode;
-    [self.transitionHandler openModuleWithAPLSegue:self.openConfirmCodeSegue
+    __weak typeof(self) welf = self;
+    [welf.transitionHandler openModuleWithAPLSegue:welf.openConfirmCodeSegue
                                          linkBlock:
     ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
-        return self.confirmCodeModuleOutput;
+        return welf.confirmCodeModuleOutput;
     }];
 }
 
@@ -41,10 +42,11 @@
     self.openPasswordSignInSegue = [SESeguePush new];
     self.openPasswordSignInSegue.source = (UIViewController *)self.transitionHandler;
     self.openPasswordSignInSegue.destination = self.passwordSignInAssembly.viewPasswordSignIn;
-    [self.transitionHandler openModuleWithAPLSegue:self.openPasswordSignInSegue
+    __weak typeof(self) welf = self;
+    [welf.transitionHandler openModuleWithAPLSegue:welf.openPasswordSignInSegue
                                          linkBlock:
      ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
-         return self.passwordSignInModuleOutput;
+         return welf.passwordSignInModuleOutput;
      }];
 }
 

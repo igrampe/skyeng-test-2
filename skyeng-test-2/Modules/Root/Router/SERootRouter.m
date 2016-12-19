@@ -27,10 +27,11 @@
     UINavigationController *navCtl = [[UINavigationController alloc] initWithRootViewController:self.signInAssembly.viewSignIn];
     self.openSignInSegue.source = (UIViewController *)self.transitionHandler;
     self.openSignInSegue.destination = navCtl;
-    [self.transitionHandler openModuleWithAPLSegue:self.openSignInSegue
+    __weak typeof(self) welf = self;
+    [welf.transitionHandler openModuleWithAPLSegue:welf.openSignInSegue
                                          linkBlock:
     ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
-        return self.signInModuleOutput;
+        return welf.signInModuleOutput;
     }];
 }
 
@@ -43,10 +44,11 @@
     self.openSettingsSegue = [SESegueAddAsChild new];
     self.openSettingsSegue.source = (UIViewController *)self.transitionHandler;
     self.openSettingsSegue.destination = self.settingsAssembly.viewSettings;
-    [self.transitionHandler openModuleWithAPLSegue:self.openSettingsSegue
+    __weak typeof(self) welf = self;
+    [welf.transitionHandler openModuleWithAPLSegue:welf.openSettingsSegue
                                          linkBlock:
     ^id<APLModuleOutput>(id<APLModuleInput> moduleInput) {
-        return self.settingsModuleOutput;
+        return welf.settingsModuleOutput;
     }];
 }
 

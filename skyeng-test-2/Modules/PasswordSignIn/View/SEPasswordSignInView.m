@@ -89,23 +89,24 @@
     
     [self.view relayout];
     
-    [self handleKeyboardWillShow:^(CGSize keyboardSize, double duration) {
-        self.scrollView.contentInset = UIEdgeInsetsMake(self.scrollView.contentInset.top,
-                                                        self.scrollView.contentInset.left,
+    __weak typeof(self) welf = self;
+    [welf handleKeyboardWillShow:^(CGSize keyboardSize, double duration) {
+        self.scrollView.contentInset = UIEdgeInsetsMake(welf.scrollView.contentInset.top,
+                                                        welf.scrollView.contentInset.left,
                                                         keyboardSize.height,
-                                                        self.scrollView.contentInset.right);
+                                                        welf.scrollView.contentInset.right);
     }];
-    [self handleKeyboardWillHide:^(CGSize keyboardSize, double duration) {
-        self.scrollView.contentInset = UIEdgeInsetsMake(self.scrollView.contentInset.top,
-                                                        self.scrollView.contentInset.left,
+    [welf handleKeyboardWillHide:^(CGSize keyboardSize, double duration) {
+        welf.scrollView.contentInset = UIEdgeInsetsMake(welf.scrollView.contentInset.top,
+                                                        welf.scrollView.contentInset.left,
                                                         0,
-                                                        self.scrollView.contentInset.right);
+                                                        welf.scrollView.contentInset.right);
     }];
-    [self handleKeyboardWillChange:^(CGSize keyboardSize, double duration) {
-        self.scrollView.contentInset = UIEdgeInsetsMake(self.scrollView.contentInset.top,
-                                                        self.scrollView.contentInset.left,
+    [welf handleKeyboardWillChange:^(CGSize keyboardSize, double duration) {
+        welf.scrollView.contentInset = UIEdgeInsetsMake(welf.scrollView.contentInset.top,
+                                                        welf.scrollView.contentInset.left,
                                                         keyboardSize.height,
-                                                        self.scrollView.contentInset.right);
+                                                        welf.scrollView.contentInset.right);
     }];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
