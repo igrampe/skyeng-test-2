@@ -17,6 +17,7 @@
 #import "SETextField.h"
 #import "SEPrimaryButton.h"
 #import "SESecondaryButton.h"
+#import "SEAlertAction.h"
 
 #import "APLKeyboardHelper.h"
 
@@ -189,13 +190,22 @@
     [SVProgressHUD popActivity];
 }
 
-- (void)showErrorWithTitle:(NSString *)title message:(NSString *)message {
+- (void)showErrorWithTitle:(NSString *)title message:(NSString *)message options:(NSArray *)options {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *action = [UIAlertAction actionWithTitle:@"Попробовать снова".localized
-                                                     style:UIAlertActionStyleDefault
-                                                   handler:nil];
-    [alert addAction:action];
-    [self presentViewController:alert animated:YES completion:nil];
+    for (NSInteger i = 0; i < options.count; i++) {
+        NSString *option = options[i];
+        SEAlertAction *action = [SEAlertAction actionWithTitle:option
+                                                         style:UIAlertActionStyleDefault
+                                                       handler:
+        ^(UIAlertAction *action) {
+            if ([action isKindOfClass:[SEAlertAction class]]) {
+                [self.output actionErrorAlertItemWithIndex:((SEAlertAction *)action).index];
+            }
+        }];
+        action.index = i;
+        [alert addAction:action];
+    }
+    [self.navigationController presentViewController:alert animated:YES completion:nil];
 }
 
 - (void)showSuccessWithMessage:(NSString *)message {

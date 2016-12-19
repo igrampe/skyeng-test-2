@@ -22,6 +22,8 @@
 SEPasswordSignInInteractorOutput,
 SEPasswordSignInModuleInput>
 
+@property (nonatomic, strong) NSArray *errorAlertOptions;
+
 @end
 
 @implementation SEPasswordSignInPresenter
@@ -62,6 +64,12 @@ SEPasswordSignInModuleInput>
     [(id<SEPasswordSignInModuleOutput>)self.moduleOutput passwordSignInModuleDidCancel];
 }
 
+- (void)actionErrorAlertItemWithIndex:(NSInteger)index {
+    if (self.errorAlertOptions.count == 2 && index == 0) {
+        [(id<SEPasswordSignInModuleOutput>)self.moduleOutput passwordSignInModuleDidCancel];
+    }
+}
+
 #pragma mark - SEPasswordSignInInteractorOutput
 
 - (void)signInDidFinishWithToken:(NSString *)token {
@@ -72,13 +80,19 @@ SEPasswordSignInModuleInput>
 - (void)signInDidFailWithError:(NSError *)error {
     NSString *title = @"Войти не удалось".localized;
     NSString *message;
+    NSMutableArray *options = [NSMutableArray new];
     if ([error.domain isEqualToString:SEErrorDomainApp]) {
         message = [SEError errorMessageForCode:error.code];
+        if (error.code == SEErrorCodeIncorrectEmailOrPassword) {
+            [options addObject:@"Войти без пароля".localized];
+        }
     } else {
         message = [SEError errorMessageForConnectionError];
     }
+    [options addObject:@"Попробовать снова".localized];
+    self.errorAlertOptions = options;
     [self.view hideLoader];
-    [self.view showErrorWithTitle:title message:message];
+    [self.view showErrorWithTitle:title message:message options:self.errorAlertOptions];
 }
 
 @end

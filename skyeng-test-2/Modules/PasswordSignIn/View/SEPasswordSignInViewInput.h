@@ -19,7 +19,7 @@
 
 - (void)showLoaderWithMessage:(NSString *)message;
 - (void)hideLoader;
-- (void)showErrorWithTitle:(NSString *)title message:(NSString *)message;
+- (void)showErrorWithTitle:(NSString *)title message:(NSString *)message options:(NSArray *)options;
 - (void)showSuccessWithMessage:(NSString *)message;
 
 @end

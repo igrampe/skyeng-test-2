@@ -18,5 +18,6 @@
 
 - (void)actionSignIn;
 - (void)actionRequestCode;
+- (void)actionErrorAlertItemWithIndex:(NSInteger)index;
 
 @end
