@@ -30,6 +30,7 @@
 
 - (void)viewIsReady {
     [self openMain];
+    [self.interactor startSyncService];
 }
 
 #pragma mark - SESignInModuleOutput

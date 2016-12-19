@@ -11,5 +11,6 @@
 @protocol SERootInteractorInput <NSObject>
 
 - (BOOL)isAuthorized;
+- (void)startSyncService;
 
 @end

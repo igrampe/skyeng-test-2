@@ -8,7 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import "SESyncService.h"
+#import "SEApiService.h"
 
 @interface SESyncServiceBase : NSObject <SESyncService>
+
+@property (nonatomic, weak) id<SEApiService> apiService;
 
 @end

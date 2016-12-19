@@ -10,4 +10,7 @@
 
 @protocol SESyncService <NSObject>
 
+- (void)start;
+- (void)sync;
+
 @end

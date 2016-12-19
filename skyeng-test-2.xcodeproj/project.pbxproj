@@ -24,6 +24,7 @@
 		5342454C1E05937B00B50161 /* NSString+Localized.m in Sources */ = {isa = PBXBuildFile; fileRef = 5342454B1E05937B00B50161 /* NSString+Localized.m */; };
 		534245501E06946A00B50161 /* SESeguePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5342454F1E06946A00B50161 /* SESeguePush.m */; };
 		534245591E078A1900B50161 /* SEAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 534245581E078A1900B50161 /* SEAlertAction.m */; };
+		5350E1231E07E78100C72036 /* NSDate+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5350E1221E07E78100C72036 /* NSDate+Helpers.m */; };
 		53756EC51E02480100D8D5CF /* SERoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756EC41E02480100D8D5CF /* SERoundedButton.m */; };
 		53756EE61E02491100D8D5CF /* APLBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756EC81E02491100D8D5CF /* APLBlocks.m */; };
 		53756EE81E02491100D8D5CF /* APLFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 53756ECC1E02491100D8D5CF /* APLFileSystem.m */; };
@@ -137,6 +138,8 @@
 		534245551E06DA4000B50161 /* SEPasswordSignInModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEPasswordSignInModuleOutput.h; sourceTree = "<group>"; };
 		534245571E078A1900B50161 /* SEAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAlertAction.h; sourceTree = "<group>"; };
 		534245581E078A1900B50161 /* SEAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAlertAction.m; sourceTree = "<group>"; };
+		5350E1211E07E78100C72036 /* NSDate+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helpers.h"; sourceTree = "<group>"; };
+		5350E1221E07E78100C72036 /* NSDate+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helpers.m"; sourceTree = "<group>"; };
 		53756EBC1E0123AB00D8D5CF /* SESignInModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESignInModuleOutput.h; sourceTree = "<group>"; };
 		53756EC11E013B8600D8D5CF /* SESettingsModuleOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESettingsModuleOutput.h; sourceTree = "<group>"; };
 		53756EC31E02480100D8D5CF /* SERoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERoundedButton.h; sourceTree = "<group>"; };
@@ -553,6 +556,8 @@
 				5342453B1E05682700B50161 /* NSString+EmailValidate.m */,
 				5342454A1E05937B00B50161 /* NSString+Localized.h */,
 				5342454B1E05937B00B50161 /* NSString+Localized.m */,
+				5350E1211E07E78100C72036 /* NSDate+Helpers.h */,
+				5350E1221E07E78100C72036 /* NSDate+Helpers.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1142,6 +1147,7 @@
 				86185AE67F334C2165E11E46 /* SESettingsInteractor.m in Sources */,
 				534245361E02564A00B50161 /* SEPrimaryButton.m in Sources */,
 				53756EEB1E02491100D8D5CF /* APLTextHelper.m in Sources */,
+				5350E1231E07E78100C72036 /* NSDate+Helpers.m in Sources */,
 				F69858DC90A02BD7BCDD4C6E /* SESettingsRouter.m in Sources */,
 				DC39EE2E7C6C498EC9BA8DDB /* SESettingsAssembly.m in Sources */,
 				53756EE91E02491100D8D5CF /* APLKeyboardHelper.m in Sources */,

@@ -36,6 +36,8 @@
                           configuration:
             ^(TyphoonDefinition *definition) {
                 definition.scope = TyphoonScopeLazySingleton;
+                [definition injectProperty:@selector(apiService)
+                                      with:[self apiService]];
             }];
 }
 

@@ -64,6 +64,8 @@
                                       with:[self presenterRoot]];
                 [definition injectProperty:@selector(stateService)
                                       with:[self.servicesAssembly stateService]];
+                [definition injectProperty:@selector(syncService)
+                                      with:[self.servicesAssembly syncService]];
             }];
 }
 

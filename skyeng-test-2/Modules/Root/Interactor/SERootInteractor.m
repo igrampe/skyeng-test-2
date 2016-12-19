@@ -21,4 +21,8 @@
     return [self.stateService isAuthorized];
 }
 
+- (void)startSyncService {
+    [self.syncService start];
+}
+
 @end
